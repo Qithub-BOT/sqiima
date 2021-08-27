@@ -1,33 +1,55 @@
 name: "All Tests"
 on: [push]
 
+env:
+  PATH_MOUNT: /workspaces/sqiima
+  PATH_CACHE: /tmp/docker-img-arch
+
 jobs:
   Tests:
     runs-on: ubuntu-latest
-    env:
-      NAME_IMAGE: ghcr.io/keinos/vscode-dev-container-go:latest
-      PATH_DOCKERFILE: /workspaces/sqiima/.devcontainer/Dockerfile
-      PATH_MOUNT: /workspaces/sqiima
     name: Lint, static analysis, unit test of Go and Shell script
     steps:
       - name: Check out repo under workspace
         uses: actions/checkout@v2
-
-      - name: Cache/restore pulled image
-        uses: actions/cache@v2
-        id: cache
         with:
-          path: /var/lib/docker
-          key: docker-cache-${{ hashFiles(${{ env.PATH_DOCKERFILE }}) }}
+          fetch-depth: 0
 
-      - name: Pull Docker image
+      - name: Create image tag
+        id: imagetag
+        run: |
+          HASH_IMAGE=${{ hashFiles('./.devcontainer/Dockerfile') }}
+          VARIANT=$(TZ=UTC-9 date '+%Y%m')${HASH_IMAGE:0:7}
+          TAG=test:${VARIANT}
+          NAME_TAR="${VARIANT}.tar"
+          PATH_TAR=${{ env.PATH_CACHE }}"/${NAME_TAR}"
+          : # Export variables
+          echo "::set-output name=TAG::${TAG}"
+          echo "::set-output name=PATH_TAR::${PATH_TAR}"
+
+      - name: Cache or restore image archive
+        id: cache
+        uses: actions/cache@v2
+        with:
+          path: ${{ env.PATH_CACHE }}
+          key: ${{ steps.imagetag.outputs.TAG }}
+
+      - name: Load Docker image if exists
+        if: steps.cache.outputs.cache-hit == 'true'
+        run: docker load --input ${{ steps.imagetag.outputs.PATH_TAR }}
+
+      - name: Build Docker image and save
         if: steps.cache.outputs.cache-hit != 'true'
-        run: docker pull "${{ env.NAME_IMAGE }}"
+        run: |
+          mkdir -p ${{ env.PATH_CACHE }}
+          docker pull ghcr.io/keinos/vscode-dev-container-go:latest
+          docker build -f './.devcontainer/Dockerfile' -t ${{ steps.imagetag.outputs.TAG }} .
+          docker save --output ${{ steps.imagetag.outputs.PATH_TAR }} ${{ steps.imagetag.outputs.TAG }}
 
       - name: Run tests for both Go and ShellScript
         run: |
-          path_entrypoint="${{ env.PATH_MOUNT }}/.github/workflows/entrypoint.sh"
-          docker run -u root -v "$(pwd)":"${{ env.PATH_MOUNT }}" -w "${{ env.PATH_MOUNT }}" "${{ env.NAME_IMAGE }}" "$path_entrypoint"
+          path_entrypoint=${{ env.PATH_MOUNT }}/.github/workflows/entrypoint.sh
+          docker run -u root -v "$(pwd)":${{ env.PATH_MOUNT }} -w ${{ env.PATH_MOUNT }} ${{ steps.imagetag.outputs.TAG }} "$path_entrypoint"
 
       - name: Upload coverage
         uses: codecov/codecov-action@v1
