@@ -80,6 +80,10 @@ JSON 側オブジェクト名 | Go 側構造体名（型名） | 説明
 
 - [詳細なドキュメント](./sqiima/README.md)
 
+## Note/備考
+
+- このリポジトリは GitHub Codespaces に対応しています。
+
 ## ライセンス
 
 - MIT

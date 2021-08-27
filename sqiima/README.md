@@ -249,7 +249,7 @@ type ISO8601 struct {
 func (obj *ISO8601) Format() string
 ```
 
-Format は time を ISO8601 フォーマットの文字列で返します\.
+Format は obj\.Time を ISO8601 フォーマットの文字列で返します\.
 
 ### func \(\*ISO8601\) MarshalJSON
 
@@ -265,7 +265,7 @@ MarshalJSON は json\.Marshal\(\) で struct から JSON に変換する際に�
 func (obj *ISO8601) Parse(inputTime string) (time.Time, error)
 ```
 
-Format は time を ISO8601 フォーマットの文字列で返します\.
+Parse は inputTime を ISO8601 フォーマットとして解釈し time\.Time 型で返します\.
 
 ### func \(\*ISO8601\) UnmarshalJSON
 

@@ -13,12 +13,12 @@ type ISO8601 struct {
 	time.Time
 }
 
-// Format は time を ISO8601 フォーマットの文字列で返します.
+// Format は obj.Time を ISO8601 フォーマットの文字列で返します.
 func (obj *ISO8601) Format() string {
 	return obj.Time.Format("2006-01-02T15:04:05+09:00")
 }
 
-// Format は time を ISO8601 フォーマットの文字列で返します.
+// Parse は inputTime を ISO8601 フォーマットとして解釈し time.Time 型で返します.
 func (obj *ISO8601) Parse(inputTime string) (time.Time, error) {
 	return time.ParseInLocation("2006-01-02T15:04:05+09:00", inputTime, time.Local)
 }
