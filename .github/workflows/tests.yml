@@ -1,0 +1,20 @@
+on: [push]
+
+jobs:
+  Tests:
+    runs-on: ubuntu-latest
+    name: Lint, static analysis, unit test of Go and Shell script
+    steps:
+      - name: Check Out Repo Under Workspace
+        uses: actions/checkout@v2
+
+      - name: Run Tests
+        run: |
+          : # Variables
+          name_image='ghcr.io/keinos/vscode-dev-container-go:latest'
+          path_mount='/workspaces/sqiima'
+          path_entrypoint="${path_mount}/.github/workflows/entrypoint.sh"
+          : # Pull Image
+          docker pull "$name_image"
+          : # Run container and the test script
+          docker run -v "$(pwd)":"$path_mount" -w "$path_mount" "$name_image" "$path_entrypoint"

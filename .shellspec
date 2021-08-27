@@ -1,0 +1,11 @@
+# =============================================================================
+#  ShellSpec Configuration
+# =============================================================================
+#  Default command options/flags of `shellspec`.
+#  See: `shellspec --help`
+
+--default-path "testdata/tools"
+--helperdir "testdata/tools/request_src"
+--pattern "**/*_test.sh"
+--require spec_helper
+--shell sh
