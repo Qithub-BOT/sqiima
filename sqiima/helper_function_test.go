@@ -4,6 +4,8 @@ import (
 	"os"
 	"path/filepath"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 // ----------------------------------------------------------------------------
@@ -11,8 +13,6 @@ import (
 // ----------------------------------------------------------------------------
 
 const nameDirTestData = "testdata"
-
-var pathDirTestData = ""
 
 // ----------------------------------------------------------------------------
 //  Helper Functions
@@ -31,27 +31,40 @@ func failNowOnError(t *testing.T, err error, msg string) {
 func getPathDirTestData(t *testing.T) string {
 	t.Helper()
 
-	if pathDirTestData != "" {
-		return pathDirTestData
-	}
-
 	pathWd, err := os.Getwd()
 	failNowOnError(t, err, "failed to get current work dir")
 
-	pathDirTestData = filepath.Join(filepath.Dir(pathWd), nameDirTestData)
-
-	if !isDir(t, pathDirTestData) {
-		t.Fatalf("failed to get data dir path. Path is not a dir: %v", pathDirTestData)
+	// カレントにテストディレクトリがあるかチェック
+	pathDirTestData := filepath.Join(pathWd, nameDirTestData)
+	if isDir(t, pathDirTestData) {
+		return pathDirTestData
 	}
 
-	return pathDirTestData
+	// 1 階層上をチェック
+	pathDirParent := filepath.Dir(pathWd)
+	pathDirTestData = filepath.Join(pathDirParent, nameDirTestData)
+	if isDir(t, pathDirTestData) {
+		return pathDirTestData
+	}
+
+	// 2 階層上をチェック
+	pathDirGrandParent := filepath.Dir(pathDirParent)
+	pathDirTestData = filepath.Join(pathDirGrandParent, nameDirTestData)
+	if isDir(t, pathDirTestData) {
+		return pathDirTestData
+	}
+
+	t.Fatalf("failed to get data dir path. Path is not a dir: %v", pathDirTestData)
+
+	return ""
 }
 
 // getTestData は nameFile の内容をテストディレクトリから読み取って返します.
 func getTestData(t *testing.T, nameFile string) []byte {
 	t.Helper()
 
-	pathFileData := filepath.Join(getPathDirTestData(t), nameFile)
+	path := getPathDirTestData(t)
+	pathFileData := filepath.Join(path, nameFile)
 
 	byteData, err := os.ReadFile(pathFileData)
 	failNowOnError(t, err, "failed to read test data from "+pathFileData)
@@ -70,4 +83,15 @@ func isDir(t *testing.T, pathFile string) bool {
 	}
 
 	return true
+}
+
+func Test_isDir(t *testing.T) {
+	t.Helper()
+
+	assert.False(t, isDir(t, "../reft"), "non-existing dir should be false")
+	assert.False(t, isDir(t, "../reft/README.md"), "non-existing file should be false")
+
+	assert.True(t, isDir(t, "../refs"), "existing dir should be true")
+	assert.True(t, isDir(t, "../testdata"), "existing dir should be true")
+	assert.False(t, isDir(t, "../refs/README.md"), "existing but file should be false")
 }

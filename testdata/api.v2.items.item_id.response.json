@@ -1,0 +1,53 @@
+{
+  "rendered_body": "\n<h2>\n<span id=\"webassembly-用のアプリでもテストがしたい\" class=\"fragment\"></span><a href=\"#webassembly-%E7%94%A8%E3%81%AE%E3%82%A2%E3%83%97%E3%83%AA%E3%81%A7%E3%82%82%E3%83%86%E3%82%B9%E3%83%88%E3%81%8C%E3%81%97%E3%81%9F%E3%81%84\"><i class=\"fa fa-link\"></i></a>WebAssembly 用のアプリでもテストがしたい</h2>",
+  "body": "## WebAssembly 用のアプリでもテストがしたい",
+  "coediting": false,
+  "comments_count": 0,
+  "created_at": "2021-08-04T15:33:58+09:00",
+  "group": null,
+  "id": "0ab42c53dcebc5a925f0",
+  "likes_count": 0,
+  "private": false,
+  "reactions_count": 0,
+  "tags": [
+    {
+      "name": "Go",
+      "versions": []
+    },
+    {
+      "name": "test",
+      "versions": []
+    },
+    {
+      "name": "WebAssembly",
+      "versions": []
+    },
+    {
+      "name": "wasm",
+      "versions": []
+    }
+  ],
+  "title": "【Golang】【wasm】テストの仕方と注意点 @ Go 1.16+",
+  "updated_at": "2021-08-21T08:38:37+09:00",
+  "url": "https://qiita.com/KEINOS/items/0ab42c53dcebc5a925f0",
+  "user": {
+    "description": "A Japanese made in Mexico with Mexican quality ;-) Who monkey around the jungle of codes.\r\n記事の日本語がおかしかったら遠慮なく編集リクください。また、記事に「LGTM」が付くたび、やる気に比例して見直して何かしら加筆・修正してブラッシュアップしています。基本的に変更通知はお送りしません。",
+    "facebook_id": "",
+    "followees_count": 62,
+    "followers_count": 93,
+    "github_login_name": "KEINOS",
+    "id": "KEINOS",
+    "items_count": 209,
+    "linkedin_id": "",
+    "location": "Kyoto & Yokohama, Japan",
+    "name": "KEINOS",
+    "organization": "@KEINOS@qiitadon.com",
+    "permanent_id": 78776,
+    "profile_image_url": "https://qiita-image-store.s3.amazonaws.com/0/78776/profile-images/1499705041",
+    "team_only": false,
+    "twitter_screen_name": null,
+    "website_url": ""
+  },
+  "page_views_count": null,
+  "team_membership": null
+}

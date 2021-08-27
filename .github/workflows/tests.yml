@@ -4,18 +4,32 @@ on: [push]
 jobs:
   Tests:
     runs-on: ubuntu-latest
+    env:
+      NAME_IMAGE: ghcr.io/keinos/vscode-dev-container-go:latest
+      PATH_DOCKERFILE: /workspaces/sqiima/.devcontainer/Dockerfile
+      PATH_MOUNT: /workspaces/sqiima
     name: Lint, static analysis, unit test of Go and Shell script
     steps:
-      - name: Check Out Repo Under Workspace
+      - name: Check out repo under workspace
         uses: actions/checkout@v2
 
-      - name: Run Tests
+      - name: Cache/restore pulled image
+        uses: actions/cache@v2
+        id: cache
+        with:
+          path: /var/lib/docker
+          key: docker-cache-${{ hashFiles(${{ env.PATH_DOCKERFILE }}) }}
+
+      - name: Pull Docker image
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: docker pull "${{ env.NAME_IMAGE }}"
+
+      - name: Run tests for both Go and ShellScript
         run: |
-          : # Variables
-          name_image='ghcr.io/keinos/vscode-dev-container-go:latest'
-          path_mount='/workspaces/sqiima'
-          path_entrypoint="${path_mount}/.github/workflows/entrypoint.sh"
-          : # Pull Image
-          docker pull "$name_image"
-          : # Run container and the test script
-          docker run -u root -v "$(pwd)":"$path_mount" -w "$path_mount" "$name_image" "$path_entrypoint"
+          path_entrypoint="${{ env.PATH_MOUNT }}/.github/workflows/entrypoint.sh"
+          docker run -u root -v "$(pwd)":"${{ env.PATH_MOUNT }}" -w "${{ env.PATH_MOUNT }}" "${{ env.NAME_IMAGE }}" "$path_entrypoint"
+
+      - name: Upload coverage
+        uses: codecov/codecov-action@v1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}

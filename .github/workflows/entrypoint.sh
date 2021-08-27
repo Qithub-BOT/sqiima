@@ -53,7 +53,7 @@ runGoTestAndCoverage() {
     echoN "- Running Go tests and 100% coverage ... "
 
     # Run test and coverage
-    result=$(go-carpet -256colors -include-vendor . 2>&1) || {
+    result=$(go test -race -coverprofile="coverage.txt" -covermode=atomic ./... 2>&1) || {
         printf "NG\n%s" "$result"
 
         return "$FAILURE"

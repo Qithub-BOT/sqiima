@@ -1,0 +1,906 @@
+[
+  {
+    "rendered_body": "\n<h2>\n<span id=\"勉強前イメージ\" class=\"fragment\"></span><a href=\"#%E5%8B%89%E5%BC%B7%E5%89%8D%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8\"><i class=\"fa fa-link\"></i></a>勉強前イメージ</h2>\n\n<p>bulkの意味は一括ってことは<br>\n一括で読み込みするってこと？</p>\n\n<h2>\n<span id=\"調査\" class=\"fragment\"></span><a href=\"#%E8%AA%BF%E6%9F%BB\"><i class=\"fa fa-link\"></i></a>調査</h2>\n\n<h3>\n<span id=\"バルクロード-とは\" class=\"fragment\"></span><a href=\"#%E3%83%90%E3%83%AB%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%89-%E3%81%A8%E3%81%AF\"><i class=\"fa fa-link\"></i></a>バルクロード とは</h3>\n\n<p>バルクロードとは<br>\nbulkの意味の通り、一括で読み込むという意味になります。<br>\n汎用的な意味で、どこに読み込む等はその時によりますが<br>\nデータをDBにアップロードしたり、<br>\nプログラムをメモリに読み込んだりと使用されます。</p>\n\n<h3>\n<span id=\"様々なバルクロード\" class=\"fragment\"></span><a href=\"#%E6%A7%98%E3%80%85%E3%81%AA%E3%83%90%E3%83%AB%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%89\"><i class=\"fa fa-link\"></i></a>様々なバルクロード</h3>\n\n<ul>\n<li><a href=\"https://docs.oracle.com/cd/E57425_01/121/SPATL/bulk-loading.htm\" rel=\"nofollow noopener\" target=\"_blank\">oracle</a></li>\n</ul>\n\n<p>大量データのインポート</p>\n\n<ul>\n<li><a href=\"https://aws.amazon.com/jp/premiumsupport/knowledge-center/neptune-bulk-loader-load-time/\" rel=\"nofollow noopener\" target=\"_blank\">Amazon Neptune</a></li>\n</ul>\n\n<p>データのロード</p>\n\n<ul>\n<li><a href=\"http://vertica-tech.ashisuto.co.jp/dataload_overview/\" rel=\"nofollow noopener\" target=\"_blank\">vertica</a></li>\n</ul>\n\n<p>大量のロード</p>\n\n<p>基本的にはデータを入れるような処理にこの言葉が使用されてるみたいです</p>\n\n<h2>\n<span id=\"勉強後イメージ\" class=\"fragment\"></span><a href=\"#%E5%8B%89%E5%BC%B7%E5%BE%8C%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8\"><i class=\"fa fa-link\"></i></a>勉強後イメージ</h2>\n\n<p>思ったよりそのまんまの言葉でした。。。調べるまでもなかったかも<br>\nただ、汎用的な言葉っていうのは知らなかった</p>\n",
+    "body": "## 勉強前イメージ\n\nbulkの意味は一括ってことは\n一括で読み込みするってこと？\n\n## 調査\n\n### バルクロード とは\n\nバルクロードとは\nbulkの意味の通り、一括で読み込むという意味になります。\n汎用的な意味で、どこに読み込む等はその時によりますが\nデータをDBにアップロードしたり、\nプログラムをメモリに読み込んだりと使用されます。\n\n### 様々なバルクロード\n\n- [oracle](https://docs.oracle.com/cd/E57425_01/121/SPATL/bulk-loading.htm)\n\n大量データのインポート\n\n- [Amazon Neptune](https://aws.amazon.com/jp/premiumsupport/knowledge-center/neptune-bulk-loader-load-time/)\n\nデータのロード\n\n- [vertica](http://vertica-tech.ashisuto.co.jp/dataload_overview/)\n\n大量のロード\n\n基本的にはデータを入れるような処理にこの言葉が使用されてるみたいです\n\n## 勉強後イメージ\n\n思ったよりそのまんまの言葉でした。。。調べるまでもなかったかも\nただ、汎用的な言葉っていうのは知らなかった\n",
+    "coediting": false,
+    "comments_count": 0,
+    "created_at": "2021-08-25T15:29:41+09:00",
+    "group": null,
+    "id": "8f6cd5ca92b8fce6d604",
+    "likes_count": 0,
+    "private": false,
+    "reactions_count": 0,
+    "tags": [
+      {
+        "name": "初心者",
+        "versions": []
+      },
+      {
+        "name": "バルクロード",
+        "versions": []
+      }
+    ],
+    "title": "バルクロード とは",
+    "updated_at": "2021-08-25T15:29:41+09:00",
+    "url": "https://qiita.com/miyuki_samitani/items/8f6cd5ca92b8fce6d604",
+    "user": {
+      "description": "知らないことをまとめてる",
+      "facebook_id": "",
+      "followees_count": 7,
+      "followers_count": 26,
+      "github_login_name": null,
+      "id": "miyuki_samitani",
+      "items_count": 367,
+      "linkedin_id": "",
+      "location": "",
+      "name": "",
+      "organization": "",
+      "permanent_id": 129517,
+      "profile_image_url": "https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/129517/profile-images/1602510349",
+      "team_only": false,
+      "twitter_screen_name": null,
+      "website_url": ""
+    },
+    "page_views_count": null,
+    "team_membership": null
+  },
+  {
+    "rendered_body": "\n<h1>\n<span id=\"querysnapshotにmapを使用してもうまくいかなかったflutterdart\" class=\"fragment\"></span><a href=\"#querysnapshot%E3%81%ABmap%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%97%E3%81%A6%E3%82%82%E3%81%86%E3%81%BE%E3%81%8F%E3%81%84%E3%81%8B%E3%81%AA%E3%81%8B%E3%81%A3%E3%81%9Fflutterdart\"><i class=\"fa fa-link\"></i></a>QuerySnapshot&gt;にmapを使用してもうまくいかなかった(flutter/dart)</h1>\n\n<h3>\n<span id=\"失敗例\" class=\"fragment\"></span><a href=\"#%E5%A4%B1%E6%95%97%E4%BE%8B\"><i class=\"fa fa-link\"></i></a>失敗例</h3>\n\n<div class=\"code-frame\" data-lang=\"dart\"><div class=\"highlight\"><pre><code><span class=\"kn\">import</span> <span class=\"s\">'package:flutter_riverpod/flutter_riverpod.dart'</span>\n<span class=\"kd\">class</span> <span class=\"nc\">FeedsModel</span> <span class=\"kd\">extends</span> <span class=\"n\">ChangeNotifier</span><span class=\"o\">{</span>\n  <span class=\"n\">List</span><span class=\"o\">&lt;</span><span class=\"kt\">String</span><span class=\"o\">&gt;</span> <span class=\"n\">bookTitles</span> <span class=\"o\">=</span> <span class=\"o\">[];</span>\n  <span class=\"n\">late</span> <span class=\"n\">QuerySnapshot</span><span class=\"o\">&lt;</span><span class=\"n\">Map</span><span class=\"o\">&lt;</span><span class=\"kt\">String</span><span class=\"o\">,</span> <span class=\"kd\">dynamic</span><span class=\"o\">&gt;&gt;</span> <span class=\"n\">querySnapshots</span><span class=\"o\">;</span>\n  <span class=\"n\">Future</span> <span class=\"n\">BookTitleToList</span><span class=\"o\">()</span> <span class=\"n\">async</span> <span class=\"o\">{</span>\n    <span class=\"n\">querySnapshots</span> <span class=\"o\">=</span> <span class=\"n\">await</span> <span class=\"n\">FirebaseFirestore</span><span class=\"o\">.</span><span class=\"na\">collection</span><span class=\"o\">(</span><span class=\"s\">'books'</span><span class=\"o\">)</span>\n    <span class=\"o\">.</span><span class=\"na\">get</span>\n    <span class=\"n\">querySnapshots</span><span class=\"o\">.</span><span class=\"na\">docs</span><span class=\"o\">.</span><span class=\"na\">map</span><span class=\"o\">((</span><span class=\"n\">doc</span><span class=\"o\">){</span>\n      <span class=\"n\">bookTitles</span><span class=\"o\">.</span><span class=\"na\">add</span><span class=\"o\">(</span><span class=\"n\">doc</span><span class=\"o\">[</span><span class=\"s\">'bookTitle'</span><span class=\"o\">]);</span>\n    <span class=\"o\">});</span>\n  <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n</code></pre></div></div>\n\n<p>mapとforEachとかどっちも一緒やろ！！と思っていたのが間違いでした...</p>\n\n<h2>\n<span id=\"解決策\" class=\"fragment\"></span><a href=\"#%E8%A7%A3%E6%B1%BA%E7%AD%96\"><i class=\"fa fa-link\"></i></a>解決策</h2>\n\n<div class=\"code-frame\" data-lang=\"dart\"><div class=\"highlight\"><pre><code><span class=\"n\">querySnapshots</span><span class=\"o\">.</span><span class=\"na\">docs</span><span class=\"o\">.</span><span class=\"na\">forEach</span><span class=\"o\">((</span><span class=\"n\">doc</span><span class=\"o\">){</span>\n  <span class=\"n\">bookTitles</span><span class=\"o\">.</span><span class=\"na\">add</span><span class=\"o\">(</span><span class=\"n\">doc</span><span class=\"o\">[</span><span class=\"s\">'bookTitle'</span><span class=\"o\">]);</span>\n<span class=\"o\">});</span>\n</code></pre></div></div>\n\n<p>mapをforEachに変えるだけです。</p>\n",
+    "body": "# QuerySnapshot<Map<String, dynamic>>にmapを使用してもうまくいかなかった(flutter/dart)\n\n###失敗例\n```dart\nimport 'package:flutter_riverpod/flutter_riverpod.dart'\nclass FeedsModel extends ChangeNotifier{\n  List<String> bookTitles = [];\n  late QuerySnapshot<Map<String, dynamic>> querySnapshots;\n  Future BookTitleToList() async {\n    querySnapshots = await FirebaseFirestore.collection('books')\n    .get\n    querySnapshots.docs.map((doc){\n      bookTitles.add(doc['bookTitle']);\n    });\n  }\n}\n```\n\nmapとforEachとかどっちも一緒やろ！！と思っていたのが間違いでした...\n\n##解決策\n```dart\nquerySnapshots.docs.forEach((doc){\n  bookTitles.add(doc['bookTitle']);\n});\n```\n\nmapをforEachに変えるだけです。\n",
+    "coediting": false,
+    "comments_count": 0,
+    "created_at": "2021-08-25T15:29:25+09:00",
+    "group": null,
+    "id": "fc6072a9b7319fcc506f",
+    "likes_count": 0,
+    "private": false,
+    "reactions_count": 0,
+    "tags": [
+      {
+        "name": "Dart",
+        "versions": []
+      },
+      {
+        "name": "Firebase",
+        "versions": []
+      },
+      {
+        "name": "Flutter",
+        "versions": []
+      }
+    ],
+    "title": "QuerySnapshot<Map<String, dynamic>>にmapを使用してもうまくいかなかった(flutter/dart)",
+    "updated_at": "2021-08-25T15:29:25+09:00",
+    "url": "https://qiita.com/Nekoyama141592/items/fc6072a9b7319fcc506f",
+    "user": {
+      "description": "よろしくお願いします。",
+      "facebook_id": "",
+      "followees_count": 0,
+      "followers_count": 0,
+      "github_login_name": "Nekoyama141592",
+      "id": "Nekoyama141592",
+      "items_count": 4,
+      "linkedin_id": "",
+      "location": "",
+      "name": "太郎 山田",
+      "organization": "",
+      "permanent_id": 1199614,
+      "profile_image_url": "https://avatars.githubusercontent.com/u/75157924?v=4",
+      "team_only": false,
+      "twitter_screen_name": null,
+      "website_url": ""
+    },
+    "page_views_count": null,
+    "team_membership": null
+  },
+  {
+    "rendered_body": "<p><strong>ワードで表（テーブル）を作成・編集ができるようになれば具体的かつ詳細な資料を作成することが可能です。今回は、Spire.Doc for Javaという使いやすいライブラリを活用して、Word文書でテーブルを作成する方法を紹介していきます。</strong></p>\n\n<h4><strong>下準備</strong></h4>\n\n<p><strong>1.E-iceblueの公式サイトから<a href=\"https://www.e-iceblue.com/Download/doc-for-java-free.html\" rel=\"nofollow noopener\" target=\"_blank\">Free Spire.doc for Java</a>無料版をダウンロードしてください。</strong></p>\n\n<p><a href=\"https://camo.qiitausercontent.com/ab653ff10cd8ff06fe2b07f8315e43806db8b9d5/68747470733a2f2f63646e2d616b2e662e73742d686174656e612e636f6d2f696d616765732f666f746f6c6966652f6c2f6c656e646f7269732f32303231303832352f32303231303832353135313533312e706e67\" target=\"_blank\" rel=\"nofollow noopener\"><img src=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fl%2Flendoris%2F20210825%2F20210825151531.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;s=2afe4b25d978a31eec2d3c3520e43e85\" alt=\"f:id:lendoris:20210825151531p:plain\" width=\"437\" height=\"221\" title=\"\" data-canonical-src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/l/lendoris/20210825/20210825151531.png\" srcset=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fl%2Flendoris%2F20210825%2F20210825151531.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;w=1400&amp;fit=max&amp;s=6f7e7c8a715495bfebbb18e57256610f 1x\" loading=\"lazy\"></a></p>\n\n<p><strong>2.IDEを起動して新規プロジェクトを作成してから、インストールされたファイルにあった相応しいSpire.doc.jarを参照に追加してください。</strong></p>\n\n<p><a href=\"https://camo.qiitausercontent.com/258af97c6748ca5c561853c781e4016c6a02a964/68747470733a2f2f63646e2d616b2e662e73742d686174656e612e636f6d2f696d616765732f666f746f6c6966652f6c2f6c656e646f7269732f32303231303832352f32303231303832353135313534312e706e67\" target=\"_blank\" rel=\"nofollow noopener\"><img src=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fl%2Flendoris%2F20210825%2F20210825151541.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;s=2da046b270d166d52a75fd21a9a4890a\" alt=\"f:id:lendoris:20210825151541p:plain\" width=\"239\" height=\"101\" title=\"\" data-canonical-src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/l/lendoris/20210825/20210825151541.png\" srcset=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fl%2Flendoris%2F20210825%2F20210825151541.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;w=1400&amp;fit=max&amp;s=7de4e7c121d1b176916df6e611df1237 1x\" loading=\"lazy\"></a></p>\n\n<div class=\"code-frame\" data-lang=\"JAVA\"><div class=\"highlight\"><pre><code>\n<span class=\"kn\">import</span> <span class=\"nn\">com.spire.doc.*</span><span class=\"o\">;</span>\n<span class=\"kn\">import</span> <span class=\"nn\">com.spire.doc.documents.*</span><span class=\"o\">;</span>\n<span class=\"kn\">import</span> <span class=\"nn\">com.spire.doc.fields.TextRange</span><span class=\"o\">;</span>\n\n<span class=\"kn\">import</span> <span class=\"nn\">java.awt.*</span><span class=\"o\">;</span>\n\n<span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">CreateTable</span> <span class=\"o\">{</span>\n    <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n        <span class=\"c1\">//Word文書を作成します。</span>\n        <span class=\"nc\">Document</span> <span class=\"n\">document</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">Document</span><span class=\"o\">();</span>\n        <span class=\"c1\">//sectionを追加します。</span>\n        <span class=\"nc\">Section</span> <span class=\"n\">section</span> <span class=\"o\">=</span> <span class=\"n\">document</span><span class=\"o\">.</span><span class=\"na\">addSection</span><span class=\"o\">();</span>\n\n        <span class=\"c1\">//データ</span>\n        <span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">header</span> <span class=\"o\">=</span> <span class=\"o\">{</span><span class=\"s\">\"名前\"</span><span class=\"o\">,</span> <span class=\"s\">\"性别\"</span><span class=\"o\">,</span> <span class=\"s\">\"年齢\"</span><span class=\"o\">,</span> <span class=\"s\">\"番号\"</span><span class=\"o\">};</span>\n        <span class=\"nc\">String</span><span class=\"o\">[][]</span> <span class=\"n\">data</span> <span class=\"o\">=</span>\n                <span class=\"o\">{</span>\n                        <span class=\"k\">new</span> <span class=\"nc\">String</span><span class=\"o\">[]{</span><span class=\"s\">\"Winny\"</span><span class=\"o\">,</span> <span class=\"s\">\"女\"</span><span class=\"o\">,</span> <span class=\"s\">\"17\"</span><span class=\"o\">,</span> <span class=\"s\">\"0109\"</span><span class=\"o\">},</span>\n                        <span class=\"k\">new</span> <span class=\"nc\">String</span><span class=\"o\">[]{</span><span class=\"s\">\"Lois\"</span><span class=\"o\">,</span> <span class=\"s\">\"女\"</span><span class=\"o\">,</span> <span class=\"s\">\"20\"</span><span class=\"o\">,</span> <span class=\"s\">\"0111\"</span><span class=\"o\">},</span>\n                        <span class=\"k\">new</span> <span class=\"nc\">String</span><span class=\"o\">[]{</span><span class=\"s\">\"Jois\"</span><span class=\"o\">,</span> <span class=\"s\">\"男\"</span><span class=\"o\">,</span> <span class=\"s\">\"11\"</span><span class=\"o\">,</span> <span class=\"s\">\"0110\"</span><span class=\"o\">},</span>\n                        <span class=\"k\">new</span> <span class=\"nc\">String</span><span class=\"o\">[]{</span><span class=\"s\">\"Moon\"</span><span class=\"o\">,</span> <span class=\"s\">\"女\"</span><span class=\"o\">,</span> <span class=\"s\">\"22\"</span><span class=\"o\">,</span> <span class=\"s\">\"0112\"</span><span class=\"o\">},</span>\n                        <span class=\"k\">new</span> <span class=\"nc\">String</span><span class=\"o\">[]{</span><span class=\"s\">\"Vinit\"</span><span class=\"o\">,</span> <span class=\"s\">\"女\"</span><span class=\"o\">,</span> <span class=\"s\">\"11\"</span><span class=\"o\">,</span> <span class=\"s\">\"0113\"</span><span class=\"o\">},</span>\n                <span class=\"o\">};</span>\n\n        <span class=\"c1\">//表を追加します。</span>\n        <span class=\"nc\">Table</span> <span class=\"n\">table</span> <span class=\"o\">=</span> <span class=\"n\">section</span><span class=\"o\">.</span><span class=\"na\">addTable</span><span class=\"o\">(</span><span class=\"kc\">true</span><span class=\"o\">);</span>\n        <span class=\"c1\">//表の行数と列数を設定します。</span>\n        <span class=\"n\">table</span><span class=\"o\">.</span><span class=\"na\">resetCells</span><span class=\"o\">(</span><span class=\"n\">data</span><span class=\"o\">.</span><span class=\"na\">length</span> <span class=\"o\">+</span> <span class=\"mi\">1</span><span class=\"o\">,</span> <span class=\"n\">header</span><span class=\"o\">.</span><span class=\"na\">length</span><span class=\"o\">);</span>\n\n\n        <span class=\"nc\">TableRow</span> <span class=\"n\">row</span> <span class=\"o\">=</span> <span class=\"n\">table</span><span class=\"o\">.</span><span class=\"na\">getRows</span><span class=\"o\">().</span><span class=\"na\">get</span><span class=\"o\">(</span><span class=\"mi\">0</span><span class=\"o\">);</span>\n        <span class=\"n\">row</span><span class=\"o\">.</span><span class=\"na\">isHeader</span><span class=\"o\">(</span><span class=\"kc\">true</span><span class=\"o\">);</span>\n        <span class=\"n\">row</span><span class=\"o\">.</span><span class=\"na\">setHeight</span><span class=\"o\">(</span><span class=\"mi\">20</span><span class=\"o\">);</span>\n        <span class=\"n\">row</span><span class=\"o\">.</span><span class=\"na\">setHeightType</span><span class=\"o\">(</span><span class=\"nc\">TableRowHeightType</span><span class=\"o\">.</span><span class=\"na\">Exactly</span><span class=\"o\">);</span>\n        <span class=\"n\">row</span><span class=\"o\">.</span><span class=\"na\">getRowFormat</span><span class=\"o\">().</span><span class=\"na\">setBackColor</span><span class=\"o\">(</span><span class=\"nc\">Color</span><span class=\"o\">.</span><span class=\"na\">gray</span><span class=\"o\">);</span>\n        <span class=\"k\">for</span> <span class=\"o\">(</span><span class=\"kt\">int</span> <span class=\"n\">i</span> <span class=\"o\">=</span> <span class=\"mi\">0</span><span class=\"o\">;</span> <span class=\"n\">i</span> <span class=\"o\">&lt;</span> <span class=\"n\">header</span><span class=\"o\">.</span><span class=\"na\">length</span><span class=\"o\">;</span> <span class=\"n\">i</span><span class=\"o\">++)</span> <span class=\"o\">{</span>\n            <span class=\"n\">row</span><span class=\"o\">.</span><span class=\"na\">getCells</span><span class=\"o\">().</span><span class=\"na\">get</span><span class=\"o\">(</span><span class=\"n\">i</span><span class=\"o\">).</span><span class=\"na\">getCellFormat</span><span class=\"o\">().</span><span class=\"na\">setVerticalAlignment</span><span class=\"o\">(</span><span class=\"nc\">VerticalAlignment</span><span class=\"o\">.</span><span class=\"na\">Middle</span><span class=\"o\">);</span>\n            <span class=\"nc\">Paragraph</span> <span class=\"n\">p</span> <span class=\"o\">=</span> <span class=\"n\">row</span><span class=\"o\">.</span><span class=\"na\">getCells</span><span class=\"o\">().</span><span class=\"na\">get</span><span class=\"o\">(</span><span class=\"n\">i</span><span class=\"o\">).</span><span class=\"na\">addParagraph</span><span class=\"o\">();</span>\n            <span class=\"n\">p</span><span class=\"o\">.</span><span class=\"na\">getFormat</span><span class=\"o\">().</span><span class=\"na\">setHorizontalAlignment</span><span class=\"o\">(</span><span class=\"nc\">HorizontalAlignment</span><span class=\"o\">.</span><span class=\"na\">Center</span><span class=\"o\">);</span>\n            <span class=\"nc\">TextRange</span> <span class=\"n\">range1</span> <span class=\"o\">=</span> <span class=\"n\">p</span><span class=\"o\">.</span><span class=\"na\">appendText</span><span class=\"o\">(</span><span class=\"n\">header</span><span class=\"o\">[</span><span class=\"n\">i</span><span class=\"o\">]);</span>\n            <span class=\"n\">range1</span><span class=\"o\">.</span><span class=\"na\">getCharacterFormat</span><span class=\"o\">().</span><span class=\"na\">setFontName</span><span class=\"o\">(</span><span class=\"s\">\"Arial\"</span><span class=\"o\">);</span>\n            <span class=\"n\">range1</span><span class=\"o\">.</span><span class=\"na\">getCharacterFormat</span><span class=\"o\">().</span><span class=\"na\">setFontSize</span><span class=\"o\">(</span><span class=\"mi\">12</span><span class=\"n\">f</span><span class=\"o\">);</span>\n            <span class=\"n\">range1</span><span class=\"o\">.</span><span class=\"na\">getCharacterFormat</span><span class=\"o\">().</span><span class=\"na\">setBold</span><span class=\"o\">(</span><span class=\"kc\">true</span><span class=\"o\">);</span>\n        <span class=\"o\">}</span>\n\n        <span class=\"c1\">//余りの行にデータを追加します。</span>\n        <span class=\"k\">for</span> <span class=\"o\">(</span><span class=\"kt\">int</span> <span class=\"n\">r</span> <span class=\"o\">=</span> <span class=\"mi\">0</span><span class=\"o\">;</span> <span class=\"n\">r</span> <span class=\"o\">&lt;</span> <span class=\"n\">data</span><span class=\"o\">.</span><span class=\"na\">length</span><span class=\"o\">;</span> <span class=\"n\">r</span><span class=\"o\">++)</span> <span class=\"o\">{</span>\n            <span class=\"nc\">TableRow</span> <span class=\"n\">dataRow</span> <span class=\"o\">=</span> <span class=\"n\">table</span><span class=\"o\">.</span><span class=\"na\">getRows</span><span class=\"o\">().</span><span class=\"na\">get</span><span class=\"o\">(</span><span class=\"n\">r</span> <span class=\"o\">+</span> <span class=\"mi\">1</span><span class=\"o\">);</span>\n            <span class=\"n\">dataRow</span><span class=\"o\">.</span><span class=\"na\">setHeight</span><span class=\"o\">(</span><span class=\"mi\">25</span><span class=\"o\">);</span>\n            <span class=\"n\">dataRow</span><span class=\"o\">.</span><span class=\"na\">setHeightType</span><span class=\"o\">(</span><span class=\"nc\">TableRowHeightType</span><span class=\"o\">.</span><span class=\"na\">Exactly</span><span class=\"o\">);</span>\n            <span class=\"n\">dataRow</span><span class=\"o\">.</span><span class=\"na\">getRowFormat</span><span class=\"o\">().</span><span class=\"na\">setBackColor</span><span class=\"o\">(</span><span class=\"nc\">Color</span><span class=\"o\">.</span><span class=\"na\">white</span><span class=\"o\">);</span>\n            <span class=\"k\">for</span> <span class=\"o\">(</span><span class=\"kt\">int</span> <span class=\"n\">c</span> <span class=\"o\">=</span> <span class=\"mi\">0</span><span class=\"o\">;</span> <span class=\"n\">c</span> <span class=\"o\">&lt;</span> <span class=\"n\">data</span><span class=\"o\">[</span><span class=\"n\">r</span><span class=\"o\">].</span><span class=\"na\">length</span><span class=\"o\">;</span> <span class=\"n\">c</span><span class=\"o\">++)</span> <span class=\"o\">{</span>\n                <span class=\"n\">dataRow</span><span class=\"o\">.</span><span class=\"na\">getCells</span><span class=\"o\">().</span><span class=\"na\">get</span><span class=\"o\">(</span><span class=\"n\">c</span><span class=\"o\">).</span><span class=\"na\">getCellFormat</span><span class=\"o\">().</span><span class=\"na\">setVerticalAlignment</span><span class=\"o\">(</span><span class=\"nc\">VerticalAlignment</span><span class=\"o\">.</span><span class=\"na\">Middle</span><span class=\"o\">);</span>\n                <span class=\"nc\">TextRange</span> <span class=\"n\">range2</span> <span class=\"o\">=</span> <span class=\"n\">dataRow</span><span class=\"o\">.</span><span class=\"na\">getCells</span><span class=\"o\">().</span><span class=\"na\">get</span><span class=\"o\">(</span><span class=\"n\">c</span><span class=\"o\">).</span><span class=\"na\">addParagraph</span><span class=\"o\">().</span><span class=\"na\">appendText</span><span class=\"o\">(</span><span class=\"n\">data</span><span class=\"o\">[</span><span class=\"n\">r</span><span class=\"o\">][</span><span class=\"n\">c</span><span class=\"o\">]);</span>\n                <span class=\"n\">range2</span><span class=\"o\">.</span><span class=\"na\">getCharacterFormat</span><span class=\"o\">().</span><span class=\"na\">setFontName</span><span class=\"o\">(</span><span class=\"s\">\"Arial\"</span><span class=\"o\">);</span>\n                <span class=\"n\">range2</span><span class=\"o\">.</span><span class=\"na\">getCharacterFormat</span><span class=\"o\">().</span><span class=\"na\">setFontSize</span><span class=\"o\">(</span><span class=\"mi\">10</span><span class=\"n\">f</span><span class=\"o\">);</span>\n            <span class=\"o\">}</span>\n        <span class=\"o\">}</span>\n\n        <span class=\"c1\">//セール背景色を設定します。</span>\n        <span class=\"k\">for</span> <span class=\"o\">(</span><span class=\"kt\">int</span> <span class=\"n\">j</span> <span class=\"o\">=</span> <span class=\"mi\">1</span><span class=\"o\">;</span> <span class=\"n\">j</span> <span class=\"o\">&lt;</span> <span class=\"n\">table</span><span class=\"o\">.</span><span class=\"na\">getRows</span><span class=\"o\">().</span><span class=\"na\">getCount</span><span class=\"o\">();</span> <span class=\"n\">j</span><span class=\"o\">++)</span> <span class=\"o\">{</span>\n            <span class=\"k\">if</span> <span class=\"o\">(</span><span class=\"n\">j</span> <span class=\"o\">%</span> <span class=\"mi\">2</span> <span class=\"o\">==</span> <span class=\"mi\">0</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n                <span class=\"nc\">TableRow</span> <span class=\"n\">row2</span> <span class=\"o\">=</span> <span class=\"n\">table</span><span class=\"o\">.</span><span class=\"na\">getRows</span><span class=\"o\">().</span><span class=\"na\">get</span><span class=\"o\">(</span><span class=\"n\">j</span><span class=\"o\">);</span>\n                <span class=\"k\">for</span> <span class=\"o\">(</span><span class=\"kt\">int</span> <span class=\"n\">f</span> <span class=\"o\">=</span> <span class=\"mi\">0</span><span class=\"o\">;</span> <span class=\"n\">f</span> <span class=\"o\">&lt;</span> <span class=\"n\">row2</span><span class=\"o\">.</span><span class=\"na\">getCells</span><span class=\"o\">().</span><span class=\"na\">getCount</span><span class=\"o\">();</span> <span class=\"n\">f</span><span class=\"o\">++)</span> <span class=\"o\">{</span>\n                    <span class=\"n\">row2</span><span class=\"o\">.</span><span class=\"na\">getCells</span><span class=\"o\">().</span><span class=\"na\">get</span><span class=\"o\">(</span><span class=\"n\">f</span><span class=\"o\">).</span><span class=\"na\">getCellFormat</span><span class=\"o\">().</span><span class=\"na\">setBackColor</span><span class=\"o\">(</span><span class=\"k\">new</span> <span class=\"nc\">Color</span><span class=\"o\">(</span><span class=\"mi\">173</span><span class=\"o\">,</span> <span class=\"mi\">216</span><span class=\"o\">,</span> <span class=\"mi\">230</span><span class=\"o\">));</span>\n                <span class=\"o\">}</span>\n            <span class=\"o\">}</span>\n        <span class=\"o\">}</span>\n\n        <span class=\"c1\">//保存します。</span>\n        <span class=\"n\">document</span><span class=\"o\">.</span><span class=\"na\">saveToFile</span><span class=\"o\">(</span><span class=\"s\">\"CreateTable.docx\"</span><span class=\"o\">,</span> <span class=\"nc\">FileFormat</span><span class=\"o\">.</span><span class=\"na\">Docx_2013</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n</code></pre></div></div>\n\n<p><br>\n</p><h4><strong>実行結果</strong></h4><br>\n<p><a href=\"https://camo.qiitausercontent.com/beb7e41e977bc44deffdb79114197b1aba37291c/68747470733a2f2f63646e2d616b2e662e73742d686174656e612e636f6d2f696d616765732f666f746f6c6966652f6c2f6c656e646f7269732f32303231303832352f32303231303832353135323433372e706e67\" target=\"_blank\" rel=\"nofollow noopener\"><img src=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fl%2Flendoris%2F20210825%2F20210825152437.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;s=b7b82a17241abf448a212750d77186a7\" alt=\"f:id:lendoris:20210825152437p:plain\" width=\"554\" height=\"344\" title=\"\" data-canonical-src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/l/lendoris/20210825/20210825152437.png\" srcset=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fl%2Flendoris%2F20210825%2F20210825152437.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;w=1400&amp;fit=max&amp;s=d8333539c8dfb2af6507ab2a2af759bf 1x\" loading=\"lazy\"></a></p><br>\n<p> </p>\n",
+    "body": "<p><strong>ワードで表（テーブル）を作成・編集ができるようになれば具体的かつ詳細な資料を作成することが可能です。今回は、Spire.Doc for Javaという使いやすいライブラリを活用して、Word文書でテーブルを作成する方法を紹介していきます。</strong></p>\n<h4><strong>下準備</strong></h4>\n<p><strong>1.E-iceblueの公式サイトから<a href=\"https://www.e-iceblue.com/Download/doc-for-java-free.html\">Free Spire.doc for Java</a>無料版をダウンロードしてください。</strong></p>\n<p><img src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/l/lendoris/20210825/20210825151531.png\" alt=\"f:id:lendoris:20210825151531p:plain\" width=\"437\" height=\"221\" loading=\"lazy\" title=\"\" class=\"hatena-fotolife\" itemprop=\"image\" /></p>\n<p><strong>2.IDEを起動して新規プロジェクトを作成してから、インストールされたファイルにあった相応しいSpire.doc.jarを参照に追加してください。</strong></p>\n<p><img src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/l/lendoris/20210825/20210825151541.png\" alt=\"f:id:lendoris:20210825151541p:plain\" width=\"239\" height=\"101\" loading=\"lazy\" title=\"\" class=\"hatena-fotolife\" itemprop=\"image\" /></p>\n```JAVA\n\nimport com.spire.doc.*;\nimport com.spire.doc.documents.*;\nimport com.spire.doc.fields.TextRange;\n\nimport java.awt.*;\n\npublic class CreateTable {\n    public static void main(String[] args) {\n        //Word文書を作成します。\n        Document document = new Document();\n        //sectionを追加します。\n        Section section = document.addSection();\n\n        //データ\n        String[] header = {\"名前\", \"性别\", \"年齢\", \"番号\"};\n        String[][] data =\n                {\n                        new String[]{\"Winny\", \"女\", \"17\", \"0109\"},\n                        new String[]{\"Lois\", \"女\", \"20\", \"0111\"},\n                        new String[]{\"Jois\", \"男\", \"11\", \"0110\"},\n                        new String[]{\"Moon\", \"女\", \"22\", \"0112\"},\n                        new String[]{\"Vinit\", \"女\", \"11\", \"0113\"},\n                };\n\n        //表を追加します。\n        Table table = section.addTable(true);\n        //表の行数と列数を設定します。\n        table.resetCells(data.length + 1, header.length);\n\n        \n        TableRow row = table.getRows().get(0);\n        row.isHeader(true);\n        row.setHeight(20);\n        row.setHeightType(TableRowHeightType.Exactly);\n        row.getRowFormat().setBackColor(Color.gray);\n        for (int i = 0; i < header.length; i++) {\n            row.getCells().get(i).getCellFormat().setVerticalAlignment(VerticalAlignment.Middle);\n            Paragraph p = row.getCells().get(i).addParagraph();\n            p.getFormat().setHorizontalAlignment(HorizontalAlignment.Center);\n            TextRange range1 = p.appendText(header[i]);\n            range1.getCharacterFormat().setFontName(\"Arial\");\n            range1.getCharacterFormat().setFontSize(12f);\n            range1.getCharacterFormat().setBold(true);\n        }\n\n        //余りの行にデータを追加します。\n        for (int r = 0; r < data.length; r++) {\n            TableRow dataRow = table.getRows().get(r + 1);\n            dataRow.setHeight(25);\n            dataRow.setHeightType(TableRowHeightType.Exactly);\n            dataRow.getRowFormat().setBackColor(Color.white);\n            for (int c = 0; c < data[r].length; c++) {\n                dataRow.getCells().get(c).getCellFormat().setVerticalAlignment(VerticalAlignment.Middle);\n                TextRange range2 = dataRow.getCells().get(c).addParagraph().appendText(data[r][c]);\n                range2.getCharacterFormat().setFontName(\"Arial\");\n                range2.getCharacterFormat().setFontSize(10f);\n            }\n        }\n\n        //セール背景色を設定します。\n        for (int j = 1; j < table.getRows().getCount(); j++) {\n            if (j % 2 == 0) {\n                TableRow row2 = table.getRows().get(j);\n                for (int f = 0; f < row2.getCells().getCount(); f++) {\n                    row2.getCells().get(f).getCellFormat().setBackColor(new Color(173, 216, 230));\n                }\n            }\n        }\n\n        //保存します。\n        document.saveToFile(\"CreateTable.docx\", FileFormat.Docx_2013);\n    }\n}\n```\n</blockquote>\n<h4><strong>実行結果</strong></h4>\n<p><img src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/l/lendoris/20210825/20210825152437.png\" alt=\"f:id:lendoris:20210825152437p:plain\" width=\"554\" height=\"344\" loading=\"lazy\" title=\"\" class=\"hatena-fotolife\" itemprop=\"image\" /></p>\n<p> </p>\n",
+    "coediting": false,
+    "comments_count": 0,
+    "created_at": "2021-08-25T15:26:13+09:00",
+    "group": null,
+    "id": "e0ac64b58a46a06dae3b",
+    "likes_count": 0,
+    "private": false,
+    "reactions_count": 0,
+    "tags": [
+      {
+        "name": "Java",
+        "versions": []
+      },
+      {
+        "name": "テーブル",
+        "versions": []
+      },
+      {
+        "name": "Word文",
+        "versions": []
+      }
+    ],
+    "title": "Java Word文書でテーブルを作成",
+    "updated_at": "2021-08-25T15:26:13+09:00",
+    "url": "https://qiita.com/iceblue/items/e0ac64b58a46a06dae3b",
+    "user": {
+      "description": "プログラミング\r\nJAVA/C#開発\r\n\r\n",
+      "facebook_id": "",
+      "followees_count": 0,
+      "followers_count": 5,
+      "github_login_name": "lendoris",
+      "id": "iceblue",
+      "items_count": 161,
+      "linkedin_id": "",
+      "location": "中国四川省成都市",
+      "name": "リー ニック",
+      "organization": "E-iceblue Co., Ltd.",
+      "permanent_id": 278784,
+      "profile_image_url": "https://s3-ap-northeast-1.amazonaws.com/qiita-image-store/0/278784/196a37fe5856ebc8e554ebc23f0f72638fd0acd5/large.png?1554864348",
+      "team_only": false,
+      "twitter_screen_name": null,
+      "website_url": "https://www.e-iceblue.com"
+    },
+    "page_views_count": null,
+    "team_membership": null
+  },
+  {
+    "rendered_body": "<p><a href=\"https://camo.qiitausercontent.com/c9827d38125fc914e67802c6f37d551697da2920/68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f313131333130312f38353932623230382d376465632d333136642d633439632d6330363934386338633664362e706e67\" target=\"_blank\" rel=\"nofollow noopener\"><img src=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F1113101%2F8592b208-7dec-316d-c49c-c06948c8c6d6.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;s=f139017d26616ffe6c23706f15a8f5ff\" alt=\"image.png\" data-canonical-src=\"https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1113101/8592b208-7dec-316d-c49c-c06948c8c6d6.png\" srcset=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F1113101%2F8592b208-7dec-316d-c49c-c06948c8c6d6.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;w=1400&amp;fit=max&amp;s=3cb2ab962d21afc2312de930123ba20e 1x\" loading=\"lazy\"></a></p>\n\n<p><qiita-embed-ogp src=\"https://portal.azure.com/app/Download\"></qiita-embed-ogp></p>\n",
+    "body": "![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1113101/8592b208-7dec-316d-c49c-c06948c8c6d6.png)\n\n\nhttps://portal.azure.com/app/Download\n",
+    "coediting": false,
+    "comments_count": 0,
+    "created_at": "2021-08-25T15:20:21+09:00",
+    "group": null,
+    "id": "2dac6ea9e324375afc29",
+    "likes_count": 0,
+    "private": false,
+    "reactions_count": 0,
+    "tags": [
+      {
+        "name": "Azure",
+        "versions": []
+      }
+    ],
+    "title": "Windows用Azure Portalアプリケーション",
+    "updated_at": "2021-08-25T15:20:45+09:00",
+    "url": "https://qiita.com/nob_ara/items/2dac6ea9e324375afc29",
+    "user": {
+      "description": "",
+      "facebook_id": "",
+      "followees_count": 0,
+      "followers_count": 0,
+      "github_login_name": null,
+      "id": "nob_ara",
+      "items_count": 10,
+      "linkedin_id": "",
+      "location": "東京",
+      "name": "nob ara",
+      "organization": "株式会社SALTO",
+      "permanent_id": 1113101,
+      "profile_image_url": "https://secure.gravatar.com/avatar/0915e36ebf692a310d32798227485763",
+      "team_only": false,
+      "twitter_screen_name": null,
+      "website_url": ""
+    },
+    "page_views_count": null,
+    "team_membership": null
+  },
+  {
+    "rendered_body": "<p><strong>Wordは数式を入力することができます。数式の用法を使いこなせば、とても便利なツールになるはずだと思いますので、今回は、Spire.Doc for Javaという使いやすいライブラリを活用して、WordでLatex 数式とMathMLCodeを挿入する方法を紹介します。</strong></p>\n\n<h4><strong>下準備</strong></h4>\n\n<p><strong>1.E-iceblueの公式サイトから<a href=\"https://www.e-iceblue.com/Download/doc-for-java-free.html\" rel=\"nofollow noopener\" target=\"_blank\">Free Spire.doc for Java</a>無料版をダウンロードしてください。</strong></p>\n\n<p><a href=\"https://camo.qiitausercontent.com/ab653ff10cd8ff06fe2b07f8315e43806db8b9d5/68747470733a2f2f63646e2d616b2e662e73742d686174656e612e636f6d2f696d616765732f666f746f6c6966652f6c2f6c656e646f7269732f32303231303832352f32303231303832353135313533312e706e67\" target=\"_blank\" rel=\"nofollow noopener\"><img src=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fl%2Flendoris%2F20210825%2F20210825151531.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;s=2afe4b25d978a31eec2d3c3520e43e85\" alt=\"f:id:lendoris:20210825151531p:plain\" width=\"437\" height=\"221\" title=\"\" data-canonical-src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/l/lendoris/20210825/20210825151531.png\" srcset=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fl%2Flendoris%2F20210825%2F20210825151531.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;w=1400&amp;fit=max&amp;s=6f7e7c8a715495bfebbb18e57256610f 1x\" loading=\"lazy\"></a></p>\n\n<p><strong>2.IDEを起動して新規プロジェクトを作成してから、インストールされたファイルにあった相応しいSpire.doc.jarを参照に追加してください。</strong></p>\n\n<p><a href=\"https://camo.qiitausercontent.com/258af97c6748ca5c561853c781e4016c6a02a964/68747470733a2f2f63646e2d616b2e662e73742d686174656e612e636f6d2f696d616765732f666f746f6c6966652f6c2f6c656e646f7269732f32303231303832352f32303231303832353135313534312e706e67\" target=\"_blank\" rel=\"nofollow noopener\"><img src=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fl%2Flendoris%2F20210825%2F20210825151541.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;s=2da046b270d166d52a75fd21a9a4890a\" alt=\"f:id:lendoris:20210825151541p:plain\" width=\"239\" height=\"101\" title=\"\" data-canonical-src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/l/lendoris/20210825/20210825151541.png\" srcset=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fl%2Flendoris%2F20210825%2F20210825151541.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;w=1400&amp;fit=max&amp;s=7de4e7c121d1b176916df6e611df1237 1x\" loading=\"lazy\"></a></p>\n\n<div class=\"code-frame\" data-lang=\"JAVA\"><div class=\"highlight\"><pre><code><span class=\"kn\">import</span> <span class=\"nn\">com.spire.doc.*</span><span class=\"o\">;</span>\n<span class=\"kn\">import</span> <span class=\"nn\">com.spire.doc.documents.*</span><span class=\"o\">;</span>\n<span class=\"kn\">import</span> <span class=\"nn\">com.spire.doc.fields.omath.*</span><span class=\"o\">;</span>\n\n<span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Test</span> <span class=\"o\">{</span>\n    <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">){</span>\n        <span class=\"c1\">//Word obejctを作成し，sectionを追加します。</span>\n        <span class=\"nc\">Document</span> <span class=\"n\">doc</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">Document</span><span class=\"o\">();</span>\n        <span class=\"nc\">Section</span> <span class=\"n\">section</span> <span class=\"o\">=</span> <span class=\"n\">doc</span><span class=\"o\">.</span><span class=\"na\">addSection</span><span class=\"o\">();</span>\n        <span class=\"c1\">//段落を追加します。</span>\n        <span class=\"nc\">Paragraph</span> <span class=\"n\">paragraph</span> <span class=\"o\">=</span> <span class=\"n\">section</span><span class=\"o\">.</span><span class=\"na\">addParagraph</span><span class=\"o\">();</span>\n\n        <span class=\"c1\">//Latex 数式を挿入します。</span>\n        <span class=\"nc\">OfficeMath</span> <span class=\"n\">officeMath</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">OfficeMath</span><span class=\"o\">(</span><span class=\"n\">doc</span><span class=\"o\">);</span>\n        <span class=\"n\">paragraph</span><span class=\"o\">.</span><span class=\"na\">getItems</span><span class=\"o\">().</span><span class=\"na\">add</span><span class=\"o\">(</span><span class=\"n\">officeMath</span><span class=\"o\">);</span>\n        <span class=\"n\">officeMath</span><span class=\"o\">.</span><span class=\"na\">fromLatexMathCode</span><span class=\"o\">(</span><span class=\"s\">\"x^{2}+\\\\sqrt{{x^{2}+1}}+1\"</span><span class=\"o\">);</span>\n\n        <span class=\"c1\">//段落2を追加します。</span>\n        <span class=\"nc\">Paragraph</span> <span class=\"n\">paragraph2</span> <span class=\"o\">=</span> <span class=\"n\">section</span><span class=\"o\">.</span><span class=\"na\">addParagraph</span><span class=\"o\">();</span>\n\n        <span class=\"c1\">//MathMLCodeを挿入します。</span>\n        <span class=\"nc\">OfficeMath</span> <span class=\"n\">officeMath2</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">OfficeMath</span><span class=\"o\">(</span><span class=\"n\">doc</span><span class=\"o\">);</span>\n        <span class=\"n\">paragraph2</span><span class=\"o\">.</span><span class=\"na\">getItems</span><span class=\"o\">().</span><span class=\"na\">add</span><span class=\"o\">(</span><span class=\"n\">officeMath2</span><span class=\"o\">);</span>\n        <span class=\"n\">officeMath2</span><span class=\"o\">.</span><span class=\"na\">fromMathMLCode</span><span class=\"o\">(</span><span class=\"s\">\"&lt;mml:math xmlns:mml=\\\"http://www.w3.org/1998/Math/MathML\\\" xmlns:m=\\\"http://schemas.openxmlformats.org/officeDocument/2006/math\\\"&gt;&lt;mml:msup&gt;&lt;mml:mrow&gt;&lt;mml:mi&gt;x&lt;/mml:mi&gt;&lt;/mml:mrow&gt;&lt;mml:mrow&gt;&lt;mml:mn&gt;2&lt;/mml:mn&gt;&lt;/mml:mrow&gt;&lt;/mml:msup&gt;&lt;mml:mo&gt;+&lt;/mml:mo&gt;&lt;mml:msqrt&gt;&lt;mml:msup&gt;&lt;mml:mrow&gt;&lt;mml:mi&gt;x&lt;/mml:mi&gt;&lt;/mml:mrow&gt;&lt;mml:mrow&gt;&lt;mml:mn&gt;2&lt;/mml:mn&gt;&lt;/mml:mrow&gt;&lt;/mml:msup&gt;&lt;mml:mo&gt;+&lt;/mml:mo&gt;&lt;mml:mn&gt;1&lt;/mml:mn&gt;&lt;/mml:msqrt&gt;&lt;mml:mo&gt;+&lt;/mml:mo&gt;&lt;mml:mn&gt;1&lt;/mml:mn&gt;&lt;/mml:math&gt;\"</span><span class=\"o\">);</span>\n\n        <span class=\"c1\">//保存します。</span>\n        <span class=\"nc\">String</span> <span class=\"n\">result</span> <span class=\"o\">=</span> <span class=\"s\">\"output/addMathEquation.docx\"</span><span class=\"o\">;</span>\n        <span class=\"n\">doc</span><span class=\"o\">.</span><span class=\"na\">saveToFile</span><span class=\"o\">(</span><span class=\"n\">result</span><span class=\"o\">,</span> <span class=\"nc\">FileFormat</span><span class=\"o\">.</span><span class=\"na\">Docx_2013</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n</code></pre></div></div>\n\n<h4><strong>実行結果</strong></h4>\n\n<p><a href=\"https://camo.qiitausercontent.com/0e0a4c3fb00383ce0ab73a693c088ab2a03fd3a4/68747470733a2f2f63646e2d616b2e662e73742d686174656e612e636f6d2f696d616765732f666f746f6c6966652f6c2f6c656e646f7269732f32303231303832352f32303231303832353135313632322e706e67\" target=\"_blank\" rel=\"nofollow noopener\"><img src=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fl%2Flendoris%2F20210825%2F20210825151622.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;s=4c4d3ee26746d623400b037ed68b8ddb\" alt=\"f:id:lendoris:20210825151622p:plain\" width=\"554\" height=\"323\" title=\"\" data-canonical-src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/l/lendoris/20210825/20210825151622.png\" srcset=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fl%2Flendoris%2F20210825%2F20210825151622.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;w=1400&amp;fit=max&amp;s=ad0fc98c7baf94291644a4639b83c98d 1x\" loading=\"lazy\"></a></p>\n\n<p> </p>\n",
+    "body": "<p><strong>Wordは数式を入力することができます。数式の用法を使いこなせば、とても便利なツールになるはずだと思いますので、今回は、Spire.Doc for Javaという使いやすいライブラリを活用して、WordでLatex 数式とMathMLCodeを挿入する方法を紹介します。</strong></p>\n<h4><strong>下準備</strong></h4>\n<p><strong>1.E-iceblueの公式サイトから<a href=\"https://www.e-iceblue.com/Download/doc-for-java-free.html\">Free Spire.doc for Java</a>無料版をダウンロードしてください。</strong></p>\n<p><img src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/l/lendoris/20210825/20210825151531.png\" alt=\"f:id:lendoris:20210825151531p:plain\" width=\"437\" height=\"221\" loading=\"lazy\" title=\"\" class=\"hatena-fotolife\" itemprop=\"image\" /></p>\n<p><strong>2.IDEを起動して新規プロジェクトを作成してから、インストールされたファイルにあった相応しいSpire.doc.jarを参照に追加してください。</strong></p>\n<p><img src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/l/lendoris/20210825/20210825151541.png\" alt=\"f:id:lendoris:20210825151541p:plain\" width=\"239\" height=\"101\" loading=\"lazy\" title=\"\" class=\"hatena-fotolife\" itemprop=\"image\" /></p>\n```JAVA\nimport com.spire.doc.*;\nimport com.spire.doc.documents.*;\nimport com.spire.doc.fields.omath.*;\n\npublic class Test {\n    public static void main(String[] args){\n        //Word obejctを作成し，sectionを追加します。\n        Document doc = new Document();\n        Section section = doc.addSection();\n        //段落を追加します。\n        Paragraph paragraph = section.addParagraph();\n\n        //Latex 数式を挿入します。\n        OfficeMath officeMath = new OfficeMath(doc);\n        paragraph.getItems().add(officeMath);\n        officeMath.fromLatexMathCode(\"x^{2}+\\\\sqrt{{x^{2}+1}}+1\");\n\n        //段落2を追加します。\n        Paragraph paragraph2 = section.addParagraph();\n\n        //MathMLCodeを挿入します。\n        OfficeMath officeMath2 = new OfficeMath(doc);\n        paragraph2.getItems().add(officeMath2);\n        officeMath2.fromMathMLCode(\"<mml:math xmlns:mml=\\\"http://www.w3.org/1998/Math/MathML\\\" xmlns:m=\\\"http://schemas.openxmlformats.org/officeDocument/2006/math\\\"><mml:msup><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:mo>+</mml:mo><mml:msqrt><mml:msup><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:msqrt><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:math>\");\n\n        //保存します。\n        String result = \"output/addMathEquation.docx\";\n        doc.saveToFile(result, FileFormat.Docx_2013);\n    }\n}\n```\n<h4><strong>実行結果</strong></h4>\n<p><img src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/l/lendoris/20210825/20210825151622.png\" alt=\"f:id:lendoris:20210825151622p:plain\" width=\"554\" height=\"323\" loading=\"lazy\" title=\"\" class=\"hatena-fotolife\" itemprop=\"image\" /></p>\n<p> </p>\n",
+    "coediting": false,
+    "comments_count": 0,
+    "created_at": "2021-08-25T15:18:26+09:00",
+    "group": null,
+    "id": "44b14a9519b69194b095",
+    "likes_count": 0,
+    "private": false,
+    "reactions_count": 0,
+    "tags": [
+      {
+        "name": "Java",
+        "versions": []
+      },
+      {
+        "name": "Word",
+        "versions": []
+      },
+      {
+        "name": "数式",
+        "versions": []
+      }
+    ],
+    "title": "Java Word文書で数式を追加",
+    "updated_at": "2021-08-25T15:18:26+09:00",
+    "url": "https://qiita.com/iceblue/items/44b14a9519b69194b095",
+    "user": {
+      "description": "プログラミング\r\nJAVA/C#開発\r\n\r\n",
+      "facebook_id": "",
+      "followees_count": 0,
+      "followers_count": 5,
+      "github_login_name": "lendoris",
+      "id": "iceblue",
+      "items_count": 161,
+      "linkedin_id": "",
+      "location": "中国四川省成都市",
+      "name": "リー ニック",
+      "organization": "E-iceblue Co., Ltd.",
+      "permanent_id": 278784,
+      "profile_image_url": "https://s3-ap-northeast-1.amazonaws.com/qiita-image-store/0/278784/196a37fe5856ebc8e554ebc23f0f72638fd0acd5/large.png?1554864348",
+      "team_only": false,
+      "twitter_screen_name": null,
+      "website_url": "https://www.e-iceblue.com"
+    },
+    "page_views_count": null,
+    "team_membership": null
+  },
+  {
+    "rendered_body": "<p>配列　[“カフェラテ”,”コーヒー”,”モカ”]  配列は複数のオブジェクトをまとめて使う道具</p>\n\n<p>● .each do</p>\n\n<div class=\"code-frame\" data-lang=\"rb\"><div class=\"highlight\"><pre><code><span class=\"err\">配列</span><span class=\"p\">.</span><span class=\"nf\">each</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"err\">変数</span><span class=\"o\">|</span>\n<span class=\"err\">　繰り返し実行する処理</span>\n<span class=\"k\">end</span>\n</code></pre></div></div>\n\n<p>● .map do</p>\n\n<div class=\"code-frame\" data-lang=\"rb\"><div class=\"highlight\"><pre><code><span class=\"err\">配列</span><span class=\"p\">.</span><span class=\"nf\">map</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"err\">変数</span><span class=\"o\">|</span>\n<span class=\"err\">　変数処置</span>\n<span class=\"k\">end</span>\n</code></pre></div></div>\n\n<p>eachメソッドとmapメソッドの違い<br>\nmapメソッドはブロックを渡して各要素について処理を行う点が、eachメソッドと似ている。eachメソッドは各要素についてブロックで処理を行うことが目的となり、mapメソッドは各要素を変換した新しい配列を得ることが目的になることが多い。mapメソッドは使う機会が大変多いメソッド。</p>\n",
+    "body": "配列　[“カフェラテ”,”コーヒー”,”モカ”]  配列は複数のオブジェクトをまとめて使う道具\n\n● .each do\n\n```rb\n配列.each do |変数|\n　繰り返し実行する処理\nend\n```\n● .map do\n\n```rb\n配列.map do |変数|\n　変数処置\nend\n```\neachメソッドとmapメソッドの違い\nmapメソッドはブロックを渡して各要素について処理を行う点が、eachメソッドと似ている。eachメソッドは各要素についてブロックで処理を行うことが目的となり、mapメソッドは各要素を変換した新しい配列を得ることが目的になることが多い。mapメソッドは使う機会が大変多いメソッド。\n\n",
+    "coediting": false,
+    "comments_count": 0,
+    "created_at": "2021-08-25T15:15:49+09:00",
+    "group": null,
+    "id": "71e1bcfbb09a612e6811",
+    "likes_count": 0,
+    "private": false,
+    "reactions_count": 0,
+    "tags": [
+      {
+        "name": "Ruby",
+        "versions": []
+      }
+    ],
+    "title": "Ruby 入門　[配列を繰り返し処理する]",
+    "updated_at": "2021-08-25T15:15:49+09:00",
+    "url": "https://qiita.com/yuht-09/items/71e1bcfbb09a612e6811",
+    "user": {
+      "description": null,
+      "facebook_id": null,
+      "followees_count": 0,
+      "followers_count": 0,
+      "github_login_name": "tomiyasuyuya",
+      "id": "yuht-09",
+      "items_count": 3,
+      "linkedin_id": null,
+      "location": null,
+      "name": "",
+      "organization": null,
+      "permanent_id": 1767859,
+      "profile_image_url": "https://avatars.githubusercontent.com/u/87309077?v=4",
+      "team_only": false,
+      "twitter_screen_name": null,
+      "website_url": null
+    },
+    "page_views_count": null,
+    "team_membership": null
+  },
+  {
+    "rendered_body": "\n<h1>\n<span id=\"はじめに\" class=\"fragment\"></span><a href=\"#%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB\"><i class=\"fa fa-link\"></i></a>はじめに</h1>\n\n<p>ある日いきなりgit cloneできなくなって焦ったので書き残しておきます。</p>\n\n<h1>\n<span id=\"環境\" class=\"fragment\"></span><a href=\"#%E7%92%B0%E5%A2%83\"><i class=\"fa fa-link\"></i></a>環境</h1>\n\n<p>Docker - centOS</p>\n\n<h1>\n<span id=\"前提\" class=\"fragment\"></span><a href=\"#%E5%89%8D%E6%8F%90\"><i class=\"fa fa-link\"></i></a>前提</h1>\n\n<p>以下のサイトを元に実施しています。</p>\n\n<p><qiita-embed-ogp src=\"https://prog-8.com/docs/git-env\"></qiita-embed-ogp></p>\n\n<h1>\n<span id=\"手順\" class=\"fragment\"></span><a href=\"#%E6%89%8B%E9%A0%86\"><i class=\"fa fa-link\"></i></a>手順</h1>\n\n<h3>\n<span id=\"git環境の準備\" class=\"fragment\"></span><a href=\"#git%E7%92%B0%E5%A2%83%E3%81%AE%E6%BA%96%E5%82%99\"><i class=\"fa fa-link\"></i></a>Git環境の準備</h3>\n\n<div class=\"code-frame\" data-lang=\"Dockerfile\">\n<div class=\"code-lang\"><span class=\"bold\">Dockerfile</span></div>\n<div class=\"highlight\"><pre><code><span class=\"c\"># 検証環境</span>\n<span class=\"k\">FROM</span><span class=\"s\"> centos:centos7</span>\n<span class=\"c\"># 必要なツールのインストール</span>\n<span class=\"k\">RUN </span>yum <span class=\"nb\">install</span> <span class=\"nt\">-y</span> git\n</code></pre></div>\n</div>\n\n<div class=\"code-frame\" data-lang=\"bash\">\n<div class=\"code-lang\"><span class=\"bold\">ローカル</span></div>\n<div class=\"highlight\"><pre><code><span class=\"c\"># Dockerfileが置かれているディレクトリ上で以下のコマンドを実施</span>\n<span class=\"c\">## Dockerfileを元にイメージを作成</span>\n<span class=\"nv\">$ </span><span class=\"nb\">sudo </span>docker build <span class=\"nt\">-t</span> git/git <span class=\"nb\">.</span>\n<span class=\"c\">## イメージを元にコンテナを起動</span>\n<span class=\"nv\">$ </span><span class=\"nb\">sudo </span>docker run <span class=\"nt\">-it</span> git/git\n</code></pre></div>\n</div>\n\n<div class=\"code-frame\" data-lang=\"bash\">\n<div class=\"code-lang\"><span class=\"bold\">Docker環境(コンテナ)</span></div>\n<div class=\"highlight\"><pre><code><span class=\"c\"># 起動したコンテナ上でgitのバージョンを確認</span>\n<span class=\"nv\">$ </span>git <span class=\"nt\">--version</span>\n\n<span class=\"c\"># アカウント名とメールアドレスを登録</span>\n<span class=\"nv\">$ </span>git config <span class=\"nt\">--global</span> user.name <span class=\"s2\">\"&lt;アカウント名&gt;\"</span>\n<span class=\"nv\">$ </span>git config <span class=\"nt\">--global</span> user.email <span class=\"s2\">\"&lt;メールアドレス&gt;\"</span>\n</code></pre></div>\n</div>\n\n<h3>\n<span id=\"githubアカウントの作成\" class=\"fragment\"></span><a href=\"#github%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90\"><i class=\"fa fa-link\"></i></a>Githubアカウントの作成</h3>\n\n<p>以下のサイトからアカウントを作成します。<br>\n※無料で使いたいのでプラン(subscription)はFreeを選択します。</p>\n\n<p><qiita-embed-ogp src=\"https://github.com/\"></qiita-embed-ogp></p>\n\n<h3>\n<span id=\"リモートリポジトリの作成\" class=\"fragment\"></span><a href=\"#%E3%83%AA%E3%83%A2%E3%83%BC%E3%83%88%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E3%81%AE%E4%BD%9C%E6%88%90\"><i class=\"fa fa-link\"></i></a>リモートリポジトリの作成</h3>\n\n<p>前提で記載したサイトを元にリモートリポジトリを作成します。<br>\n※作成後に表示されるURLをコピーしておいてください。</p>\n\n<h3>\n<span id=\"githubにプッシュをする\" class=\"fragment\"></span><a href=\"#github%E3%81%AB%E3%83%97%E3%83%83%E3%82%B7%E3%83%A5%E3%82%92%E3%81%99%E3%82%8B\"><i class=\"fa fa-link\"></i></a>Githubにプッシュをする</h3>\n\n<p>git用のディレクトリを準備します。</p>\n\n<div class=\"code-frame\" data-lang=\"bash\">\n<div class=\"code-lang\"><span class=\"bold\">Docker環境(コンテナ)</span></div>\n<div class=\"highlight\"><pre><code><span class=\"c\"># リモートリポジトリに登録するディレクトリ・ファイルを作成</span>\n<span class=\"nv\">$ </span><span class=\"nb\">mkdir </span>mysite\n<span class=\"nv\">$ </span><span class=\"nb\">cd </span>mysite\n<span class=\"nv\">$ </span>git init\n<span class=\"nv\">$ </span>git remote add origin &lt;作成したリモートリポジトリのURL&gt;\n<span class=\"nv\">$ </span><span class=\"nb\">touch </span>index.html\n\n<span class=\"c\"># リモートリポジトリにプッシュ</span>\n<span class=\"nv\">$ </span>git add index.html\n<span class=\"nv\">$ </span>git commit <span class=\"nt\">-m</span> <span class=\"s2\">\"Create index.html\"</span>\n\n<span class=\"c\"># プッシュしたらエラーが発生</span>\n<span class=\"nv\">$ </span>git push origin master\nUsername <span class=\"k\">for</span> <span class=\"s1\">'https://github.com'</span>: &lt;Githubのアカウント名&gt;\nPassword <span class=\"k\">for</span> <span class=\"s1\">'https://ko-ogino@github.com'</span>:&lt;Githubのアカウントパスワード&gt;\nremote: Support <span class=\"k\">for </span>password authentication was removed on August 13, 2021. Please use a personal access token instead.\nremote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ <span class=\"k\">for </span>more information.\nfatal: Authentication failed <span class=\"k\">for</span> <span class=\"s1\">'https://github.com/ko-ogino/mysite.git/'</span>\n</code></pre></div>\n</div>\n\n<p>エラー内容をGoogle先生で翻訳するとパスワード認証は2021/08/13で終了したらしい。<br>\n代わりにアクセストークンを使用しろとのこと。</p>\n\n<blockquote>\n<p>リモート：パスワード認証のサポートは2021年8月13日に削除されました。代わりに個人アクセストークンを使用してください。<br>\nリモート：詳細については、https：//github.blog/2020-12-15-token-authentication-requirements-for-git-operations/を参照してください。<br>\n致命的：「<a href=\"https://github.com/ko-ogino/mysite.git/%E3%80%8D%E3%81%AE%E8%AA%8D%E8%A8%BC%E3%81%AB%E5%A4%B1%E6%95%97%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F\" class=\"autolink\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/ko-ogino/mysite.git/」の認証に失敗しました</a></p>\n</blockquote>\n\n<h1>\n<span id=\"アクセストークンの取得\" class=\"fragment\"></span><a href=\"#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%83%88%E3%83%BC%E3%82%AF%E3%83%B3%E3%81%AE%E5%8F%96%E5%BE%97\"><i class=\"fa fa-link\"></i></a>アクセストークンの取得</h1>\n\n<p>以下の公式サイトを元にアクセストークンを取得します。</p>\n\n<p><qiita-embed-ogp src=\"https://docs.github.com/ja/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token\"></qiita-embed-ogp></p>\n\n<p>今回は検証＆CLIからプッシュするのでrepoにのみチェックを入れGenerate tokenをクリックします。<br>\n<a href=\"https://camo.qiitausercontent.com/c8d7d97a6421255cfb97f1e28ebfdbbc42a3c429/68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f3633353131362f38613861353663382d623538382d613531372d616566622d3463383930366662303233382e706e67\" target=\"_blank\" rel=\"nofollow noopener\"><img src=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F635116%2F8a8a56c8-b588-a517-aefb-4c8906fb0238.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;s=51eb9f506be1a3932cf2d4f7143486d3\" alt=\"スクリーンショット 2021-08-25 14.55.14.png\" data-canonical-src=\"https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/635116/8a8a56c8-b588-a517-aefb-4c8906fb0238.png\" srcset=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F635116%2F8a8a56c8-b588-a517-aefb-4c8906fb0238.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;w=1400&amp;fit=max&amp;s=a17c07d28214272081b1d9af8c9fbd32 1x\" loading=\"lazy\"></a></p>\n\n<p>取得したアクセストークンを元に再度プッシュします。</p>\n\n<div class=\"code-frame\" data-lang=\"bash\">\n<div class=\"code-lang\"><span class=\"bold\">Docker環境(コンテナ)</span></div>\n<div class=\"highlight\"><pre><code><span class=\"nv\">$ </span>git push origin master\nUsername <span class=\"k\">for</span> <span class=\"s1\">'https://github.com'</span>: &lt;Githubのアカウント名&gt;\nPassword <span class=\"k\">for</span> <span class=\"s1\">'https://ko-ogino@github.com'</span>: &lt;取得したアクセストークン&gt;\nCounting objects: 3, <span class=\"k\">done</span><span class=\"nb\">.</span>\nWriting objects: 100% <span class=\"o\">(</span>3/3<span class=\"o\">)</span>, 219 bytes | 0 bytes/s, <span class=\"k\">done</span><span class=\"nb\">.</span>\nTotal 3 <span class=\"o\">(</span>delta 0<span class=\"o\">)</span>, reused 0 <span class=\"o\">(</span>delta 0<span class=\"o\">)</span>\nTo https://github.com/ko-ogino/mysite.git\n <span class=\"k\">*</span> <span class=\"o\">[</span>new branch]      master -&gt; master\n</code></pre></div>\n</div>\n\n<p>リモートリポジトリをブラウザから参照し、作成したファイルが登録されていることを確認します。</p>\n\n<h1>\n<span id=\"おわりに\" class=\"fragment\"></span><a href=\"#%E3%81%8A%E3%82%8F%E3%82%8A%E3%81%AB\"><i class=\"fa fa-link\"></i></a>おわりに</h1>\n\n<p>取得したトークンはシークレット情報として別途保管・管理する必要がある点だけ注意が必要です。<br>\nとはいえ、アクセストークンの取得はそこまで難しくはなかったです。<br>\nトークン側でアクセス制御をある程度かけられるのもよかったです。</p>\n",
+    "body": "#はじめに\nある日いきなりgit cloneできなくなって焦ったので書き残しておきます。\n\n#環境\nDocker - centOS\n\n#前提\n以下のサイトを元に実施しています。\n\nhttps://prog-8.com/docs/git-env\n\n#手順\n###Git環境の準備\n\n```Dockerfile:Dockerfile\n# 検証環境\nFROM centos:centos7\n# 必要なツールのインストール\nRUN yum install -y git\n```\n\n```bash:ローカル\n# Dockerfileが置かれているディレクトリ上で以下のコマンドを実施\n## Dockerfileを元にイメージを作成\n$ sudo docker build -t git/git .\n## イメージを元にコンテナを起動\n$ sudo docker run -it git/git\n```\n\n```bash:Docker環境(コンテナ)\n# 起動したコンテナ上でgitのバージョンを確認\n$ git --version\n\n# アカウント名とメールアドレスを登録\n$ git config --global user.name \"<アカウント名>\"\n$ git config --global user.email \"<メールアドレス>\"\n```\n\n###Githubアカウントの作成\n以下のサイトからアカウントを作成します。\n※無料で使いたいのでプラン(subscription)はFreeを選択します。\n\nhttps://github.com/\n\n###リモートリポジトリの作成\n前提で記載したサイトを元にリモートリポジトリを作成します。\n※作成後に表示されるURLをコピーしておいてください。\n\n###Githubにプッシュをする\ngit用のディレクトリを準備します。\n\n```bash:Docker環境(コンテナ)\n# リモートリポジトリに登録するディレクトリ・ファイルを作成\n$ mkdir mysite\n$ cd mysite\n$ git init\n$ git remote add origin <作成したリモートリポジトリのURL>\n$ touch index.html\n\n# リモートリポジトリにプッシュ\n$ git add index.html\n$ git commit -m \"Create index.html\"\n\n# プッシュしたらエラーが発生\n$ git push origin master\nUsername for 'https://github.com': <Githubのアカウント名>\nPassword for 'https://ko-ogino@github.com':<Githubのアカウントパスワード>\nremote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.\nremote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.\nfatal: Authentication failed for 'https://github.com/ko-ogino/mysite.git/'\n```\n\nエラー内容をGoogle先生で翻訳するとパスワード認証は2021/08/13で終了したらしい。\n代わりにアクセストークンを使用しろとのこと。\n> リモート：パスワード認証のサポートは2021年8月13日に削除されました。代わりに個人アクセストークンを使用してください。\nリモート：詳細については、https：//github.blog/2020-12-15-token-authentication-requirements-for-git-operations/を参照してください。\n致命的：「https://github.com/ko-ogino/mysite.git/」の認証に失敗しました\n\n#アクセストークンの取得\n以下の公式サイトを元にアクセストークンを取得します。\n\nhttps://docs.github.com/ja/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token\n\n今回は検証＆CLIからプッシュするのでrepoにのみチェックを入れGenerate tokenをクリックします。\n![スクリーンショット 2021-08-25 14.55.14.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/635116/8a8a56c8-b588-a517-aefb-4c8906fb0238.png)\n\n取得したアクセストークンを元に再度プッシュします。\n\n```bash:Docker環境(コンテナ)\n$ git push origin master\nUsername for 'https://github.com': <Githubのアカウント名>\nPassword for 'https://ko-ogino@github.com': <取得したアクセストークン>\nCounting objects: 3, done.\nWriting objects: 100% (3/3), 219 bytes | 0 bytes/s, done.\nTotal 3 (delta 0), reused 0 (delta 0)\nTo https://github.com/ko-ogino/mysite.git\n * [new branch]      master -> master\n```\n\nリモートリポジトリをブラウザから参照し、作成したファイルが登録されていることを確認します。\n\n#おわりに\n取得したトークンはシークレット情報として別途保管・管理する必要がある点だけ注意が必要です。\nとはいえ、アクセストークンの取得はそこまで難しくはなかったです。\nトークン側でアクセス制御をある程度かけられるのもよかったです。\n",
+    "coediting": false,
+    "comments_count": 0,
+    "created_at": "2021-08-25T15:15:44+09:00",
+    "group": null,
+    "id": "bcb7b3996f4ab7bbc36f",
+    "likes_count": 0,
+    "private": false,
+    "reactions_count": 0,
+    "tags": [
+      {
+        "name": "Git",
+        "versions": []
+      },
+      {
+        "name": "GitHub",
+        "versions": []
+      },
+      {
+        "name": "初心者",
+        "versions": []
+      }
+    ],
+    "title": "Githubの個人アクセストークンを使ってみた",
+    "updated_at": "2021-08-25T15:15:44+09:00",
+    "url": "https://qiita.com/ok2/items/bcb7b3996f4ab7bbc36f",
+    "user": {
+      "description": "文系SEが考えるITの色々",
+      "facebook_id": "",
+      "followees_count": 0,
+      "followers_count": 2,
+      "github_login_name": null,
+      "id": "ok2",
+      "items_count": 16,
+      "linkedin_id": "",
+      "location": "",
+      "name": "",
+      "organization": "",
+      "permanent_id": 635116,
+      "profile_image_url": "https://s3-ap-northeast-1.amazonaws.com/qiita-image-store/0/635116/91b54bd9b66a4e57d71990ddd4431a0adf70533b/large.png?1589091821",
+      "team_only": false,
+      "twitter_screen_name": null,
+      "website_url": ""
+    },
+    "page_views_count": null,
+    "team_membership": null
+  },
+  {
+    "rendered_body": "<p>①サインイン履歴（サインイン成功）<br>\nSigninLogs | where ResultType == 0 and (UserPrincipalName == “<a href=\"mailto:admin1@TENANTNAME.onmicrosoft.com\" class=\"autolink\">admin1@TENANTNAME.onmicrosoft.com</a>” or UserPrincipalName == “<a href=\"mailto:admin2@TENANTNAME.onmicrosoft.com\" class=\"autolink\">admin2@TENANTNAME.onmicrosoft.com</a>”)</p>\n\n<p>②サインイン履歴（サインイン失敗）<br>\nSigninLogs | where ResultType != 0 and (UserPrincipalName == “<a href=\"mailto:admin1@TENANTNAME.onmicrosoft.com\" class=\"autolink\">admin1@TENANTNAME.onmicrosoft.com</a>” or UserPrincipalName == “<a href=\"mailto:admin2@TENANTNAME.onmicrosoft.com\" class=\"autolink\">admin2@TENANTNAME.onmicrosoft.com</a>”)</p>\n\n<p>③更新履歴<br>\nAuditLogs | where OperationName == “Update user” and (TargetResources[0].userPrincipalName in (“admin1@ TENANTNAME.onmicrosoft.com”) or TargetResources[0].userPrincipalName in (“admin2@ TENANTNAME.onmicrosoft.com”)) | project TimeGenerated, InitiatedBy.user.userPrincipalName, TargetResources[0].userPrincipalName, TargetResources[0].modifiedProperties</p>\n\n<p><qiita-embed-ogp src=\"https://danielchronlund.com/2020/01/22/monitor-your-azure-ad-break-glass-accounts-with-azure-monitor/\"></qiita-embed-ogp></p>\n",
+    "body": "①サインイン履歴（サインイン成功）\nSigninLogs | where ResultType == 0 and (UserPrincipalName == “admin1@TENANTNAME.onmicrosoft.com” or UserPrincipalName == “admin2@TENANTNAME.onmicrosoft.com”)\n\n②サインイン履歴（サインイン失敗）\nSigninLogs | where ResultType != 0 and (UserPrincipalName == “admin1@TENANTNAME.onmicrosoft.com” or UserPrincipalName == “admin2@TENANTNAME.onmicrosoft.com”)\n\n③更新履歴\nAuditLogs | where OperationName == “Update user” and (TargetResources[0].userPrincipalName in (“admin1@ TENANTNAME.onmicrosoft.com”) or TargetResources[0].userPrincipalName in (“admin2@ TENANTNAME.onmicrosoft.com”)) | project TimeGenerated, InitiatedBy.user.userPrincipalName, TargetResources[0].userPrincipalName, TargetResources[0].modifiedProperties\n\nhttps://danielchronlund.com/2020/01/22/monitor-your-azure-ad-break-glass-accounts-with-azure-monitor/\n",
+    "coediting": false,
+    "comments_count": 0,
+    "created_at": "2021-08-25T15:09:39+09:00",
+    "group": null,
+    "id": "138dd1684fcbd531f4e4",
+    "likes_count": 0,
+    "private": false,
+    "reactions_count": 0,
+    "tags": [
+      {
+        "name": "Azure",
+        "versions": []
+      }
+    ],
+    "title": "【Azure】サインインログのクエリメモ",
+    "updated_at": "2021-08-25T15:11:18+09:00",
+    "url": "https://qiita.com/nob_ara/items/138dd1684fcbd531f4e4",
+    "user": {
+      "description": "",
+      "facebook_id": "",
+      "followees_count": 0,
+      "followers_count": 0,
+      "github_login_name": null,
+      "id": "nob_ara",
+      "items_count": 10,
+      "linkedin_id": "",
+      "location": "東京",
+      "name": "nob ara",
+      "organization": "株式会社SALTO",
+      "permanent_id": 1113101,
+      "profile_image_url": "https://secure.gravatar.com/avatar/0915e36ebf692a310d32798227485763",
+      "team_only": false,
+      "twitter_screen_name": null,
+      "website_url": ""
+    },
+    "page_views_count": null,
+    "team_membership": null
+  },
+  {
+    "rendered_body": "<p>比較メソッドはその左右にあるものを比較して条件を満たせばtrue、満たさなければfalseを返す。</p>\n\n<p>●if文</p>\n\n<div class=\"code-frame\" data-lang=\"rb\"><div class=\"highlight\"><pre><code><span class=\"no\">If</span> <span class=\"err\">条件</span>\n<span class=\"err\">　条件を満たした時の処理</span>\n<span class=\"k\">elsif</span> <span class=\"err\">条件→※何個でも追加できる</span>\n<span class=\"err\">　条件を満たした時の処理</span>\n<span class=\"n\">els</span>\n    <span class=\"err\">条件を満たさなかった時の処理</span>\n<span class=\"k\">end</span>\n</code></pre></div></div>\n\n<p>● || 『または』</p>\n\n<div class=\"code-frame\" data-lang=\"rb\"><div class=\"highlight\"><pre><code><span class=\"k\">if</span> <span class=\"err\">条件</span> <span class=\"mi\">1</span> <span class=\"o\">||</span> <span class=\"err\">条件</span><span class=\"mi\">2</span>\n<span class=\"err\">　条件を満たした時の処理</span>\n<span class=\"k\">end</span>\n<span class=\"err\">※</span> <span class=\"o\">||</span> <span class=\"err\">は、「または」という意味</span>\n</code></pre></div></div>\n\n<p>● &amp;&amp; 『かつ』</p>\n\n<div class=\"code-frame\" data-lang=\"rb\"><div class=\"highlight\"><pre><code><span class=\"no\">If</span> <span class=\"err\">条件</span><span class=\"mi\">1</span> <span class=\"o\">&amp;&amp;</span> <span class=\"err\">条件</span><span class=\"mi\">2</span>\n<span class=\"err\">　条件を満たした時の処理</span>\n<span class=\"k\">end</span>\n</code></pre></div></div>\n\n<p>● case</p>\n\n<div class=\"code-frame\" data-lang=\"rb\"><div class=\"highlight\"><pre><code><span class=\"k\">case</span> <span class=\"err\">変数</span>\n<span class=\"k\">when</span> <span class=\"err\">候補</span><span class=\"mi\">1</span>\n<span class=\"err\">　変数の値が１と等しい時の処置（複数行書くこともできる）</span>\n<span class=\"k\">when</span> <span class=\"err\">候補</span><span class=\"mi\">2</span>\n<span class=\"err\">　変数の値が２と等しい時の処置（複数行書くこともできる）</span>\n<span class=\"err\">（以下、候補をさらに追加できる）</span>\n<span class=\"k\">end</span>\n</code></pre></div></div>\n\n<p>● n.times do ● n.times{}</p>\n\n<div class=\"code-frame\" data-lang=\"rb\"><div class=\"highlight\"><pre><code><span class=\"n\">n</span><span class=\"p\">(</span><span class=\"err\">回数</span><span class=\"p\">).</span><span class=\"nf\">times</span> <span class=\"k\">do</span>\n<span class=\"err\">　繰り返し実行する処置</span>\n<span class=\"k\">end</span>\n<span class=\"err\">※複数行の時</span><span class=\"k\">do</span> <span class=\"k\">end</span> <span class=\"err\">を使う</span>\n\n<span class=\"n\">n</span><span class=\"p\">(</span><span class=\"err\">回数</span><span class=\"p\">).</span><span class=\"nf\">times</span> <span class=\"p\">{</span>\n<span class=\"err\">　繰り返し実行する処置</span>\n<span class=\"p\">}</span>\n<span class=\"err\">※一行の時は</span><span class=\"p\">{}</span><span class=\"err\">を使う</span>\n</code></pre></div></div>\n\n<p>● while</p>\n\n<div class=\"code-frame\" data-lang=\"rb\"><div class=\"highlight\"><pre><code><span class=\"k\">while</span> <span class=\"err\">条件</span>\n<span class=\"err\">　条件を満たしている間、繰り返し実行する処理</span>\n<span class=\"k\">end</span>\n</code></pre></div></div>\n",
+    "body": "比較メソッドはその左右にあるものを比較して条件を満たせばtrue、満たさなければfalseを返す。\n\n●if文\n\n```rb\nIf 条件\n　条件を満たした時の処理\nelsif 条件→※何個でも追加できる\n　条件を満たした時の処理\nels\n    条件を満たさなかった時の処理\nend\n```\n● || 『または』\n\n```rb\nif 条件 1 || 条件2\n　条件を満たした時の処理\nend\n※ || は、「または」という意味\n```\n● && 『かつ』\n\n```rb\nIf 条件1 && 条件2\n　条件を満たした時の処理\nend\n```\n● case\n\n```rb\ncase 変数\nwhen 候補1\n　変数の値が１と等しい時の処置（複数行書くこともできる）\nwhen 候補2\n　変数の値が２と等しい時の処置（複数行書くこともできる）\n（以下、候補をさらに追加できる）\nend\n```\n● n.times do ● n.times{}\n\n```rb\nn(回数).times do\n　繰り返し実行する処置\nend\n※複数行の時do end を使う\n\nn(回数).times {\n　繰り返し実行する処置\n}\n※一行の時は{}を使う\n```\n● while\n\n```rb\nwhile 条件\n　条件を満たしている間、繰り返し実行する処理\nend\n```\n",
+    "coediting": false,
+    "comments_count": 0,
+    "created_at": "2021-08-25T15:09:08+09:00",
+    "group": null,
+    "id": "4e376ee9bc03dfc32168",
+    "likes_count": 0,
+    "private": false,
+    "reactions_count": 0,
+    "tags": [
+      {
+        "name": "Ruby",
+        "versions": []
+      }
+    ],
+    "title": "Ruby 入門　[比較メソッド]",
+    "updated_at": "2021-08-25T15:09:08+09:00",
+    "url": "https://qiita.com/yuht-09/items/4e376ee9bc03dfc32168",
+    "user": {
+      "description": null,
+      "facebook_id": null,
+      "followees_count": 0,
+      "followers_count": 0,
+      "github_login_name": "tomiyasuyuya",
+      "id": "yuht-09",
+      "items_count": 3,
+      "linkedin_id": null,
+      "location": null,
+      "name": "",
+      "organization": null,
+      "permanent_id": 1767859,
+      "profile_image_url": "https://avatars.githubusercontent.com/u/87309077?v=4",
+      "team_only": false,
+      "twitter_screen_name": null,
+      "website_url": null
+    },
+    "page_views_count": null,
+    "team_membership": null
+  },
+  {
+    "rendered_body": "<div class=\"code-frame\" data-lang=\"text\"><div class=\"highlight\"><pre><code>New-Item 'HKLM:\\SOFTWARE\\WOW6432Node\\Microsoft\\.NETFramework\\v4.0.30319' -Force | Out-Null\n\nNew-ItemProperty -path 'HKLM:\\SOFTWARE\\WOW6432Node\\Microsoft\\.NETFramework\\v4.0.30319' -name 'SystemDefaultTlsVersions' -value '0' -PropertyType 'DWord' -Force | Out-Null\n\nNew-ItemProperty -path 'HKLM:\\SOFTWARE\\WOW6432Node\\Microsoft\\.NETFramework\\v4.0.30319' -name 'SchUseStrongCrypto' -value '0' -PropertyType 'DWord' -Force | Out-Null\n\nNew-Item 'HKLM:\\SOFTWARE\\Microsoft\\.NETFramework\\v4.0.30319' -Force | Out-Null\n\nNew-ItemProperty -path 'HKLM:\\SOFTWARE\\Microsoft\\.NETFramework\\v4.0.30319' -name 'SystemDefaultTlsVersions' -value '0' -PropertyType 'DWord' -Force | Out-Null\n\nNew-ItemProperty -path 'HKLM:\\SOFTWARE\\Microsoft\\.NETFramework\\v4.0.30319' -name 'SchUseStrongCrypto' -value '0' -PropertyType 'DWord' -Force | Out-Null\n\nNew-Item 'HKLM:\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\TLS 1.2\\Server' -Force | Out-Null\n\nNew-ItemProperty -path 'HKLM:\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\TLS 1.2\\Server' -name 'Enabled' -value '0' -PropertyType 'DWord' -Force | Out-Null\n\nNew-ItemProperty -path 'HKLM:\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\TLS 1.2\\Server' -name 'DisabledByDefault' -value 1 -PropertyType 'DWord' -Force | Out-Null\n\nNew-Item 'HKLM:\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\TLS 1.2\\Client' -Force | Out-Null\n\nNew-ItemProperty -path 'HKLM:\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\TLS 1.2\\Client' -name 'Enabled' -value '0' -PropertyType 'DWord' -Force | Out-Null\n\nNew-ItemProperty -path 'HKLM:\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\TLS 1.2\\Client' -name 'DisabledByDefault' -value 1 -PropertyType 'DWord' -Force | Out-Null\nWrite-Host 'TLS 1.2 has been disabled.'\n</code></pre></div></div>\n",
+    "body": "    New-Item 'HKLM:\\SOFTWARE\\WOW6432Node\\Microsoft\\.NETFramework\\v4.0.30319' -Force | Out-Null\n\n    New-ItemProperty -path 'HKLM:\\SOFTWARE\\WOW6432Node\\Microsoft\\.NETFramework\\v4.0.30319' -name 'SystemDefaultTlsVersions' -value '0' -PropertyType 'DWord' -Force | Out-Null\n\n    New-ItemProperty -path 'HKLM:\\SOFTWARE\\WOW6432Node\\Microsoft\\.NETFramework\\v4.0.30319' -name 'SchUseStrongCrypto' -value '0' -PropertyType 'DWord' -Force | Out-Null\n\n    New-Item 'HKLM:\\SOFTWARE\\Microsoft\\.NETFramework\\v4.0.30319' -Force | Out-Null\n\n    New-ItemProperty -path 'HKLM:\\SOFTWARE\\Microsoft\\.NETFramework\\v4.0.30319' -name 'SystemDefaultTlsVersions' -value '0' -PropertyType 'DWord' -Force | Out-Null\n\n    New-ItemProperty -path 'HKLM:\\SOFTWARE\\Microsoft\\.NETFramework\\v4.0.30319' -name 'SchUseStrongCrypto' -value '0' -PropertyType 'DWord' -Force | Out-Null\n\n    New-Item 'HKLM:\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\TLS 1.2\\Server' -Force | Out-Null\n    \n    New-ItemProperty -path 'HKLM:\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\TLS 1.2\\Server' -name 'Enabled' -value '0' -PropertyType 'DWord' -Force | Out-Null\n    \n    New-ItemProperty -path 'HKLM:\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\TLS 1.2\\Server' -name 'DisabledByDefault' -value 1 -PropertyType 'DWord' -Force | Out-Null\n    \n    New-Item 'HKLM:\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\TLS 1.2\\Client' -Force | Out-Null\n    \n    New-ItemProperty -path 'HKLM:\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\TLS 1.2\\Client' -name 'Enabled' -value '0' -PropertyType 'DWord' -Force | Out-Null\n    \n    New-ItemProperty -path 'HKLM:\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\TLS 1.2\\Client' -name 'DisabledByDefault' -value 1 -PropertyType 'DWord' -Force | Out-Null\n    Write-Host 'TLS 1.2 has been disabled.'\n",
+    "coediting": false,
+    "comments_count": 0,
+    "created_at": "2021-08-25T15:05:04+09:00",
+    "group": null,
+    "id": "aa30b3b08f8e0fbaa4a7",
+    "likes_count": 0,
+    "private": false,
+    "reactions_count": 0,
+    "tags": [
+      {
+        "name": "Azure",
+        "versions": []
+      }
+    ],
+    "title": "TLS 1.2 を無効にする PowerShell スクリプト",
+    "updated_at": "2021-08-25T15:05:04+09:00",
+    "url": "https://qiita.com/nob_ara/items/aa30b3b08f8e0fbaa4a7",
+    "user": {
+      "description": "",
+      "facebook_id": "",
+      "followees_count": 0,
+      "followers_count": 0,
+      "github_login_name": null,
+      "id": "nob_ara",
+      "items_count": 10,
+      "linkedin_id": "",
+      "location": "東京",
+      "name": "nob ara",
+      "organization": "株式会社SALTO",
+      "permanent_id": 1113101,
+      "profile_image_url": "https://secure.gravatar.com/avatar/0915e36ebf692a310d32798227485763",
+      "team_only": false,
+      "twitter_screen_name": null,
+      "website_url": ""
+    },
+    "page_views_count": null,
+    "team_membership": null
+  },
+  {
+    "rendered_body": "<p>New-Item 'HKLM:\\SOFTWARE\\WOW6432Node\\Microsoft.NETFramework\\v4.0.30319' -Force | Out-Null</p>\n\n<div class=\"code-frame\" data-lang=\"text\"><div class=\"highlight\"><pre><code>New-ItemProperty -path 'HKLM:\\SOFTWARE\\WOW6432Node\\Microsoft\\.NETFramework\\v4.0.30319' -name 'SystemDefaultTlsVersions' -value '1' -PropertyType 'DWord' -Force | Out-Null\n\nNew-ItemProperty -path 'HKLM:\\SOFTWARE\\WOW6432Node\\Microsoft\\.NETFramework\\v4.0.30319' -name 'SchUseStrongCrypto' -value '1' -PropertyType 'DWord' -Force | Out-Null\n\nNew-Item 'HKLM:\\SOFTWARE\\Microsoft\\.NETFramework\\v4.0.30319' -Force | Out-Null\n\nNew-ItemProperty -path 'HKLM:\\SOFTWARE\\Microsoft\\.NETFramework\\v4.0.30319' -name 'SystemDefaultTlsVersions' -value '1' -PropertyType 'DWord' -Force | Out-Null\n\nNew-ItemProperty -path 'HKLM:\\SOFTWARE\\Microsoft\\.NETFramework\\v4.0.30319' -name 'SchUseStrongCrypto' -value '1' -PropertyType 'DWord' -Force | Out-Null\n\nNew-Item 'HKLM:\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\TLS 1.2\\Server' -Force | Out-Null\n\nNew-ItemProperty -path 'HKLM:\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\TLS 1.2\\Server' -name 'Enabled' -value '1' -PropertyType 'DWord' -Force | Out-Null\n\nNew-ItemProperty -path 'HKLM:\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\TLS 1.2\\Server' -name 'DisabledByDefault' -value 0 -PropertyType 'DWord' -Force | Out-Null\n\nNew-Item 'HKLM:\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\TLS 1.2\\Client' -Force | Out-Null\n\nNew-ItemProperty -path 'HKLM:\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\TLS 1.2\\Client' -name 'Enabled' -value '1' -PropertyType 'DWord' -Force | Out-Null\n\nNew-ItemProperty -path 'HKLM:\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\TLS 1.2\\Client' -name 'DisabledByDefault' -value 0 -PropertyType 'DWord' -Force | Out-Null\nWrite-Host 'TLS 1.2 has been enabled.'\n</code></pre></div></div>\n",
+    "body": "New-Item 'HKLM:\\SOFTWARE\\WOW6432Node\\Microsoft\\.NETFramework\\v4.0.30319' -Force | Out-Null\n\n    New-ItemProperty -path 'HKLM:\\SOFTWARE\\WOW6432Node\\Microsoft\\.NETFramework\\v4.0.30319' -name 'SystemDefaultTlsVersions' -value '1' -PropertyType 'DWord' -Force | Out-Null\n\n    New-ItemProperty -path 'HKLM:\\SOFTWARE\\WOW6432Node\\Microsoft\\.NETFramework\\v4.0.30319' -name 'SchUseStrongCrypto' -value '1' -PropertyType 'DWord' -Force | Out-Null\n\n    New-Item 'HKLM:\\SOFTWARE\\Microsoft\\.NETFramework\\v4.0.30319' -Force | Out-Null\n\n    New-ItemProperty -path 'HKLM:\\SOFTWARE\\Microsoft\\.NETFramework\\v4.0.30319' -name 'SystemDefaultTlsVersions' -value '1' -PropertyType 'DWord' -Force | Out-Null\n\n    New-ItemProperty -path 'HKLM:\\SOFTWARE\\Microsoft\\.NETFramework\\v4.0.30319' -name 'SchUseStrongCrypto' -value '1' -PropertyType 'DWord' -Force | Out-Null\n\n    New-Item 'HKLM:\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\TLS 1.2\\Server' -Force | Out-Null\n    \n    New-ItemProperty -path 'HKLM:\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\TLS 1.2\\Server' -name 'Enabled' -value '1' -PropertyType 'DWord' -Force | Out-Null\n    \n    New-ItemProperty -path 'HKLM:\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\TLS 1.2\\Server' -name 'DisabledByDefault' -value 0 -PropertyType 'DWord' -Force | Out-Null\n    \n    New-Item 'HKLM:\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\TLS 1.2\\Client' -Force | Out-Null\n    \n    New-ItemProperty -path 'HKLM:\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\TLS 1.2\\Client' -name 'Enabled' -value '1' -PropertyType 'DWord' -Force | Out-Null\n    \n    New-ItemProperty -path 'HKLM:\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\TLS 1.2\\Client' -name 'DisabledByDefault' -value 0 -PropertyType 'DWord' -Force | Out-Null\n    Write-Host 'TLS 1.2 has been enabled.'\n",
+    "coediting": false,
+    "comments_count": 0,
+    "created_at": "2021-08-25T15:04:23+09:00",
+    "group": null,
+    "id": "d70ff93e89e26e96bd6c",
+    "likes_count": 0,
+    "private": false,
+    "reactions_count": 0,
+    "tags": [
+      {
+        "name": "Azure",
+        "versions": []
+      }
+    ],
+    "title": "Azure AD Connect に対する TLS 1.2 の強制",
+    "updated_at": "2021-08-25T15:04:23+09:00",
+    "url": "https://qiita.com/nob_ara/items/d70ff93e89e26e96bd6c",
+    "user": {
+      "description": "",
+      "facebook_id": "",
+      "followees_count": 0,
+      "followers_count": 0,
+      "github_login_name": null,
+      "id": "nob_ara",
+      "items_count": 10,
+      "linkedin_id": "",
+      "location": "東京",
+      "name": "nob ara",
+      "organization": "株式会社SALTO",
+      "permanent_id": 1113101,
+      "profile_image_url": "https://secure.gravatar.com/avatar/0915e36ebf692a310d32798227485763",
+      "team_only": false,
+      "twitter_screen_name": null,
+      "website_url": ""
+    },
+    "page_views_count": null,
+    "team_membership": null
+  },
+  {
+    "rendered_body": "<p>Get-ADSyncAutoUpgrade &gt; c:\\ADSyncAutoUpgrade.txt<br>\n(Get-ADSyncGlobalSettings).Parameters | select Name,Value &gt; c:\\ADSyncGlobalSettings.txt<br>\nGet-ADSyncScheduler &gt; c:\\ADSyncScheduler.txt<br>\nGet-ADSyncSchedulerConnectorOverride &gt; c:\\ADSyncSchedulerConnectorOverride.txt<br>\nGet-ADSyncServerConfiguration -Path c:\\aadconnect</p>\n",
+    "body": "Get-ADSyncAutoUpgrade > c:\\ADSyncAutoUpgrade.txt\n(Get-ADSyncGlobalSettings).Parameters | select Name,Value > c:\\ADSyncGlobalSettings.txt\nGet-ADSyncScheduler > c:\\ADSyncScheduler.txt\nGet-ADSyncSchedulerConnectorOverride > c:\\ADSyncSchedulerConnectorOverride.txt\nGet-ADSyncServerConfiguration -Path c:\\aadconnect\n",
+    "coediting": false,
+    "comments_count": 0,
+    "created_at": "2021-08-25T15:03:05+09:00",
+    "group": null,
+    "id": "e2f8d8fafabce5d3f836",
+    "likes_count": 0,
+    "private": false,
+    "reactions_count": 0,
+    "tags": [
+      {
+        "name": "Azure",
+        "versions": []
+      },
+      {
+        "name": "ad",
+        "versions": []
+      }
+    ],
+    "title": "Azure AD Connect の構成情報",
+    "updated_at": "2021-08-25T15:03:05+09:00",
+    "url": "https://qiita.com/nob_ara/items/e2f8d8fafabce5d3f836",
+    "user": {
+      "description": "",
+      "facebook_id": "",
+      "followees_count": 0,
+      "followers_count": 0,
+      "github_login_name": null,
+      "id": "nob_ara",
+      "items_count": 10,
+      "linkedin_id": "",
+      "location": "東京",
+      "name": "nob ara",
+      "organization": "株式会社SALTO",
+      "permanent_id": 1113101,
+      "profile_image_url": "https://secure.gravatar.com/avatar/0915e36ebf692a310d32798227485763",
+      "team_only": false,
+      "twitter_screen_name": null,
+      "website_url": ""
+    },
+    "page_views_count": null,
+    "team_membership": null
+  },
+  {
+    "rendered_body": "<p>＞wmic product list &gt; product.txt</p>\n",
+    "body": "＞wmic product list > product.txt\n",
+    "coediting": false,
+    "comments_count": 0,
+    "created_at": "2021-08-25T15:02:39+09:00",
+    "group": null,
+    "id": "5dc447d26a820b72d418",
+    "likes_count": 0,
+    "private": false,
+    "reactions_count": 0,
+    "tags": [
+      {
+        "name": "Azure",
+        "versions": []
+      }
+    ],
+    "title": "Azure AD Connect のバージョン情報",
+    "updated_at": "2021-08-25T15:02:39+09:00",
+    "url": "https://qiita.com/nob_ara/items/5dc447d26a820b72d418",
+    "user": {
+      "description": "",
+      "facebook_id": "",
+      "followees_count": 0,
+      "followers_count": 0,
+      "github_login_name": null,
+      "id": "nob_ara",
+      "items_count": 10,
+      "linkedin_id": "",
+      "location": "東京",
+      "name": "nob ara",
+      "organization": "株式会社SALTO",
+      "permanent_id": 1113101,
+      "profile_image_url": "https://secure.gravatar.com/avatar/0915e36ebf692a310d32798227485763",
+      "team_only": false,
+      "twitter_screen_name": null,
+      "website_url": ""
+    },
+    "page_views_count": null,
+    "team_membership": null
+  },
+  {
+    "rendered_body": "\n<h2>\n<span id=\"概要\" class=\"fragment\"></span><a href=\"#%E6%A6%82%E8%A6%81\"><i class=\"fa fa-link\"></i></a>概要</h2>\n\n<p>DirectCloud-BOXとPower AutoMate DesktopのAPI連携を利用したファイル配信の自動化を検証します。オンプレミスのファイルをDirectCloud-BOXにアップロード、配信先リストに基づいてパスワードおよび閲覧回数制限、期限付きリンクを作成、取得後メール配信をおこないます。</p>\n\n<p><a href=\"https://camo.qiitausercontent.com/c80aba59ff05465e2d586a895db7f455d1db391d/68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f3638303033392f31383562363732302d353932352d343636322d663530352d3533323935353430363433622e676966\" target=\"_blank\" rel=\"nofollow noopener\"><img src=\"https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/680039/185b6720-5925-4662-f505-53295540643b.gif\" alt=\"DirectCloud.gif\" data-canonical-src=\"https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/680039/185b6720-5925-4662-f505-53295540643b.gif\" loading=\"lazy\"></a></p>\n\n<h2>\n<span id=\"想定\" class=\"fragment\"></span><a href=\"#%E6%83%B3%E5%AE%9A\"><i class=\"fa fa-link\"></i></a>想定</h2>\n\n<ul>\n<li>オンプレ基幹システムが残る中小企業</li>\n<li>ユーザーが安全に使用</li>\n<li>たくさんの書類を配信先リストに基づいてミスなく一括送信したい</li>\n<li>パス付zipをやめたい</li>\n<li>ファイル閲覧パスワードについてはあらかじめ配信先に通知しておく（今後はSMS等別途手段を検討）</li>\n</ul>\n\n<h2>\n<span id=\"イメージ\" class=\"fragment\"></span><a href=\"#%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8\"><i class=\"fa fa-link\"></i></a>イメージ</h2>\n\n<p><a href=\"https://camo.qiitausercontent.com/9b00fd75d89330df9394d6455f373d420bacdb39/68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f3638303033392f65666138616135342d633530362d396233312d333362662d3631366535373631313061622e706e67\" target=\"_blank\" rel=\"nofollow noopener\"><img src=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F680039%2Fefa8aa54-c506-9b31-33bf-616e576110ab.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;s=94de2a129aa3d602fae0f3c82eaa7bd6\" alt=\"\" data-canonical-src=\"https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/680039/efa8aa54-c506-9b31-33bf-616e576110ab.png\" srcset=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F680039%2Fefa8aa54-c506-9b31-33bf-616e576110ab.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;w=1400&amp;fit=max&amp;s=54552a33b5ded6a9b81b0cba4d71b109 1x\" loading=\"lazy\"></a></p>\n\n<h2>\n<span id=\"注意事項\" class=\"fragment\"></span><a href=\"#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85\"><i class=\"fa fa-link\"></i></a>注意事項</h2>\n\n<ul>\n<li>スコープが大きくなりすぎるため基幹システムからデーター取り出す部分については触れません。</li>\n<li>請求書ファイルが「取引先コード＋処理日付.pdf」の形式で出力済みのところから考えます。</li>\n<li>DirectCloud-BOXとPower AutoMate DesktopとのAPI連携を「PowerShellスクリプトの実行」アクションで行います。</li>\n<li>検証用にコピペ可能なPower AutoMate Desktopのコードがありますが、認証情報等は抜いてありますのでご自身の環境にあわせ適宜置き換える必要があります。</li>\n<li>2021年8月の記事です。</li>\n<li>試す場合、自己責任でお願いいたします。</li>\n</ul>\n\n<h2>\n<span id=\"検証環境および想定される必要環境\" class=\"fragment\"></span><a href=\"#%E6%A4%9C%E8%A8%BC%E7%92%B0%E5%A2%83%E3%81%8A%E3%82%88%E3%81%B3%E6%83%B3%E5%AE%9A%E3%81%95%E3%82%8C%E3%82%8B%E5%BF%85%E8%A6%81%E7%92%B0%E5%A2%83\"><i class=\"fa fa-link\"></i></a>検証環境および想定される必要環境</h2>\n\n<ul>\n<li>Microsoft 365　E5開発者向けプログラム</li>\n</ul>\n\n<p><qiita-embed-ogp src=\"https://developer.microsoft.com/ja-JP/microsoft-365/dev-program#Subscription\"></qiita-embed-ogp></p>\n\n<ul>\n<li>Windows 10 Pro　21H1</li>\n<li>Power Automate Desktop 2.12.171.21216　アテンド型RPA試用版</li>\n<li>DirectCloud-BOX　フリープラン</li>\n</ul>\n\n<p><qiita-embed-ogp src=\"https://directcloud.jp/freeplan\"></qiita-embed-ogp></p>\n\n<p>開発者とユーザーの権限を分ける想定をしているため実際の運用は「PowerAutomateアテンド型RPAのユーザーごとのプラン」が必要になります。ユーザーに実行のみの権限でフローを共有することで、認証情報に触れないようにできます。</p>\n\n<p><a href=\"https://camo.qiitausercontent.com/375da23c07deb85099f2373269278d243505c3ad/68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f3638303033392f32656330396331642d653638322d376538662d656639382d3239396537346335333561632e706e67\" target=\"_blank\" rel=\"nofollow noopener\"><img src=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F680039%2F2ec09c1d-e682-7e8f-ef98-299e74c535ac.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;s=85c17c257f09c2edcd3a4fea899ff2c4\" alt=\"\" data-canonical-src=\"https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/680039/2ec09c1d-e682-7e8f-ef98-299e74c535ac.png\" srcset=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F680039%2F2ec09c1d-e682-7e8f-ef98-299e74c535ac.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;w=1400&amp;fit=max&amp;s=7e8ea95850b3b6931bee60bb1f749253 1x\" loading=\"lazy\"></a></p>\n\n<p><qiita-embed-ogp src=\"https://docs.microsoft.com/ja-jp/power-automate/desktop-flows/manage#share-desktop-flows\"></qiita-embed-ogp></p>\n\n<h2>\n<span id=\"directcloud-boxの準備\" class=\"fragment\"></span><a href=\"#directcloud-box%E3%81%AE%E6%BA%96%E5%82%99\"><i class=\"fa fa-link\"></i></a>DirectCloud-BOXの準備</h2>\n\n<p>DirectCloud-BOX登録後ログインします。<br>\n初回管理者でログインとなるので二要素認証等必要に応じて設定します。わかりやすく迷うことはないと思います。</p>\n\n<p><a href=\"https://camo.qiitausercontent.com/80900f5a78011052a0981a79bd077606288e5f9a/68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f3638303033392f36393834313963322d616535352d636636362d633861312d6431633465373362383036322e706e67\" target=\"_blank\" rel=\"nofollow noopener\"><img src=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F680039%2F698419c2-ae55-cf66-c8a1-d1c4e73b8062.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;s=20dce7e339bfad9657f264160644186c\" alt=\"\" data-canonical-src=\"https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/680039/698419c2-ae55-cf66-c8a1-d1c4e73b8062.png\" srcset=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F680039%2F698419c2-ae55-cf66-c8a1-d1c4e73b8062.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;w=1400&amp;fit=max&amp;s=7304237b9641ee9f6f44d080a9aed24b 1x\" loading=\"lazy\"></a></p>\n\n<p>初期パスワードの変更についてはユーザー管理から行うかアプリ版起動時に求められます。</p>\n\n<p><a href=\"https://camo.qiitausercontent.com/bc50320d03b4740dae84b4bcecdfd2bc43a06413/68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f3638303033392f31306332366230622d623331382d613434302d346563352d3364326664313835386630622e706e67\" target=\"_blank\" rel=\"nofollow noopener\"><img src=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F680039%2F10c26b0b-b318-a440-4ec5-3d2fd1858f0b.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;s=697bee7475a4f62ce8196ebaca79c9d6\" alt=\"\" data-canonical-src=\"https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/680039/10c26b0b-b318-a440-4ec5-3d2fd1858f0b.png\" srcset=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F680039%2F10c26b0b-b318-a440-4ec5-3d2fd1858f0b.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;w=1400&amp;fit=max&amp;s=0eadb43381c7480f979f0891a5617268 1x\" loading=\"lazy\"></a></p>\n\n<p>共有＞カスタム設定よりAPIを使用するように設定します。<br>\n今回はユーザーの権限でAPI連携を行うのでユーザーのServiceコードとService Keyを使用します。管理者権限でログインすればコードは確認できます。</p>\n\n<p><a href=\"https://camo.qiitausercontent.com/7d36f61359d9e3796dff3b240031b4209861024b/68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f3638303033392f39326635313432642d373334622d366263642d313531652d3734393362343838313330632e706e67\" target=\"_blank\" rel=\"nofollow noopener\"><img src=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F680039%2F92f5142d-734b-6bcd-151e-7493b488130c.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;s=03b4b69c9a6a15dc30b15a72d0f293ec\" alt=\"\" data-canonical-src=\"https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/680039/92f5142d-734b-6bcd-151e-7493b488130c.png\" srcset=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F680039%2F92f5142d-734b-6bcd-151e-7493b488130c.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;w=1400&amp;fit=max&amp;s=273eac7688073582e4e789fb811c181f 1x\" loading=\"lazy\"></a></p>\n\n<p>ユーザーを追加します。ユーザーIDはアクセストークン取得にも使用します。<br>\n<a href=\"https://camo.qiitausercontent.com/6a859579e496b50f996c7eba070b8bceec6923c5/68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f3638303033392f32643033626437642d303630662d393566612d623461632d3130326432643662373838652e706e67\" target=\"_blank\" rel=\"nofollow noopener\"><img src=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F680039%2F2d03bd7d-060f-95fa-b4ac-102d2d6b788e.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;s=971d51b8398c15dae1d7e5455a90508f\" alt=\"\" data-canonical-src=\"https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/680039/2d03bd7d-060f-95fa-b4ac-102d2d6b788e.png\" srcset=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F680039%2F2d03bd7d-060f-95fa-b4ac-102d2d6b788e.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;w=1400&amp;fit=max&amp;s=361ef778117751db599492a266f7006c 1x\" loading=\"lazy\"></a></p>\n\n<p><a href=\"https://camo.qiitausercontent.com/1f838179ccc8b13a33a3162c3c136cb4a827ba64/68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f3638303033392f38353432323936612d316666642d346232392d313832632d3538653966316165646661322e706e67\" target=\"_blank\" rel=\"nofollow noopener\"><img src=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F680039%2F8542296a-1ffd-4b29-182c-58e9f1aedfa2.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;s=05e848ac8fa672601cc887b1f10d769b\" alt=\"\" data-canonical-src=\"https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/680039/8542296a-1ffd-4b29-182c-58e9f1aedfa2.png\" srcset=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F680039%2F8542296a-1ffd-4b29-182c-58e9f1aedfa2.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;w=1400&amp;fit=max&amp;s=43714d870b304029c7ded731dde124f3 1x\" loading=\"lazy\"></a></p>\n\n<p>管理者とユーザーでAPIは機能差があります。</p>\n\n<p><qiita-embed-ogp src=\"https://directcloud.jp/api_reference\"></qiita-embed-ogp></p>\n\n<p>ユーザーでブラウザからログインした場合、権限、インターフェイスは制限されます。</p>\n\n<p><a href=\"https://camo.qiitausercontent.com/a480e119d690d24aec7ca3da287a72119bc63438/68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f3638303033392f63363863633235652d393138382d323336642d623030632d3335316366323965646336312e706e67\" target=\"_blank\" rel=\"nofollow noopener\"><img src=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F680039%2Fc68cc25e-9188-236d-b00c-351cf29edc61.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;s=87abd4eaa7e2e2324f77f984b3b4d68d\" alt=\"\" data-canonical-src=\"https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/680039/c68cc25e-9188-236d-b00c-351cf29edc61.png\" srcset=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F680039%2Fc68cc25e-9188-236d-b00c-351cf29edc61.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;w=1400&amp;fit=max&amp;s=28b22708cabe73d75c894726f03d5db0 1x\" loading=\"lazy\"></a></p>\n\n<p>今回の検証ではユーザー権限のAPI機能を使用します。</p>\n\n<p><qiita-embed-ogp src=\"https://directcloud.jp/contents/webapi/\"></qiita-embed-ogp></p>\n\n<h3>\n<span id=\"power-automate-desktopの準備\" class=\"fragment\"></span><a href=\"#power-automate-desktop%E3%81%AE%E6%BA%96%E5%82%99\"><i class=\"fa fa-link\"></i></a>Power Automate Desktopの準備</h3>\n\n<p>製品ページ</p>\n\n<p><a href=\"https://flow.microsoft.com/ja-jp/desktop/\" class=\"autolink\" rel=\"nofollow noopener\" target=\"_blank\">https://flow.microsoft.com/ja-jp/desktop/</a>   </p>\n\n<p>Power Automate Desktopの準備についてはリリースされてから時間がたつので割愛いたします。</p>\n\n<p><a href=\"/K2_kzy\" class=\"user-mention js-hovercard\" title=\"K2_kzy\" data-hovercard-target-type=\"user\" data-hovercard-target-name=\"K2_kzy\">@K2_kzy</a> 様の【Power Automate Desktopの始め方】が参考になります。</p>\n\n<p><qiita-embed-ogp src=\"https://qiita.com/K2_kzy/items/b8b22edbf56b65248949\"></qiita-embed-ogp></p>\n\n<p>機能については</p>\n\n<p><a href=\"/maekawawawa\" class=\"user-mention js-hovercard\" title=\"maekawawawa\" data-hovercard-target-type=\"user\" data-hovercard-target-name=\"maekawawawa\">@maekawawawa</a> 様の【Power Automateの新しいRPA機能】Power Automate Desktopで出来ること（全33機能の紹介）が参考になります。</p>\n\n<p><qiita-embed-ogp src=\"https://qiita.com/maekawawawa/items/e171240843e56d98be56\"></qiita-embed-ogp></p>\n\n<h2>\n<span id=\"サンプルデータの準備\" class=\"fragment\"></span><a href=\"#%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E6%BA%96%E5%82%99\"><i class=\"fa fa-link\"></i></a>サンプルデータの準備</h2>\n\n<h3>\n<span id=\"配信先リストの準備\" class=\"fragment\"></span><a href=\"#%E9%85%8D%E4%BF%A1%E5%85%88%E3%83%AA%E3%82%B9%E3%83%88%E3%81%AE%E6%BA%96%E5%82%99\"><i class=\"fa fa-link\"></i></a>配信先リストの準備</h3>\n\n<p>Excelで次のような表を準備し<strong>SendList.xlsx</strong>としてデスクトップに設置しました。本来は社内サーバ等の取引先データに接続した方がよいかと思います。Power Automate DesktopにはSQL接続やターミナルエミュレーションに関するアクションが用意されているので、そうした連携も楽にできますが今回はスコープが広くなりすぎてしまうため、Excelで代用します。</p>\n\n<table>\n<thead>\n<tr>\n<th>Code</th>\n<th>Name</th>\n<th>Adress</th>\n<th>Pass</th>\n<th>LastSendDate</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1001</td>\n<td>株式会社A</td>\n<td>**<strong><em>@z</em></strong>.com</td>\n<td>axjmg42Z</td>\n<td></td>\n</tr>\n<tr>\n<td>1002</td>\n<td>B株式会社</td>\n<td>*<strong><em>@</em></strong>***.jp</td>\n<td>Y6rDCmn</td>\n<td></td>\n</tr>\n<tr>\n<td>1003</td>\n<td>有限会社C</td>\n<td>*<strong><em>@r</em></strong>***.jp</td>\n<td>AF8K2gv1g</td>\n<td></td>\n</tr>\n<tr>\n<td>1004</td>\n<td>D株式会社</td>\n<td>***<strong><em>@</em></strong>*********</td>\n<td>Hg#ggD34</td>\n<td></td>\n</tr>\n</tbody>\n</table>\n\n<h3>\n<span id=\"配信データの作成\" class=\"fragment\"></span><a href=\"#%E9%85%8D%E4%BF%A1%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E4%BD%9C%E6%88%90\"><i class=\"fa fa-link\"></i></a>配信データの作成</h3>\n\n<p>請求データのダミーとして適当なPDFを作成しInvoiceファルダーを作り格納しました。ファイルの名づけルールは先頭4文字が取引先コードとし数値化した日付と組あわせています。</p>\n\n<p><a href=\"https://camo.qiitausercontent.com/d66fc02a20b363940288636607caef6bb8d53c9e/68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f3638303033392f63396230616262352d333638652d663030662d303038312d6262343334306161343332612e706e67\" target=\"_blank\" rel=\"nofollow noopener\"><img src=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F680039%2Fc9b0abb5-368e-f00f-0081-bb4340aa432a.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;s=01c1e5668093de41b77ba4bd9395211d\" alt=\"\" data-canonical-src=\"https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/680039/c9b0abb5-368e-f00f-0081-bb4340aa432a.png\" srcset=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F680039%2Fc9b0abb5-368e-f00f-0081-bb4340aa432a.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;w=1400&amp;fit=max&amp;s=27bef604771a5c4e1234063f47e4500c 1x\" loading=\"lazy\"></a></p>\n\n<h3>\n<span id=\"処理済みフォルダーの作成\" class=\"fragment\"></span><a href=\"#%E5%87%A6%E7%90%86%E6%B8%88%E3%81%BF%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80%E3%83%BC%E3%81%AE%E4%BD%9C%E6%88%90\"><i class=\"fa fa-link\"></i></a>処理済みフォルダーの作成</h3>\n\n<p>処理済みのファイルを保管しておくフォルダーをUploadedと名前を付けてデスクトップに設置しました。</p>\n\n<p><a href=\"https://camo.qiitausercontent.com/f103dc30bdd98408d2e3530331d05ac7e07ed8c0/68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f3638303033392f33396462333431622d326435302d316435372d313062302d3931336231303734363834642e706e67\" target=\"_blank\" rel=\"nofollow noopener\"><img src=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F680039%2F39db341b-2d50-1d57-10b0-913b1074684d.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;s=eba14c03d5eade7b1bd793c89a4cc5b1\" alt=\"2021-08-23-19-12-42.png\" data-canonical-src=\"https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/680039/39db341b-2d50-1d57-10b0-913b1074684d.png\" srcset=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F680039%2F39db341b-2d50-1d57-10b0-913b1074684d.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;w=1400&amp;fit=max&amp;s=ef37c13824d659f1a4fcc705b43d3be3 1x\" loading=\"lazy\"></a></p>\n\n<h2>\n<span id=\"アクセストークンの取得フロー作成\" class=\"fragment\"></span><a href=\"#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%83%88%E3%83%BC%E3%82%AF%E3%83%B3%E3%81%AE%E5%8F%96%E5%BE%97%E3%83%95%E3%83%AD%E3%83%BC%E4%BD%9C%E6%88%90\"><i class=\"fa fa-link\"></i></a>アクセストークンの取得フロー作成</h2>\n\n<p>設定したDirectCloud-BOXの<strong>ユーザー</strong>情報を使用しますので準備ください。</p>\n\n<table>\n<thead>\n<tr>\n<th>Name</th>\n<th>Description</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>service</td>\n<td>APIキーのservice</td>\n</tr>\n<tr>\n<td>service_key</td>\n<td>APIキーのservice_key</td>\n</tr>\n<tr>\n<td>code</td>\n<td>会社ID</td>\n</tr>\n<tr>\n<td>id</td>\n<td>ユーザーID</td>\n</tr>\n<tr>\n<td>password</td>\n<td>パスワード</td>\n</tr>\n</tbody>\n</table>\n\n<h3>\n<span id=\"directcloud-box-get_tokenフローを作成\" class=\"fragment\"></span><a href=\"#directcloud-box-get_token%E3%83%95%E3%83%AD%E3%83%BC%E3%82%92%E4%BD%9C%E6%88%90\"><i class=\"fa fa-link\"></i></a>「DirectCloud-BOX Get_Token」フローを作成</h3>\n\n<p><a href=\"https://camo.qiitausercontent.com/782d80f5f11bd5773c75dee8160dd9d035b010ab/68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f3638303033392f35653632316637312d366434302d393432342d346435362d3737633033613339323162382e706e67\" target=\"_blank\" rel=\"nofollow noopener\"><img src=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F680039%2F5e621f71-6d40-9424-4d56-77c03a3921b8.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;s=05456d560334b5482b3de32998d34342\" alt=\"\" data-canonical-src=\"https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/680039/5e621f71-6d40-9424-4d56-77c03a3921b8.png\" srcset=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F680039%2F5e621f71-6d40-9424-4d56-77c03a3921b8.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;w=1400&amp;fit=max&amp;s=7f97fbafb8e9fbb99147cfa57ea90e28 1x\" loading=\"lazy\"></a></p>\n\n<p><strong>※出力変数を使用して次のフローに渡すため「access_token」「API_Url」を作成します。</strong></p>\n\n<h3>\n<span id=\"3powershellスクリプトの実行アクションの内容\" class=\"fragment\"></span><a href=\"#3powershell%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%81%AE%E5%AE%9F%E8%A1%8C%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E5%86%85%E5%AE%B9\"><i class=\"fa fa-link\"></i></a>3.「PowerShellスクリプトの実行」アクションの内容</h3>\n\n<p><a href=\"https://directcloud.jp/api_reference/detail/%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC/Auth#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%83%88%E3%83%BC%E3%82%AF%E3%83%B3%E3%81%AE%E7%99%BA%E8%A1%8C\" rel=\"nofollow noopener\" target=\"_blank\">APIリファレンス</a>を参考にInvoke-RestMethodをつかってコードを記述します。</p>\n\n<p><qiita-embed-ogp src=\"https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-restmethod?view=powershell-7.1\"></qiita-embed-ogp></p>\n\n<p>設定情報は適宜ご自分のものに書き換えてください。<br>\nハッシュテーブルとして設定値を記述しています。</p>\n\n<p><qiita-embed-ogp src=\"https://docs.microsoft.com/ja-jp/powershell/scripting/learn/deep-dives/everything-about-hashtable?view=powershell-7.1#as-a-lookup-table\"></qiita-embed-ogp></p>\n\n<div class=\"code-frame\" data-lang=\"ps1\">\n<div class=\"code-lang\"><span class=\"bold\">PowerShell</span></div>\n<div class=\"highlight\"><pre><code>$endpoint = \"/openapi/jauth/token\";\n\n$uri = \"$uri = \"https://api.directcloud.jp$endpoint\";\n\n$body = @{\n    service     = \"**********\"\n    service_key = \"***********************************************\"\n    code        = \"**********\" \n    id          = \"*******\" \n    password    = \"*********\"\n};\n\n$headers = @{\n    lang = \"eng\"\n};\n\n$response = Invoke-RestMethod -Uri $uri `\n    -Method 'POST' `\n    -Headers $headers `\n    -Body $body;\n$response | ConvertTo-Json;\n</code></pre></div>\n</div>\n\n<p>DirectCloud-BOXではPowerShellからAPI接続する場合、<code>https://api.directcloud.jp</code>とリファレンスに記されているエンドポイントをつなげて使用します。必要なデータを設定しInvoke-RestMethodで叩けば動作することがわかりました。出力形式はJSONです。上記コードはPowerShellのコードとして動作可能です。</p>\n\n<h3>\n<span id=\"power-automate-desktopのコード\" class=\"fragment\"></span><a href=\"#power-automate-desktop%E3%81%AE%E3%82%B3%E3%83%BC%E3%83%89\"><i class=\"fa fa-link\"></i></a>Power AutoMate Desktopのコード</h3>\n\n<div class=\"code-frame\" data-lang=\"r\">\n<div class=\"code-lang\"><span class=\"bold\">PowerAutomateDesktop</span></div>\n<div class=\"highlight\"><pre><code><span class=\"w\">\n</span><span class=\"n\">SET</span><span class=\"w\"> </span><span class=\"n\">Domain</span><span class=\"w\"> </span><span class=\"n\">TO</span><span class=\"w\"> </span><span class=\"o\">$</span><span class=\"s1\">'''https://api.directcloud.jp'''</span><span class=\"w\">\n</span><span class=\"o\">/</span><span class=\"c1\"># ======================================</span><span class=\"w\">\n</span><span class=\"n\">access_tokenの取得</span><span class=\"w\">\n</span><span class=\"o\">======================================</span><span class=\"w\">\n</span><span class=\"c1\">#/</span><span class=\"w\">\n</span><span class=\"n\">System.RunPowershellScript</span><span class=\"w\"> </span><span class=\"n\">Script</span><span class=\"o\">:</span><span class=\"w\"> </span><span class=\"o\">$</span><span class=\"s1\">'''$endpoint = \\\"/openapi/jauth/token\\\";\n\n$uri = \\\"%Domain%$endpoint\\\";\n\n$body = @{\n    service     = \\\"********\\\"\n    service_key = \\\"*************************************************\\\"\n    code        = \\\"********\\\" \n    id          = \\\"*******\\\" \n    password    = \\\"**********\\\"\n};\n\n$headers = @{\n    lang = \\\"eng\\\"\n};\n\n$response = Invoke-RestMethod -Uri $uri `\n    -Method \\'POST\\' `\n    -Headers $headers `\n    -Body $body;\n$response | ConvertTo-Json;'''</span><span class=\"w\"> </span><span class=\"n\">ScriptOutput</span><span class=\"o\">=&gt;</span><span class=\"w\"> </span><span class=\"n\">PowershellOutput</span><span class=\"w\"> </span><span class=\"n\">ScriptError</span><span class=\"o\">=&gt;</span><span class=\"w\"> </span><span class=\"n\">ScriptError</span><span class=\"w\">\n</span><span class=\"n\">Variables.ConvertJsonToCustomObject</span><span class=\"w\"> </span><span class=\"n\">Json</span><span class=\"o\">:</span><span class=\"w\"> </span><span class=\"n\">PowershellOutput</span><span class=\"w\"> </span><span class=\"n\">CustomObject</span><span class=\"o\">=&gt;</span><span class=\"w\"> </span><span class=\"n\">JsonAsCustomObject</span><span class=\"w\">\n</span><span class=\"n\">SET</span><span class=\"w\"> </span><span class=\"n\">access_token</span><span class=\"w\"> </span><span class=\"n\">TO</span><span class=\"w\"> </span><span class=\"n\">JsonAsCustomObject</span><span class=\"p\">[</span><span class=\"s1\">'access_token'</span><span class=\"p\">]</span><span class=\"w\">\n</span><span class=\"n\">SET</span><span class=\"w\"> </span><span class=\"n\">API_Url</span><span class=\"w\"> </span><span class=\"n\">TO</span><span class=\"w\"> </span><span class=\"n\">Domain</span><span class=\"w\">\n\n</span></code></pre></div>\n</div>\n\n<p>保存すればアクセストークンを取得するフローは完成です。</p>\n\n<h2>\n<span id=\"ファイル配信自動化フローの作成\" class=\"fragment\"></span><a href=\"#%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E9%85%8D%E4%BF%A1%E8%87%AA%E5%8B%95%E5%8C%96%E3%83%95%E3%83%AD%E3%83%BC%E3%81%AE%E4%BD%9C%E6%88%90\"><i class=\"fa fa-link\"></i></a>ファイル配信自動化フローの作成</h2>\n\n<ul>\n<li>少しだけ長めなフローなのまず大まかなフロー図です。</li>\n<li>サブフロー「DirectCloudBox」内でAPI接続しファイルアップロードとダウンロードリンク作成をおこないます。。</li>\n<li>メール配信後日時をExcelに記録しています。</li>\n<li>エラー処理は最終エラーを記録するだけの単純なものです。</li>\n<li>Mainフローの最後にアクセストークンを廃棄します。</li>\n</ul>\n\n<p><a href=\"https://camo.qiitausercontent.com/6cdc0f1b38c77937e26892ee666ebc7f6226879f/68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f3638303033392f39393565313465642d616334332d663535662d366662362d3132326432363339303666642e706e67\" target=\"_blank\" rel=\"nofollow noopener\"><img src=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F680039%2F995e14ed-ac43-f55f-6fb6-122d263906fd.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;s=6b9ff41af05b7c23a0cbf593440441fc\" alt=\"flowx.png\" data-canonical-src=\"https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/680039/995e14ed-ac43-f55f-6fb6-122d263906fd.png\" srcset=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F680039%2F995e14ed-ac43-f55f-6fb6-122d263906fd.png?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;w=1400&amp;fit=max&amp;s=59421b12ec18a4b2da3c940d4c398a97 1x\" loading=\"lazy\"></a></p>\n\n<h3>\n<span id=\"power-automate-desktopのフロー\" class=\"fragment\"></span><a href=\"#power-automate-desktop%E3%81%AE%E3%83%95%E3%83%AD%E3%83%BC\"><i class=\"fa fa-link\"></i></a>Power Automate Desktopのフロー</h3>\n\n<h3>\n<span id=\"メインフローmain\" class=\"fragment\"></span><a href=\"#%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%95%E3%83%AD%E3%83%BCmain\"><i class=\"fa fa-link\"></i></a>メインフロー「Main」</h3>\n\n<p><a href=\"https://camo.qiitausercontent.com/29b24cf103e88dca8e608fd5f78b534e7c21f5f8/68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f3638303033392f31316239373634662d343433632d363832642d353831642d3232373861636237633635652e6a706567\" target=\"_blank\" rel=\"nofollow noopener\"><img src=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F680039%2F11b9764f-443c-682d-581d-2278acb7c65e.jpeg?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;s=ac161c248d0b5b5dd1ce3c1cde22cc6a\" alt=\"Main.jpg\" data-canonical-src=\"https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/680039/11b9764f-443c-682d-581d-2278acb7c65e.jpeg\" srcset=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F680039%2F11b9764f-443c-682d-581d-2278acb7c65e.jpeg?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;w=1400&amp;fit=max&amp;s=75b002161476dd08df4396493c8d2836 1x\" loading=\"lazy\"></a></p>\n\n<h3>\n<span id=\"サブフローdirectcloudbox\" class=\"fragment\"></span><a href=\"#%E3%82%B5%E3%83%96%E3%83%95%E3%83%AD%E3%83%BCdirectcloudbox\"><i class=\"fa fa-link\"></i></a>サブフロー「DirectCloudBox」</h3>\n\n<p><a href=\"https://camo.qiitausercontent.com/bd5114c70df6397e9eea1cabddd51785db73f27b/68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f3638303033392f64663762323636622d373334662d323635612d353963382d3065363237303661366532352e6a706567\" target=\"_blank\" rel=\"nofollow noopener\"><img src=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F680039%2Fdf7b266b-734f-265a-59c8-0e62706a6e25.jpeg?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;s=399a4ce1e2545eff086cc379f13f569e\" alt=\"DCB.jpg\" data-canonical-src=\"https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/680039/df7b266b-734f-265a-59c8-0e62706a6e25.jpeg\" srcset=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F680039%2Fdf7b266b-734f-265a-59c8-0e62706a6e25.jpeg?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;w=1400&amp;fit=max&amp;s=038bbb93cd652e4b34e682a2cb3fbd7c 1x\" loading=\"lazy\"></a></p>\n\n<h4>\n<span id=\"powershellスクリプトの実行directcloud-boxへのファイルアップロード\" class=\"fragment\"></span><a href=\"#powershell%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%81%AE%E5%AE%9F%E8%A1%8Cdirectcloud-box%E3%81%B8%E3%81%AE%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%89\"><i class=\"fa fa-link\"></i></a>PowerShellスクリプトの実行　DirectCloud-BOXへのファイルアップロード</h4>\n\n<p><qiita-embed-ogp src=\"https://directcloud.jp/api_reference/detail/%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC/File#%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%AE%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%89\"></qiita-embed-ogp></p>\n\n<p>3行目PowerShellスクリプトの実行アクション内スクリプト</p>\n\n<div class=\"code-frame\" data-lang=\"ps1\">\n<div class=\"code-lang\"><span class=\"bold\">PowerShell</span></div>\n<div class=\"highlight\"><pre><code>$endpoint=\"/openapp/v1/files/upload/\";\n$node=\"1{2000\";\n$uri = \"%API_Url%$endpoint$node\";\n$headers = @{access_token = \"%access_token%\" };\n$FilePath = \"%CurrentItem%\";\n\n$fileBytes = [System.IO.File]::ReadAllBytes($FilePath);\n$fileEnc = [System.Text.Encoding]::GetEncoding('ISO-8859-1').GetString($fileBytes);\n$boundary = [System.Guid]::NewGuid().ToString(); \n$LF = \"`r`n\";\n\n$bodyLines = (\n    \"--$boundary\",\n    \"Content-Disposition: form-data; name=`\"Filedata`\"; filename=`\"%CurrentItem.Name%`\"\",\n    \"Content-Type: application/octet-stream$LF\",\n    $fileEnc,\n    \"--$boundary--$LF\" \n) -join $LF;\n\n$response = Invoke-RestMethod -Uri $uri `\n    -Method 'POST' `\n    -Headers $headers `\n    -ContentType \"multipart/form-data; boundary=`\"$boundary`\"\" `\n    -Body $bodyLines;\n$response | ConvertTo-Json;\n</code></pre></div>\n</div>\n\n<div class=\"note info\">\n<span class=\"fa fa-fw fa-check-circle\"></span><p>%で囲ってある文字はPower Automate Desktopの変数です。\n</p>\n</div>\n\n<p>まず$nodeについてはリファレンスを読んだところフォルダー名だと思いこんでしまい、最初にハマったポイントでした。<br>\n今回の例では共有フォルダー内のDocフォルダーを指定しているのですが </p>\n\n<p>$node=\"1{2000\"</p>\n\n<p>このような記述になります。<br>\nnodeの値を取得するためにはフォルダリストを取得しながら確認しました。以下にフォルダー取得のPowerShellsスクリプトをのせておきます。</p>\n\n<div class=\"code-frame\" data-lang=\"ps1\">\n<div class=\"code-lang\"><span class=\"bold\">PowerShell</span></div>\n<div class=\"highlight\"><pre><code>$uri = \"https://api.directcloud.jp/openapp/v1/folders/index/\"\n$headers = @{access_token = \"%access_token%\" };\n\n$response = Invoke-RestMethod -Uri $uri `\n    -Method 'GET' `\n    -Headers $headers;\n$response | ConvertTo-Json;\n</code></pre></div>\n</div>\n\n<p>$uriのindex以下にnode値を指定してフォルダーリストを取得できます。このままnode指定無しで実行するとMyBOXが\"1\"SharedBOXが\"1{2\"というnode値が取得できます。配信先ごとにフォルダーを分けるなどの処理を組み込みたいときはnode値を取得するフローをつくる必要があります。スクリプト自体はこれまでと同様Invoke-RestMethodのGETメソッドで可能です。</p>\n\n<p>アップロードに話は戻りますがはmultipart/form-dataで行う必要があります。<br>\nそして今回最大のハマりポイントです。<br>\n<code>$fileBytes = [System.IO.File]::ReadAllBytes($FilePath);</code>で<br>\nファイルを読み込んだ後、文字列として読み込む際に必要な文字コードをutf-8にしていたことが原因でアップロードされたファイルが破損していました。<br>\nPowerShellを使う場合<strong><em>ISO-8859-1</em></strong>で設定する必要がありました。<br>\n<code>$fileEnc = [System.Text.Encoding]::GetEncoding('ISO-8859-1').GetString($fileBytes);</code><br>\n<a href=\"https://ja.wikipedia.org/wiki/ISO/IEC_8859-1\" class=\"autolink\" rel=\"nofollow noopener\" target=\"_blank\">https://ja.wikipedia.org/wiki/ISO/IEC_8859-1</a><br>\nアップロードのコードにつきましてはstackoverflowの記事を参考にさせていただき、Fiddlerで確認しながら作成ました。感謝です。</p>\n\n<p><qiita-embed-ogp src=\"https://stackoverflow.com/questions/36268925/powershell-invoke-restmethod-multipart-form-data\"></qiita-embed-ogp></p>\n\n<h4>\n<span id=\"powershellスクリプトの実行directcloud-boxのファイルへのリンク作成\" class=\"fragment\"></span><a href=\"#powershell%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%81%AE%E5%AE%9F%E8%A1%8Cdirectcloud-box%E3%81%AE%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%B8%E3%81%AE%E3%83%AA%E3%83%B3%E3%82%AF%E4%BD%9C%E6%88%90\"><i class=\"fa fa-link\"></i></a>PowerShellスクリプトの実行　DirectCloud-BOXのファイルへのリンク作成</h4>\n\n<p><qiita-embed-ogp src=\"https://directcloud.jp/api_reference/detail/%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC/File#%E3%83%AA%E3%83%B3%E3%82%AF%E3%81%AE%E4%BD%9C%E6%88%90\"></qiita-embed-ogp></p>\n\n<p>9行目PowerShellスクリプトの実行アクション内スクリプト<br>\n配信先の情報に応じてリンク作成の設定を行います。</p>\n\n<div class=\"code-frame\" data-lang=\"ps1\">\n<div class=\"code-lang\"><span class=\"bold\">PowerShell</span></div>\n<div class=\"highlight\"><pre><code>$endpoint = \"/openapp/v1/links/create\";\n$uri = \"%API_Url%$endpoint\";\n$headers = @{access_token = \"%access_token%\" };\n$body = @{\n    target_type     = \"file\"\n    target_seq      = %file_seq%\n    view_option     = \"both\" \n    expiration_date = \"%expiration_date%\"\n    limit_count     = %DLCount% \n    password        = \"%Password%\"\n};\n\n$response = Invoke-RestMethod -Uri $uri `\n    -Method 'POST' `\n    -Headers $headers `\n    -Body $body;\n$response | ConvertTo-Json;\n</code></pre></div>\n</div>\n\n<p>Mainフローの終了処理でおこなうアクセストークン廃棄のスクリプトです。<br>\nどの機能もほとんど同じ形式ですのでリファレンス通り設定すれば動くと思います。</p>\n\n<div class=\"code-frame\" data-lang=\"text\"><div class=\"highlight\"><pre><code>$endpoint = \"/openapi/jauth/tokenExpire\";\n$uri = \"%API_Url%$endpoint\";\n$body = @{\n    service      = \"********\"\n    service_key  = \"********************************\"\n    access_token = \"%access_token%\" \n};\n\n$response = Invoke-RestMethod -Uri $uri `\n    -Method 'POST' `\n    -Body $body;\n$response | ConvertTo-Json;\n</code></pre></div></div>\n\n<h3>\n<span id=\"サブフローerror_rec\" class=\"fragment\"></span><a href=\"#%E3%82%B5%E3%83%96%E3%83%95%E3%83%AD%E3%83%BCerror_rec\"><i class=\"fa fa-link\"></i></a>サブフロー「Error_Rec」</h3>\n\n<p>エラー吐いた時のために作っておきます。<br>\n<a href=\"https://camo.qiitausercontent.com/87abad702d1a1830167169c1dd53a27659caf36e/68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f3638303033392f35326330626232302d623761312d633334352d363763342d6437363637663831663236312e6a706567\" target=\"_blank\" rel=\"nofollow noopener\"><img src=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F680039%2F52c0bb20-b7a1-c345-67c4-d7667f81f261.jpeg?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;s=bbbdc277563f5e4476adf9b71fd9a959\" alt=\"errorrec.jpg\" data-canonical-src=\"https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/680039/52c0bb20-b7a1-c345-67c4-d7667f81f261.jpeg\" srcset=\"https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F680039%2F52c0bb20-b7a1-c345-67c4-d7667f81f261.jpeg?ixlib=rb-4.0.0&amp;auto=format&amp;gif-q=60&amp;q=75&amp;w=1400&amp;fit=max&amp;s=ba5a20151980459e80f5a5f36204c7d6 1x\" loading=\"lazy\"></a></p>\n\n<h2>\n<span id=\"まとめ\" class=\"fragment\"></span><a href=\"#%E3%81%BE%E3%81%A8%E3%82%81\"><i class=\"fa fa-link\"></i></a>まとめ</h2>\n\n<ul>\n<li>事務のおじさんが、ローコードツールを使ってAPI連携でファイル配信自動化してみました。</li>\n<li>PowerShellスクリプト実行アクションを使って、Invoke-RestMethodとハッシュテーブルで記述すれば、DirectCloud-BOXとPower Automate Desktop連携できることがわかりました！</li>\n<li>GUI操作での自動化ではないため早く確実な自動化処理が見込まれます。\n今回のフローでは組み込めませんでしたが、リンク先のパスワードを別途SMS等で送信できればパス付zipにかわる強力な仕組みがつくれそうです。</li>\n<li>はじめてDirectCloud-BOXを触ってみましたが、どのインターフェイスでも迷うことがない、すばらしいサービスだと感じました。</li>\n<li>権限設定やログ関連も充実しとてもわかりやすいです。</li>\n<li>現状のAPIリファレンスにサンプルがないため試行錯誤しました。結果的にはかなり勉強になったので個人的には楽しかったですがｗ</li>\n</ul>\n\n<p>中小企業ではまだまだオンプレミスのシステムが残っています。オンプレミスとクラウドつなぐことは重要度が増すのではと想像しています。API+ローコードソリューションはそのカギのひとつだと思います。<br>\n考える機会を頂きありがとうございました😊</p>\n\n<h2>\n<span id=\"参考およびリンク\" class=\"fragment\"></span><a href=\"#%E5%8F%82%E8%80%83%E3%81%8A%E3%82%88%E3%81%B3%E3%83%AA%E3%83%B3%E3%82%AF\"><i class=\"fa fa-link\"></i></a>参考およびリンク</h2>\n\n<p><qiita-embed-ogp src=\"https://qiita.com/official-events/64ff6ba4e653a822fce9\"></qiita-embed-ogp></p>\n\n<p><qiita-embed-ogp src=\"https://directcloud.jp/\"></qiita-embed-ogp></p>\n\n<p><qiita-embed-ogp src=\"https://directcloud.jp/freeplan\"></qiita-embed-ogp></p>\n\n<p><qiita-embed-ogp src=\"https://directcloud.jp/api_reference\"></qiita-embed-ogp></p>\n\n<p><qiita-embed-ogp src=\"https://flow.microsoft.com/ja-jp/desktop/\"></qiita-embed-ogp></p>\n\n<p><qiita-embed-ogp src=\"https://docs.microsoft.com/ja-jp/power-automate/desktop-flows/manage#share-desktop-flows\"></qiita-embed-ogp></p>\n\n<p><qiita-embed-ogp src=\"https://developer.microsoft.com/ja-JP/microsoft-365/dev-program#Subscription\"></qiita-embed-ogp></p>\n\n<p><qiita-embed-ogp src=\"https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-restmethod?view=powershell-7.1\"></qiita-embed-ogp></p>\n\n<p><qiita-embed-ogp src=\"https://docs.microsoft.com/ja-jp/powershell/scripting/learn/deep-dives/everything-about-hashtable?view=powershell-7.1#as-a-lookup-table\"></qiita-embed-ogp></p>\n\n<p><qiita-embed-ogp src=\"https://stackoverflow.com/questions/36268925/powershell-invoke-restmethod-multipart-form-data\"></qiita-embed-ogp></p>\n",
+    "body": "## 概要\n\nDirectCloud-BOXとPower AutoMate DesktopのAPI連携を利用したファイル配信の自動化を検証します。オンプレミスのファイルをDirectCloud-BOXにアップロード、配信先リストに基づいてパスワードおよび閲覧回数制限、期限付きリンクを作成、取得後メール配信をおこないます。\n\n![DirectCloud.gif](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/680039/185b6720-5925-4662-f505-53295540643b.gif)\n\n## 想定\n\n* オンプレ基幹システムが残る中小企業\n* ユーザーが安全に使用\n* たくさんの書類を配信先リストに基づいてミスなく一括送信したい\n* パス付zipをやめたい\n* ファイル閲覧パスワードについてはあらかじめ配信先に通知しておく（今後はSMS等別途手段を検討）\n\n## イメージ\n\n![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/680039/efa8aa54-c506-9b31-33bf-616e576110ab.png)\n\n## 注意事項\n\n* スコープが大きくなりすぎるため基幹システムからデーター取り出す部分については触れません。\n* 請求書ファイルが「取引先コード＋処理日付.pdf」の形式で出力済みのところから考えます。\n* DirectCloud-BOXとPower AutoMate DesktopとのAPI連携を「PowerShellスクリプトの実行」アクションで行います。\n* 検証用にコピペ可能なPower AutoMate Desktopのコードがありますが、認証情報等は抜いてありますのでご自身の環境にあわせ適宜置き換える必要があります。\n* 2021年8月の記事です。\n* 試す場合、自己責任でお願いいたします。\n\n## 検証環境および想定される必要環境\n\n* Microsoft 365　E5開発者向けプログラム\n\n   https://developer.microsoft.com/ja-JP/microsoft-365/dev-program#Subscription\n\n* Windows 10 Pro　21H1\n* Power Automate Desktop 2.12.171.21216　アテンド型RPA試用版\n* DirectCloud-BOX　フリープラン\n\n   https://directcloud.jp/freeplan\n\n開発者とユーザーの権限を分ける想定をしているため実際の運用は「PowerAutomateアテンド型RPAのユーザーごとのプラン」が必要になります。ユーザーに実行のみの権限でフローを共有することで、認証情報に触れないようにできます。\n\n![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/680039/2ec09c1d-e682-7e8f-ef98-299e74c535ac.png)\n\nhttps://docs.microsoft.com/ja-jp/power-automate/desktop-flows/manage#share-desktop-flows\n\n## DirectCloud-BOXの準備\n\nDirectCloud-BOX登録後ログインします。\n初回管理者でログインとなるので二要素認証等必要に応じて設定します。わかりやすく迷うことはないと思います。\n\n![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/680039/698419c2-ae55-cf66-c8a1-d1c4e73b8062.png)\n\n初期パスワードの変更についてはユーザー管理から行うかアプリ版起動時に求められます。\n\n![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/680039/10c26b0b-b318-a440-4ec5-3d2fd1858f0b.png)\n\n\n共有＞カスタム設定よりAPIを使用するように設定します。\n今回はユーザーの権限でAPI連携を行うのでユーザーのServiceコードとService Keyを使用します。管理者権限でログインすればコードは確認できます。\n\n![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/680039/92f5142d-734b-6bcd-151e-7493b488130c.png)\n\nユーザーを追加します。ユーザーIDはアクセストークン取得にも使用します。\n![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/680039/2d03bd7d-060f-95fa-b4ac-102d2d6b788e.png)\n\n![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/680039/8542296a-1ffd-4b29-182c-58e9f1aedfa2.png)\n\n管理者とユーザーでAPIは機能差があります。\n\nhttps://directcloud.jp/api_reference\n\nユーザーでブラウザからログインした場合、権限、インターフェイスは制限されます。\n\n![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/680039/c68cc25e-9188-236d-b00c-351cf29edc61.png)\n\n今回の検証ではユーザー権限のAPI機能を使用します。\n\n\nhttps://directcloud.jp/contents/webapi/\n\n\n### Power Automate Desktopの準備\n\n製品ページ\n\nhttps://flow.microsoft.com/ja-jp/desktop/   \n\nPower Automate Desktopの準備についてはリリースされてから時間がたつので割愛いたします。\n\n@K2_kzy 様の【Power Automate Desktopの始め方】が参考になります。\n\nhttps://qiita.com/K2_kzy/items/b8b22edbf56b65248949\n\n機能については\n\n@maekawawawa 様の【Power Automateの新しいRPA機能】Power Automate Desktopで出来ること（全33機能の紹介）が参考になります。\n\nhttps://qiita.com/maekawawawa/items/e171240843e56d98be56\n\n## サンプルデータの準備\n\n### 配信先リストの準備\n\nExcelで次のような表を準備し**SendList.xlsx**としてデスクトップに設置しました。本来は社内サーバ等の取引先データに接続した方がよいかと思います。Power Automate DesktopにはSQL接続やターミナルエミュレーションに関するアクションが用意されているので、そうした連携も楽にできますが今回はスコープが広くなりすぎてしまうため、Excelで代用します。\n\n| Code | Name      | Adress              | Pass      | LastSendDate |\n| ---- | --------- | ------------------- | --------- | ------------ |\n| 1001 | 株式会社A | *****@z***.com      | axjmg42Z  |              |\n| 1002 | B株式会社 | ****@******.jp      | Y6rDCmn   |              |\n| 1003 | 有限会社C | ****@r******.jp     | AF8K2gv1g |              |\n| 1004 | D株式会社 | ******@************ | Hg#ggD34  |\n\n### 配信データの作成\n\n請求データのダミーとして適当なPDFを作成しInvoiceファルダーを作り格納しました。ファイルの名づけルールは先頭4文字が取引先コードとし数値化した日付と組あわせています。\n\n![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/680039/c9b0abb5-368e-f00f-0081-bb4340aa432a.png)\n\n### 処理済みフォルダーの作成\n\n処理済みのファイルを保管しておくフォルダーをUploadedと名前を付けてデスクトップに設置しました。\n\n![2021-08-23-19-12-42.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/680039/39db341b-2d50-1d57-10b0-913b1074684d.png)\n\n## アクセストークンの取得フロー作成\n\n設定したDirectCloud-BOXの**ユーザー**情報を使用しますので準備ください。\n\n| Name        | Description          |\n| ----------- | -------------------- |\n| service     | APIキーのservice     |\n| service_key | APIキーのservice_key |\n| code        | 会社ID               |\n| id          | ユーザーID           |\n| password    | パスワード           |\n\n###「DirectCloud-BOX Get_Token」フローを作成\n\n![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/680039/5e621f71-6d40-9424-4d56-77c03a3921b8.png)\n\n**※出力変数を使用して次のフローに渡すため「access_token」「API_Url」を作成します。**\n\n###3.「PowerShellスクリプトの実行」アクションの内容\n[APIリファレンス](https://directcloud.jp/api_reference/detail/%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC/Auth#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%83%88%E3%83%BC%E3%82%AF%E3%83%B3%E3%81%AE%E7%99%BA%E8%A1%8C)を参考にInvoke-RestMethodをつかってコードを記述します。\n\nhttps://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-restmethod?view=powershell-7.1\n\n設定情報は適宜ご自分のものに書き換えてください。\nハッシュテーブルとして設定値を記述しています。\n\nhttps://docs.microsoft.com/ja-jp/powershell/scripting/learn/deep-dives/everything-about-hashtable?view=powershell-7.1#as-a-lookup-table\n\n```ps1:PowerShell\n$endpoint = \"/openapi/jauth/token\";\n\n$uri = \"$uri = \"https://api.directcloud.jp$endpoint\";\n\n$body = @{\n    service     = \"**********\"\n    service_key = \"***********************************************\"\n    code        = \"**********\" \n    id          = \"*******\" \n    password    = \"*********\"\n};\n\n$headers = @{\n    lang = \"eng\"\n};\n\n$response = Invoke-RestMethod -Uri $uri `\n    -Method 'POST' `\n    -Headers $headers `\n    -Body $body;\n$response | ConvertTo-Json;\n```\n\nDirectCloud-BOXではPowerShellからAPI接続する場合、```https://api.directcloud.jp```とリファレンスに記されているエンドポイントをつなげて使用します。必要なデータを設定しInvoke-RestMethodで叩けば動作することがわかりました。出力形式はJSONです。上記コードはPowerShellのコードとして動作可能です。\n\n### Power AutoMate Desktopのコード\n\n```r:PowerAutomateDesktop\n\nSET Domain TO $'''https://api.directcloud.jp'''\n/# ======================================\naccess_tokenの取得\n======================================\n#/\nSystem.RunPowershellScript Script: $'''$endpoint = \\\"/openapi/jauth/token\\\";\n\n$uri = \\\"%Domain%$endpoint\\\";\n\n$body = @{\n    service     = \\\"********\\\"\n    service_key = \\\"*************************************************\\\"\n    code        = \\\"********\\\" \n    id          = \\\"*******\\\" \n    password    = \\\"**********\\\"\n};\n\n$headers = @{\n    lang = \\\"eng\\\"\n};\n\n$response = Invoke-RestMethod -Uri $uri `\n    -Method \\'POST\\' `\n    -Headers $headers `\n    -Body $body;\n$response | ConvertTo-Json;''' ScriptOutput=> PowershellOutput ScriptError=> ScriptError\nVariables.ConvertJsonToCustomObject Json: PowershellOutput CustomObject=> JsonAsCustomObject\nSET access_token TO JsonAsCustomObject['access_token']\nSET API_Url TO Domain\n\n```\n\n保存すればアクセストークンを取得するフローは完成です。\n\n## ファイル配信自動化フローの作成\n\n* 少しだけ長めなフローなのまず大まかなフロー図です。\n* サブフロー「DirectCloudBox」内でAPI接続しファイルアップロードとダウンロードリンク作成をおこないます。。\n* メール配信後日時をExcelに記録しています。\n* エラー処理は最終エラーを記録するだけの単純なものです。\n* Mainフローの最後にアクセストークンを廃棄します。\n\n![flowx.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/680039/995e14ed-ac43-f55f-6fb6-122d263906fd.png)\n\n\n### Power Automate Desktopのフロー\n\n### メインフロー「Main」\n\n![Main.jpg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/680039/11b9764f-443c-682d-581d-2278acb7c65e.jpeg)\n\n### サブフロー「DirectCloudBox」\n\n![DCB.jpg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/680039/df7b266b-734f-265a-59c8-0e62706a6e25.jpeg)\n\n#### PowerShellスクリプトの実行　DirectCloud-BOXへのファイルアップロード\n\nhttps://directcloud.jp/api_reference/detail/%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC/File#%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%AE%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%89\n\n3行目PowerShellスクリプトの実行アクション内スクリプト\n\n```ps1:PowerShell\n$endpoint=\"/openapp/v1/files/upload/\";\n$node=\"1{2000\";\n$uri = \"%API_Url%$endpoint$node\";\n$headers = @{access_token = \"%access_token%\" };\n$FilePath = \"%CurrentItem%\";\n\n$fileBytes = [System.IO.File]::ReadAllBytes($FilePath);\n$fileEnc = [System.Text.Encoding]::GetEncoding('ISO-8859-1').GetString($fileBytes);\n$boundary = [System.Guid]::NewGuid().ToString(); \n$LF = \"`r`n\";\n\n$bodyLines = (\n    \"--$boundary\",\n    \"Content-Disposition: form-data; name=`\"Filedata`\"; filename=`\"%CurrentItem.Name%`\"\",\n    \"Content-Type: application/octet-stream$LF\",\n    $fileEnc,\n    \"--$boundary--$LF\" \n) -join $LF;\n\n$response = Invoke-RestMethod -Uri $uri `\n    -Method 'POST' `\n    -Headers $headers `\n    -ContentType \"multipart/form-data; boundary=`\"$boundary`\"\" `\n    -Body $bodyLines;\n$response | ConvertTo-Json;\n```\n:::note info\n%で囲ってある文字はPower Automate Desktopの変数です。\n:::\n\nまず$nodeについてはリファレンスを読んだところフォルダー名だと思いこんでしまい、最初にハマったポイントでした。\n今回の例では共有フォルダー内のDocフォルダーを指定しているのですが \n\n$node=\"1{2000\"\n\nこのような記述になります。\nnodeの値を取得するためにはフォルダリストを取得しながら確認しました。以下にフォルダー取得のPowerShellsスクリプトをのせておきます。\n\n```ps1:PowerShell\n$uri = \"https://api.directcloud.jp/openapp/v1/folders/index/\"\n$headers = @{access_token = \"%access_token%\" };\n\n$response = Invoke-RestMethod -Uri $uri `\n    -Method 'GET' `\n    -Headers $headers;\n$response | ConvertTo-Json;\n```\n\n$uriのindex以下にnode値を指定してフォルダーリストを取得できます。このままnode指定無しで実行するとMyBOXが\"1\"SharedBOXが\"1{2\"というnode値が取得できます。配信先ごとにフォルダーを分けるなどの処理を組み込みたいときはnode値を取得するフローをつくる必要があります。スクリプト自体はこれまでと同様Invoke-RestMethodのGETメソッドで可能です。\n\nアップロードに話は戻りますがはmultipart/form-dataで行う必要があります。\nそして今回最大のハマりポイントです。\n```$fileBytes = [System.IO.File]::ReadAllBytes($FilePath);```で\nファイルを読み込んだ後、文字列として読み込む際に必要な文字コードをutf-8にしていたことが原因でアップロードされたファイルが破損していました。\nPowerShellを使う場合***ISO-8859-1***で設定する必要がありました。\n```$fileEnc = [System.Text.Encoding]::GetEncoding('ISO-8859-1').GetString($fileBytes);```\nhttps://ja.wikipedia.org/wiki/ISO/IEC_8859-1\nアップロードのコードにつきましてはstackoverflowの記事を参考にさせていただき、Fiddlerで確認しながら作成ました。感謝です。\n\nhttps://stackoverflow.com/questions/36268925/powershell-invoke-restmethod-multipart-form-data\n\n#### PowerShellスクリプトの実行　DirectCloud-BOXのファイルへのリンク作成\n\nhttps://directcloud.jp/api_reference/detail/%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC/File#%E3%83%AA%E3%83%B3%E3%82%AF%E3%81%AE%E4%BD%9C%E6%88%90\n\n9行目PowerShellスクリプトの実行アクション内スクリプト\n配信先の情報に応じてリンク作成の設定を行います。\n\n```ps1:PowerShell\n$endpoint = \"/openapp/v1/links/create\";\n$uri = \"%API_Url%$endpoint\";\n$headers = @{access_token = \"%access_token%\" };\n$body = @{\n    target_type     = \"file\"\n    target_seq      = %file_seq%\n    view_option     = \"both\" \n    expiration_date = \"%expiration_date%\"\n    limit_count     = %DLCount% \n    password        = \"%Password%\"\n};\n\n$response = Invoke-RestMethod -Uri $uri `\n    -Method 'POST' `\n    -Headers $headers `\n    -Body $body;\n$response | ConvertTo-Json;\n```\nMainフローの終了処理でおこなうアクセストークン廃棄のスクリプトです。\nどの機能もほとんど同じ形式ですのでリファレンス通り設定すれば動くと思います。\n\n```\n$endpoint = \"/openapi/jauth/tokenExpire\";\n$uri = \"%API_Url%$endpoint\";\n$body = @{\n    service      = \"********\"\n    service_key  = \"********************************\"\n    access_token = \"%access_token%\" \n};\n\n$response = Invoke-RestMethod -Uri $uri `\n    -Method 'POST' `\n    -Body $body;\n$response | ConvertTo-Json;\n```\n\n\n### サブフロー「Error_Rec」\n\nエラー吐いた時のために作っておきます。\n![errorrec.jpg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/680039/52c0bb20-b7a1-c345-67c4-d7667f81f261.jpeg)\n\n## まとめ\n\n* 事務のおじさんが、ローコードツールを使ってAPI連携でファイル配信自動化してみました。\n* PowerShellスクリプト実行アクションを使って、Invoke-RestMethodとハッシュテーブルで記述すれば、DirectCloud-BOXとPower Automate Desktop連携できることがわかりました！\n* GUI操作での自動化ではないため早く確実な自動化処理が見込まれます。\n今回のフローでは組み込めませんでしたが、リンク先のパスワードを別途SMS等で送信できればパス付zipにかわる強力な仕組みがつくれそうです。\n* はじめてDirectCloud-BOXを触ってみましたが、どのインターフェイスでも迷うことがない、すばらしいサービスだと感じました。\n* 権限設定やログ関連も充実しとてもわかりやすいです。\n* 現状のAPIリファレンスにサンプルがないため試行錯誤しました。結果的にはかなり勉強になったので個人的には楽しかったですがｗ\n\n中小企業ではまだまだオンプレミスのシステムが残っています。オンプレミスとクラウドつなぐことは重要度が増すのではと想像しています。API+ローコードソリューションはそのカギのひとつだと思います。\n考える機会を頂きありがとうございました😊\n\n## 参考およびリンク\n\nhttps://qiita.com/official-events/64ff6ba4e653a822fce9\n\nhttps://directcloud.jp/\n\nhttps://directcloud.jp/freeplan\n\nhttps://directcloud.jp/api_reference\n\nhttps://flow.microsoft.com/ja-jp/desktop/\n\nhttps://docs.microsoft.com/ja-jp/power-automate/desktop-flows/manage#share-desktop-flows\n\nhttps://developer.microsoft.com/ja-JP/microsoft-365/dev-program#Subscription\n\nhttps://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-restmethod?view=powershell-7.1\n\nhttps://docs.microsoft.com/ja-jp/powershell/scripting/learn/deep-dives/everything-about-hashtable?view=powershell-7.1#as-a-lookup-table\n\nhttps://stackoverflow.com/questions/36268925/powershell-invoke-restmethod-multipart-form-data\n\n",
+    "coediting": false,
+    "comments_count": 0,
+    "created_at": "2021-08-25T15:00:37+09:00",
+    "group": null,
+    "id": "7c199a31adb00978f5ea",
+    "likes_count": 2,
+    "private": false,
+    "reactions_count": 0,
+    "tags": [
+      {
+        "name": "api",
+        "versions": []
+      },
+      {
+        "name": "PowerShell",
+        "versions": []
+      },
+      {
+        "name": "RPA",
+        "versions": []
+      },
+      {
+        "name": "PowerAutomateDesktop",
+        "versions": []
+      },
+      {
+        "name": "Qiitaエンジニアフェスタ_DirectCloud-BOX",
+        "versions": []
+      }
+    ],
+    "title": "DirectCloud-BOX with Power Automate Desktop「API連携でオンプレミスからのファイル配信を効率化する」",
+    "updated_at": "2021-08-25T15:13:37+09:00",
+    "url": "https://qiita.com/sys_zero/items/7c199a31adb00978f5ea",
+    "user": {
+      "description": "Power BI 、Power Automate、 Power Automate Desktopを触っています。",
+      "facebook_id": "",
+      "followees_count": 10,
+      "followers_count": 44,
+      "github_login_name": null,
+      "id": "sys_zero",
+      "items_count": 29,
+      "linkedin_id": "",
+      "location": "",
+      "name": "Zero Sys",
+      "organization": "",
+      "permanent_id": 680039,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1282697131787087878/K8SvMXtm_bigger.jpg",
+      "team_only": false,
+      "twitter_screen_name": "sys_zero",
+      "website_url": ""
+    },
+    "page_views_count": null,
+    "team_membership": null
+  },
+  {
+    "rendered_body": "\n<h3>\n<span id=\"記事に関して\" class=\"fragment\"></span><a href=\"#%E8%A8%98%E4%BA%8B%E3%81%AB%E9%96%A2%E3%81%97%E3%81%A6\"><i class=\"fa fa-link\"></i></a>記事に関して</h3>\n\n<p>この記事は、グーグルアナリティクスに関する個人的調査内容をまとめたものです。<br>\n概要のみで、設定方法や詳細は特に書いていません。</p>\n\n<h1>\n<span id=\"グーグルアナリティクスのバージョン\" class=\"fragment\"></span><a href=\"#%E3%82%B0%E3%83%BC%E3%82%B0%E3%83%AB%E3%82%A2%E3%83%8A%E3%83%AA%E3%83%86%E3%82%A3%E3%82%AF%E3%82%B9%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3\"><i class=\"fa fa-link\"></i></a>グーグルアナリティクスのバージョン</h1>\n\n<table>\n<thead>\n<tr>\n<th style=\"text-align: center\">サービス名</th>\n<th style=\"text-align: center\">略称</th>\n<th style=\"text-align: center\">開始時期</th>\n<th style=\"text-align: center\">備考</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"text-align: center\">ユニバーサルアナリティクス</td>\n<td style=\"text-align: center\">UA</td>\n<td style=\"text-align: center\">2017/9~</td>\n<td style=\"text-align: center\">グーグルアナリティクス関係の記事はこのバージョンが多い。</td>\n</tr>\n<tr>\n<td style=\"text-align: center\">グーグルアナリティクス4</td>\n<td style=\"text-align: center\">GA4</td>\n<td style=\"text-align: center\">2020/10~</td>\n<td style=\"text-align: center\">画面UIが変わっていくので、最新の有用な記事を見つけるのに苦労する。</td>\n</tr>\n</tbody>\n</table>\n\n<p>※上記二つの機能は全然別物なので別の機能として考えた方がいいが、両方とも同じグーグルアナリティクスの管理画面から操作するため、別のバージョンがあるということを知っておかないと操作時に混乱します。</p>\n\n<h1>\n<span id=\"ユニバーサルアナリティクスuaに関して\" class=\"fragment\"></span><a href=\"#%E3%83%A6%E3%83%8B%E3%83%90%E3%83%BC%E3%82%B5%E3%83%AB%E3%82%A2%E3%83%8A%E3%83%AA%E3%83%86%E3%82%A3%E3%82%AF%E3%82%B9ua%E3%81%AB%E9%96%A2%E3%81%97%E3%81%A6\"><i class=\"fa fa-link\"></i></a>ユニバーサルアナリティクス(UA)に関して</h1>\n\n<p>ググれば記事がたくさん出てくるので割愛。</p>\n\n<h1>\n<span id=\"グーグルアナリティクス4ga4に関して\" class=\"fragment\"></span><a href=\"#%E3%82%B0%E3%83%BC%E3%82%B0%E3%83%AB%E3%82%A2%E3%83%8A%E3%83%AA%E3%83%86%E3%82%A3%E3%82%AF%E3%82%B94ga4%E3%81%AB%E9%96%A2%E3%81%97%E3%81%A6\"><i class=\"fa fa-link\"></i></a>グーグルアナリティクス4(GA4)に関して</h1>\n\n<p>UAの後継機能。今後も機能や操作画面のUIが変わっていく。<br>\nググった記事と、実際の操作画面が違うとなったら、以下のリリースノートでリリース時期と記事の公開日時期がどうなっているか確認した方がいいと思います。<br>\n<a href=\"https://support.google.com/analytics/answer/9164320?hl=ja#zippy=%2C%E5%B9%B4%E3%81%AE%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9\" rel=\"nofollow noopener\" target=\"_blank\">リリースノート</a><br>\n※「分析ハブ」と呼ばれていた機能が、2021年6月17日から「データ探索」という名前に変わっているということを見つけるのに苦労しました。</p>\n\n<h1>\n<span id=\"グーグルアナリティクス4ga4のデータ収集方法\" class=\"fragment\"></span><a href=\"#%E3%82%B0%E3%83%BC%E3%82%B0%E3%83%AB%E3%82%A2%E3%83%8A%E3%83%AA%E3%83%86%E3%82%A3%E3%82%AF%E3%82%B94ga4%E3%81%AE%E3%83%87%E3%83%BC%E3%82%BF%E5%8F%8E%E9%9B%86%E6%96%B9%E6%B3%95\"><i class=\"fa fa-link\"></i></a>グーグルアナリティクス4(GA4)のデータ収集方法</h1>\n\n<p>アクセス数などを計測するだけなら既存の機能を利用するだけでいい。<br>\nリンクのクリック数や特定の要素が表示された数などの、独自のイベント数も収集したい場合は、自分で以下のサービスを利用して設定する必要があります。</p>\n\n<table>\n<thead>\n<tr>\n<th style=\"text-align: center\">サービス名</th>\n<th style=\"text-align: center\">設定方法</th>\n<th style=\"text-align: center\">備考</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"text-align: center\">グーグルアナリティクス4(GA4)</td>\n<td style=\"text-align: center\">グーグルアナリティクスの管理画面から設定する。</td>\n<td style=\"text-align: center\"></td>\n</tr>\n<tr>\n<td style=\"text-align: center\">グーグルタグマネージャー (GTM)</td>\n<td style=\"text-align: center\">GTMの管理画面から設定する。<br>GA4と連携させることで、GA4より簡単に設定ができる。</td>\n<td style=\"text-align: center\">独自の値を収集する場合は、ページごとに「dataLayer 」という変数を読み込み、変数に値をpushすることでデータの収集ができます。</td>\n</tr>\n</tbody>\n</table>\n\n<h1>\n<span id=\"グーグルアナリティクス4ga4のデータ分析方法\" class=\"fragment\"></span><a href=\"#%E3%82%B0%E3%83%BC%E3%82%B0%E3%83%AB%E3%82%A2%E3%83%8A%E3%83%AA%E3%83%86%E3%82%A3%E3%82%AF%E3%82%B94ga4%E3%81%AE%E3%83%87%E3%83%BC%E3%82%BF%E5%88%86%E6%9E%90%E6%96%B9%E6%B3%95\"><i class=\"fa fa-link\"></i></a>グーグルアナリティクス4(GA4)のデータ分析方法</h1>\n\n<table>\n<thead>\n<tr>\n<th style=\"text-align: center\">分析方法</th>\n<th style=\"text-align: center\">表の描画機能</th>\n<th style=\"text-align: center\">　データの扱える範囲</th>\n<th style=\"text-align: center\">ユーザーデータ保持期間※１</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"text-align: center\">GA4の探索機能（旧分析ハブ）</td>\n<td style=\"text-align: center\">あり</td>\n<td style=\"text-align: center\">限定的</td>\n<td style=\"text-align: center\">2ヶ月 or 14ヶ月</td>\n</tr>\n<tr>\n<td style=\"text-align: center\">グーグルデータポータル</td>\n<td style=\"text-align: center\">あり</td>\n<td style=\"text-align: center\">限定的</td>\n<td style=\"text-align: center\">不明</td>\n</tr>\n<tr>\n<td style=\"text-align: center\">BigQuery</td>\n<td style=\"text-align: center\">あり</td>\n<td style=\"text-align: center\">GA4から転送したデータのみ</td>\n<td style=\"text-align: center\">無料の範囲であれば無制限</td>\n</tr>\n<tr>\n<td style=\"text-align: center\">Analytics Data API（Beta版）</td>\n<td style=\"text-align: center\">なし</td>\n<td style=\"text-align: center\">収集したGA4に保存されているデータにアクセス可能</td>\n<td style=\"text-align: center\">取得したデータを別途保存すれば永久</td>\n</tr>\n</tbody>\n</table>\n\n<p>※１ 収集したデータのすべてが消えるわけではありません。詳細は以下のリンクの記事が参考になります。<br>\n<a href=\"https://www.multimedia.or.jp/news/1015\" rel=\"nofollow noopener\" target=\"_blank\">Googleアナリティクスのデータ保持期間と一般データ保護規則（GDPR）</a></p>\n\n<h1>\n<span id=\"まとめ\" class=\"fragment\"></span><a href=\"#%E3%81%BE%E3%81%A8%E3%82%81\"><i class=\"fa fa-link\"></i></a>まとめ</h1>\n\n<p>上記に記載している内容は一通り試しはしましたが、全然うまく扱える気がしません。<br>\nGA4だけではなく、関係するサービスも理解するには、時間をかけて試していく必要があると思います。<br>\nGDPRなどのセキュリティ関係も厳しくなっていくため、収集したデータをどのように保管しておくかも工夫する必要があります。</p>\n\n<h3>\n<span id=\"参考サイト\" class=\"fragment\"></span><a href=\"#%E5%8F%82%E8%80%83%E3%82%B5%E3%82%A4%E3%83%88\"><i class=\"fa fa-link\"></i></a>　参考サイト</h3>\n\n<p><a href=\"https://www.seohacks.net/blog/9986/\" rel=\"nofollow noopener\" target=\"_blank\">Google アナリティクス 4（GA4）とは？</a><br>\n<a href=\"https://www.data-be.at/magazine/ga4-ua/\" rel=\"nofollow noopener\" target=\"_blank\">UAとGA4の違い比較まとめ</a><br>\n<a href=\"https://developers.google.com/analytics/devguides/collection/ga4/events?hl=ja\" rel=\"nofollow noopener\" target=\"_blank\">イベント収集方法</a><br>\n<a href=\"https://developers.google.com/analytics/devguides/reporting/data/v1\" rel=\"nofollow noopener\" target=\"_blank\">Analytics Data API Overview </a></p>\n",
+    "body": "### 記事に関して\nこの記事は、グーグルアナリティクスに関する個人的調査内容をまとめたものです。\n概要のみで、設定方法や詳細は特に書いていません。\n\n# グーグルアナリティクスのバージョン\n| サービス名 | 略称 | 開始時期 | 備考 |\n|:-:|:-:|:-:|:-:|\n| ユニバーサルアナリティクス  | UA  | 2017/9~  | グーグルアナリティクス関係の記事はこのバージョンが多い。 |\n| グーグルアナリティクス4 |  GA4 | 2020/10~  |  画面UIが変わっていくので、最新の有用な記事を見つけるのに苦労する。 |\n※上記二つの機能は全然別物なので別の機能として考えた方がいいが、両方とも同じグーグルアナリティクスの管理画面から操作するため、別のバージョンがあるということを知っておかないと操作時に混乱します。\n\n\n# ユニバーサルアナリティクス(UA)に関して\nググれば記事がたくさん出てくるので割愛。\n\n# グーグルアナリティクス4(GA4)に関して\nUAの後継機能。今後も機能や操作画面のUIが変わっていく。\nググった記事と、実際の操作画面が違うとなったら、以下のリリースノートでリリース時期と記事の公開日時期がどうなっているか確認した方がいいと思います。\n[リリースノート](https://support.google.com/analytics/answer/9164320?hl=ja#zippy=%2C%E5%B9%B4%E3%81%AE%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9)\n※「分析ハブ」と呼ばれていた機能が、2021年6月17日から「データ探索」という名前に変わっているということを見つけるのに苦労しました。\n\n# グーグルアナリティクス4(GA4)のデータ収集方法\nアクセス数などを計測するだけなら既存の機能を利用するだけでいい。\nリンクのクリック数や特定の要素が表示された数などの、独自のイベント数も収集したい場合は、自分で以下のサービスを利用して設定する必要があります。\n\n| サービス名 | 設定方法 | 備考 |\n|:-:|:-:|:-:|\n| グーグルアナリティクス4(GA4) | グーグルアナリティクスの管理画面から設定する。  | \n| グーグルタグマネージャー (GTM) | GTMの管理画面から設定する。<br>GA4と連携させることで、GA4より簡単に設定ができる。 | 独自の値を収集する場合は、ページごとに「dataLayer 」という変数を読み込み、変数に値をpushすることでデータの収集ができます。 |\n\n\n# グーグルアナリティクス4(GA4)のデータ分析方法\n| 分析方法 | 表の描画機能 |　データの扱える範囲 | ユーザーデータ保持期間※１ |\n|:-:|:-:|:-:|:-:|\n| GA4の探索機能（旧分析ハブ）  | あり | 限定的 | 2ヶ月 or 14ヶ月\n| グーグルデータポータル  |  あり | 限定的 | 不明\n| BigQuery | あり | GA4から転送したデータのみ | 無料の範囲であれば無制限\n| Analytics Data API（Beta版）  | なし | 収集したGA4に保存されているデータにアクセス可能 | 取得したデータを別途保存すれば永久\n※１ 収集したデータのすべてが消えるわけではありません。詳細は以下のリンクの記事が参考になります。\n[Googleアナリティクスのデータ保持期間と一般データ保護規則（GDPR）](https://www.multimedia.or.jp/news/1015)\n\n# まとめ\n上記に記載している内容は一通り試しはしましたが、全然うまく扱える気がしません。\nGA4だけではなく、関係するサービスも理解するには、時間をかけて試していく必要があると思います。\nGDPRなどのセキュリティ関係も厳しくなっていくため、収集したデータをどのように保管しておくかも工夫する必要があります。\n\n\n###　参考サイト\n[Google アナリティクス 4（GA4）とは？](https://www.seohacks.net/blog/9986/)\n[UAとGA4の違い比較まとめ](https://www.data-be.at/magazine/ga4-ua/)\n[イベント収集方法](https://developers.google.com/analytics/devguides/collection/ga4/events?hl=ja)\n[Analytics Data API Overview ](https://developers.google.com/analytics/devguides/reporting/data/v1)\n",
+    "coediting": false,
+    "comments_count": 0,
+    "created_at": "2021-08-25T14:56:55+09:00",
+    "group": null,
+    "id": "79c363d82eaaa7d20606",
+    "likes_count": 0,
+    "private": false,
+    "reactions_count": 0,
+    "tags": [
+      {
+        "name": "GoogleTagManager",
+        "versions": []
+      },
+      {
+        "name": "GoogleBigQuery",
+        "versions": []
+      },
+      {
+        "name": "GoogleAnalytics4",
+        "versions": []
+      },
+      {
+        "name": "GoogleAnalyticsDataAPI",
+        "versions": []
+      }
+    ],
+    "title": "グーグルアナリティクス4（GA4）を利用した分析方法まとめ",
+    "updated_at": "2021-08-25T14:56:55+09:00",
+    "url": "https://qiita.com/koro1129/items/79c363d82eaaa7d20606",
+    "user": {
+      "description": "",
+      "facebook_id": "",
+      "followees_count": 1,
+      "followers_count": 1,
+      "github_login_name": "koro1129",
+      "id": "koro1129",
+      "items_count": 7,
+      "linkedin_id": "",
+      "location": "",
+      "name": "",
+      "organization": "",
+      "permanent_id": 337557,
+      "profile_image_url": "https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/337557/profile-images/1567168188",
+      "team_only": false,
+      "twitter_screen_name": null,
+      "website_url": ""
+    },
+    "page_views_count": null,
+    "team_membership": null
+  },
+  {
+    "rendered_body": "<div class=\"code-frame\" data-lang=\"javascript\"><div class=\"highlight\"><pre><code><span class=\"k\">export</span> <span class=\"k\">default</span> <span class=\"nx\">Vue</span><span class=\"p\">.</span><span class=\"nx\">extend</span><span class=\"p\">({</span>\n  <span class=\"nx\">asyncData</span><span class=\"p\">({</span> <span class=\"nx\">payload</span> <span class=\"p\">})</span> <span class=\"p\">{</span>\n    <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"dl\">'</span><span class=\"s1\">payload</span><span class=\"dl\">'</span><span class=\"p\">,</span> <span class=\"nx\">payload</span><span class=\"p\">)</span>\n  <span class=\"p\">}</span>\n<span class=\"p\">})</span>\n</code></pre></div></div>\n\n<h2>\n<span id=\"generate\" class=\"fragment\"></span><a href=\"#generate\"><i class=\"fa fa-link\"></i></a>generate</h2>\n\n<div class=\"code-frame\" data-lang=\"text\"><div class=\"highlight\"><pre><code>null\n</code></pre></div></div>\n\n<p>※ nuxt.config の generate の routes を使わない、または、routes で payload を渡さないとき</p>\n\n<h2>\n<span id=\"ssr\" class=\"fragment\"></span><a href=\"#ssr\"><i class=\"fa fa-link\"></i></a>ssr</h2>\n\n<div class=\"code-frame\" data-lang=\"text\"><div class=\"highlight\"><pre><code>undefined\n</code></pre></div></div>\n\n<h2>\n<span id=\"client-side\" class=\"fragment\"></span><a href=\"#client-side\"><i class=\"fa fa-link\"></i></a>client side</h2>\n\n<div class=\"code-frame\" data-lang=\"text\"><div class=\"highlight\"><pre><code>undefined\n</code></pre></div></div>\n",
+    "body": "```javascript\nexport default Vue.extend({\n  asyncData({ payload }) {\n    console.log('payload', payload)\n  }\n})\n```\n\n## generate\n\n```\nnull\n```\n\n※ nuxt.config の generate の routes を使わない、または、routes で payload を渡さないとき\n\n## ssr\n\n```\nundefined\n```\n\n## client side\n\n```\nundefined\n```\n",
+    "coediting": false,
+    "comments_count": 0,
+    "created_at": "2021-08-25T14:56:28+09:00",
+    "group": null,
+    "id": "d7d2cb42b7d15e6badfb",
+    "likes_count": 0,
+    "private": false,
+    "reactions_count": 0,
+    "tags": [
+      {
+        "name": "Vue.js",
+        "versions": []
+      },
+      {
+        "name": "nuxt.js",
+        "versions": []
+      }
+    ],
+    "title": "nuxt asyncData の payload には何が入ってくるか",
+    "updated_at": "2021-08-25T14:56:28+09:00",
+    "url": "https://qiita.com/ksk1015/items/d7d2cb42b7d15e6badfb",
+    "user": {
+      "description": "",
+      "facebook_id": "",
+      "followees_count": 3,
+      "followers_count": 13,
+      "github_login_name": null,
+      "id": "ksk1015",
+      "items_count": 33,
+      "linkedin_id": "",
+      "location": "",
+      "name": "",
+      "organization": "",
+      "permanent_id": 13740,
+      "profile_image_url": "https://qiita-image-store.s3.amazonaws.com/0/13740/profile-images/1473682993",
+      "team_only": false,
+      "twitter_screen_name": null,
+      "website_url": ""
+    },
+    "page_views_count": null,
+    "team_membership": null
+  },
+  {
+    "rendered_body": "\n<h3>\n<span id=\"d20で4秒なのでd50は136年\" class=\"fragment\"></span><a href=\"#d20%E3%81%A74%E7%A7%92%E3%81%AA%E3%81%AE%E3%81%A7d50%E3%81%AF136%E5%B9%B4\"><i class=\"fa fa-link\"></i></a>D=20で4秒なのでD=50は136年</h3>\n\n<p>前回でD=20のドラゴン曲線を描いてみましたが処理時間はPythonで4秒程度。元の問題は以下のようにD=50なのでまともにO(2<sup>n</sup>)で計算すると136年。ということで何らかの高速化が必要になります。</p>\n\n<blockquote>\n<p><strong>Project Euler; Proglem 220</strong><br>\n<strong>D50のHeighway Dragon曲線の10<sup>12</sup>番目の点の座標を求めろ</strong></p>\n</blockquote>\n\n<p>問題要求されているのは上のように最後の座標で途中経過は必要とされないので、高速化の方法としては以下の２つがあるのかなと思います。<br>\n１．Cache等のプログラミング・テクニックを使う<br>\n２．問題の周期性に注目して座標を求めるアルゴリズムを探す</p>\n\n<p>本来は２をするのが出題者の意図かなと思い色々考えましたが、なかなか上手く行かなかったので今回は前回のドラゴン曲線を描くプログラムをCacheを使って高速化を模索しました。</p>\n\n<h3>\n<span id=\"pythonのlru_cacheは使えず\" class=\"fragment\"></span><a href=\"#python%E3%81%AElru_cache%E3%81%AF%E4%BD%BF%E3%81%88%E3%81%9A\"><i class=\"fa fa-link\"></i></a>Pythonの<a href=\"/lru_cache\" class=\"user-mention js-hovercard\" title=\"lru_cache\" data-hovercard-target-type=\"user\" data-hovercard-target-name=\"lru_cache\">@lru_cache</a>は使えず</h3>\n\n<p>Pythonでお手軽Cacheと言えば<a href=\"/lru_cache\" class=\"user-mention js-hovercard\" title=\"lru_cache\" data-hovercard-target-type=\"user\" data-hovercard-target-name=\"lru_cache\">@lru_cache</a>で過去にProject Eulerの問題で何度もお世話になったので、今回もどうかなと色々試してみました。</p>\n\n<div class=\"code-frame\" data-lang=\"python\"><div class=\"highlight\"><pre><code><span class=\"kn\">from</span> <span class=\"nn\">functools</span> <span class=\"kn\">import</span> <span class=\"n\">lru_cache</span>\n\n<span class=\"o\">@</span><span class=\"n\">lru_cache</span><span class=\"p\">(</span><span class=\"n\">maxsize</span><span class=\"o\">=</span><span class=\"mi\">100000</span><span class=\"p\">)</span>\n</code></pre></div></div>\n\n<p>ただ今回は再帰関数からの結果だけを得ればよいという訳ではなくて、ターゲットの10<sup>12</sup>番目の点に到達するのがどの深さで起こるのか分からないので、その時にはCahcheをオフにして実際に計算を行う必要があるということで使えませんでした。</p>\n\n<p></p><p>したがって自分でPythonのDICTを使ってCacheを実現しました。要は再帰関数を呼ぶ前に残りStep数、座標、向きを記録しておいて関数から帰ってきたらそれらの差分をDICTに記録するというものです。<br>\n</p><p>Cacheを使うかどうかは以下のロジックで残りStep数を見て判断しました。</p>\n\n<div class=\"code-frame\" data-lang=\"text\"><div class=\"highlight\"><pre><code>if 残りステップ数　&gt; CacheされたStep数:\n  Cacheを使って残りStep数、座標、向きを更新\nelse:\n  再帰関数を呼ぶ\n</code></pre></div></div>\n\n<p>この方法でなんとか答えを得ることできましたが、Project Eulerの素晴らしいところはどうな方法でも正解を得ることが出来れば、正解者たちが書き込んでいるThreadにアクセスができるようになることです。このThreadは世界中から集まった素晴らしいアイデアの宝庫で、よくもこんなアルゴリズムを思いつくなといつも感心させられてしまいます。</p>\n",
+    "body": "### D=20で4秒なのでD=50は136年\n前回でD=20のドラゴン曲線を描いてみましたが処理時間はPythonで4秒程度。元の問題は以下のようにD=50なのでまともにO(2<sup>n</sup>)で計算すると136年。ということで何らかの高速化が必要になります。\n\n> **Project Euler; Proglem 220**\n> **D50のHeighway Dragon曲線の10<sup>12</sup>番目の点の座標を求めろ**\n\n問題要求されているのは上のように最後の座標で途中経過は必要とされないので、高速化の方法としては以下の２つがあるのかなと思います。\n１．Cache等のプログラミング・テクニックを使う\n２．問題の周期性に注目して座標を求めるアルゴリズムを探す\n\n本来は２をするのが出題者の意図かなと思い色々考えましたが、なかなか上手く行かなかったので今回は前回のドラゴン曲線を描くプログラムをCacheを使って高速化を模索しました。\n\n### Pythonの@lru_cacheは使えず\n\nPythonでお手軽Cacheと言えば@lru_cacheで過去にProject Eulerの問題で何度もお世話になったので、今回もどうかなと色々試してみました。\n\n```python\nfrom functools import lru_cache\n\n@lru_cache(maxsize=100000)\n```\nただ今回は再帰関数からの結果だけを得ればよいという訳ではなくて、ターゲットの10<sup>12</sup>番目の点に到達するのがどの深さで起こるのか分からないので、その時にはCahcheをオフにして実際に計算を行う必要があるということで使えませんでした。\n\n<p>したがって自分でPythonのDICTを使ってCacheを実現しました。要は再帰関数を呼ぶ前に残りStep数、座標、向きを記録しておいて関数から帰ってきたらそれらの差分をDICTに記録するというものです。\n<p>Cacheを使うかどうかは以下のロジックで残りStep数を見て判断しました。\n\n```\nif 残りステップ数　> CacheされたStep数:\n  Cacheを使って残りStep数、座標、向きを更新\nelse:\n  再帰関数を呼ぶ\n```\nこの方法でなんとか答えを得ることできましたが、Project Eulerの素晴らしいところはどうな方法でも正解を得ることが出来れば、正解者たちが書き込んでいるThreadにアクセスができるようになることです。このThreadは世界中から集まった素晴らしいアイデアの宝庫で、よくもこんなアルゴリズムを思いつくなといつも感心させられてしまいます。\n",
+    "coediting": false,
+    "comments_count": 0,
+    "created_at": "2021-08-25T14:56:19+09:00",
+    "group": null,
+    "id": "7efd1b70bac0802076b0",
+    "likes_count": 0,
+    "private": false,
+    "reactions_count": 0,
+    "tags": [
+      {
+        "name": "Python",
+        "versions": []
+      },
+      {
+        "name": "ProjectEuler",
+        "versions": []
+      },
+      {
+        "name": "ドラゴン曲線",
+        "versions": []
+      }
+    ],
+    "title": "【Project Euler】Problem 220 Heighway Dragonの感想（その２）",
+    "updated_at": "2021-08-25T14:56:19+09:00",
+    "url": "https://qiita.com/masa0599/items/7efd1b70bac0802076b0",
+    "user": {
+      "description": "",
+      "facebook_id": "",
+      "followees_count": 0,
+      "followers_count": 0,
+      "github_login_name": null,
+      "id": "masa0599",
+      "items_count": 2,
+      "linkedin_id": "",
+      "location": "",
+      "name": "伊藤 雅晴",
+      "organization": "",
+      "permanent_id": 1922159,
+      "profile_image_url": "https://lh3.googleusercontent.com/a/AATXAJwX06P2eLiENaXM6UZjACSJMQNVRDOy3YbGo6Ff=s50-mo",
+      "team_only": false,
+      "twitter_screen_name": null,
+      "website_url": ""
+    },
+    "page_views_count": null,
+    "team_membership": null
+  },
+  {
+    "rendered_body": "\n<h2>\n<span id=\"要約\" class=\"fragment\"></span><a href=\"#%E8%A6%81%E7%B4%84\"><i class=\"fa fa-link\"></i></a>要約</h2>\n\n<ul>\n<li>コーディングでよく使う三角形をCSSの<code>border</code>プロパティで作ります</li>\n<li>Sassのmixinなので、いろいろなサイトで流用できます</li>\n<li>上下左右と右上・右下・左下・左上の8パターンが生成できます</li>\n<li>正三角形と二等辺三角形に対応していて、（3つの辺の長さがすべて違う）不等辺三角形は対応していません</li>\n<li>三角形のジェネレーターである<a href=\"http://apps.eky.hk/css-triangle-generator/ja\" rel=\"nofollow noopener\" target=\"_blank\">CSS三角形作成ツール</a>や<a href=\"https://triangle.designyourcode.io/\" rel=\"nofollow noopener\" target=\"_blank\">CSS Triangle Generator</a>と同じようなことができます</li>\n</ul>\n\n<h2>\n<span id=\"コード\" class=\"fragment\"></span><a href=\"#%E3%82%B3%E3%83%BC%E3%83%89\"><i class=\"fa fa-link\"></i></a>コード</h2>\n\n<div class=\"code-frame\" data-lang=\"scss\"><div class=\"highlight\"><pre><code><span class=\"c1\">// @desc  ボーダーで三角形を作ります。</span>\n<span class=\"c1\">// @param {String} $width</span>\n<span class=\"c1\">// @param {String} $height</span>\n<span class=\"c1\">// @param {String} $direction [right]</span>\n<span class=\"c1\">// @param {String} $color [currentColor]</span>\n<span class=\"c1\">// @example scss - Usage</span>\n<span class=\"c1\">// .triangle {</span>\n<span class=\"c1\">//   &amp;:before {</span>\n<span class=\"c1\">//     content: \"\";</span>\n<span class=\"c1\">//     display: block;</span>\n<span class=\"c1\">//     @include triangle(10px, 15px, top);</span>\n<span class=\"c1\">//   }</span>\n<span class=\"c1\">// }</span>\n<span class=\"c1\">// @example css - CSS output</span>\n<span class=\"c1\">// .triangle:before {</span>\n<span class=\"c1\">//   content: \"\";</span>\n<span class=\"c1\">//   display: block;</span>\n<span class=\"c1\">//   width: 0;</span>\n<span class=\"c1\">//   height: 0;</span>\n<span class=\"c1\">//   border-style: solid;</span>\n<span class=\"c1\">//   border-color: transparent transparent currentColor transparent;</span>\n<span class=\"c1\">//   border-width: 0 5px 15px 5px;</span>\n<span class=\"c1\">// }</span>\n<span class=\"k\">@mixin</span> <span class=\"nf\">triangle</span><span class=\"p\">(</span><span class=\"nv\">$width</span><span class=\"o\">,</span> <span class=\"nv\">$height</span><span class=\"o\">,</span> <span class=\"nv\">$direction</span><span class=\"o\">:</span> <span class=\"nb\">right</span><span class=\"o\">,</span> <span class=\"nv\">$color</span><span class=\"o\">:</span> <span class=\"n\">currentColor</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"k\">@if</span> <span class=\"ow\">not</span> <span class=\"nf\">index</span><span class=\"p\">(</span><span class=\"nb\">top</span> <span class=\"nb\">right</span> <span class=\"nb\">bottom</span> <span class=\"nb\">left</span> <span class=\"n\">top-right</span> <span class=\"n\">bottom-right</span> <span class=\"n\">bottom-left</span> <span class=\"n\">top-left</span><span class=\"o\">,</span> <span class=\"nv\">$direction</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n    <span class=\"k\">@warn</span> <span class=\"s2\">\"$direction must be one of `top`, `right`, `bottom`, `left`, `top-right`, `bottom-right`, `bottom-left`, `top-left`; currently `</span><span class=\"si\">#{</span><span class=\"nv\">$direction</span><span class=\"si\">}</span><span class=\"s2\">`.\"</span><span class=\"p\">;</span>\n  <span class=\"p\">}</span>\n\n  <span class=\"nl\">width</span><span class=\"p\">:</span> <span class=\"m\">0</span><span class=\"p\">;</span>\n  <span class=\"nl\">height</span><span class=\"p\">:</span> <span class=\"m\">0</span><span class=\"p\">;</span>\n  <span class=\"nl\">border-style</span><span class=\"p\">:</span> <span class=\"nb\">solid</span><span class=\"p\">;</span>\n\n  <span class=\"k\">@if</span> <span class=\"nv\">$direction</span> <span class=\"o\">==</span> <span class=\"nb\">top</span> <span class=\"p\">{</span>\n    <span class=\"nl\">border-color</span><span class=\"p\">:</span> <span class=\"nb\">transparent</span> <span class=\"nb\">transparent</span> <span class=\"nv\">$color</span> <span class=\"nb\">transparent</span><span class=\"p\">;</span>\n    <span class=\"nl\">border-width</span><span class=\"p\">:</span> <span class=\"nf\">0</span> <span class=\"p\">(</span><span class=\"nv\">$width</span> <span class=\"o\">/</span> <span class=\"m\">2</span><span class=\"p\">)</span> <span class=\"nv\">$height</span> <span class=\"p\">(</span><span class=\"nv\">$width</span> <span class=\"o\">/</span> <span class=\"m\">2</span><span class=\"p\">);</span>\n  <span class=\"p\">}</span>\n\n  <span class=\"k\">@if</span> <span class=\"nv\">$direction</span> <span class=\"o\">==</span> <span class=\"nb\">right</span> <span class=\"p\">{</span>\n    <span class=\"nl\">border-color</span><span class=\"p\">:</span> <span class=\"nb\">transparent</span> <span class=\"nb\">transparent</span> <span class=\"nb\">transparent</span> <span class=\"nv\">$color</span><span class=\"p\">;</span>\n    <span class=\"nl\">border-width</span><span class=\"p\">:</span> <span class=\"p\">(</span><span class=\"nv\">$height</span> <span class=\"o\">/</span> <span class=\"m\">2</span><span class=\"p\">)</span> <span class=\"nf\">0</span> <span class=\"p\">(</span><span class=\"nv\">$height</span> <span class=\"o\">/</span> <span class=\"m\">2</span><span class=\"p\">)</span> <span class=\"nv\">$width</span><span class=\"p\">;</span>\n  <span class=\"p\">}</span>\n\n  <span class=\"k\">@if</span> <span class=\"nv\">$direction</span> <span class=\"o\">==</span> <span class=\"nb\">bottom</span> <span class=\"p\">{</span>\n    <span class=\"nl\">border-color</span><span class=\"p\">:</span> <span class=\"nv\">$color</span> <span class=\"nb\">transparent</span> <span class=\"nb\">transparent</span> <span class=\"nb\">transparent</span><span class=\"p\">;</span>\n    <span class=\"nl\">border-width</span><span class=\"p\">:</span> <span class=\"nv\">$height</span> <span class=\"p\">(</span><span class=\"nv\">$width</span> <span class=\"o\">/</span> <span class=\"m\">2</span><span class=\"p\">)</span> <span class=\"nf\">0</span> <span class=\"p\">(</span><span class=\"nv\">$width</span> <span class=\"o\">/</span> <span class=\"m\">2</span><span class=\"p\">);</span>\n  <span class=\"p\">}</span>\n\n  <span class=\"k\">@if</span> <span class=\"nv\">$direction</span> <span class=\"o\">==</span> <span class=\"nb\">left</span> <span class=\"p\">{</span>\n    <span class=\"nl\">border-color</span><span class=\"p\">:</span> <span class=\"nb\">transparent</span> <span class=\"nv\">$color</span> <span class=\"nb\">transparent</span> <span class=\"nb\">transparent</span><span class=\"p\">;</span>\n    <span class=\"nl\">border-width</span><span class=\"p\">:</span> <span class=\"p\">(</span><span class=\"nv\">$height</span> <span class=\"o\">/</span> <span class=\"m\">2</span><span class=\"p\">)</span> <span class=\"nv\">$width</span> <span class=\"p\">(</span><span class=\"nv\">$height</span> <span class=\"o\">/</span> <span class=\"m\">2</span><span class=\"p\">)</span> <span class=\"m\">0</span><span class=\"p\">;</span>\n  <span class=\"p\">}</span>\n\n  <span class=\"k\">@if</span> <span class=\"nv\">$direction</span> <span class=\"o\">==</span> <span class=\"n\">top-right</span> <span class=\"p\">{</span>\n    <span class=\"nl\">border-color</span><span class=\"p\">:</span> <span class=\"nb\">transparent</span> <span class=\"nv\">$color</span> <span class=\"nb\">transparent</span> <span class=\"nb\">transparent</span><span class=\"p\">;</span>\n    <span class=\"nl\">border-width</span><span class=\"p\">:</span> <span class=\"m\">0</span> <span class=\"nv\">$height</span> <span class=\"nv\">$height</span> <span class=\"m\">0</span><span class=\"p\">;</span>\n  <span class=\"p\">}</span>\n\n  <span class=\"k\">@if</span> <span class=\"nv\">$direction</span> <span class=\"o\">==</span> <span class=\"n\">bottom-right</span> <span class=\"p\">{</span>\n    <span class=\"nl\">border-color</span><span class=\"p\">:</span> <span class=\"nb\">transparent</span> <span class=\"nb\">transparent</span> <span class=\"nv\">$color</span> <span class=\"nb\">transparent</span><span class=\"p\">;</span>\n    <span class=\"nl\">border-width</span><span class=\"p\">:</span> <span class=\"m\">0</span> <span class=\"m\">0</span> <span class=\"nv\">$height</span> <span class=\"nv\">$height</span><span class=\"p\">;</span>\n  <span class=\"p\">}</span>\n\n  <span class=\"k\">@if</span> <span class=\"nv\">$direction</span> <span class=\"o\">==</span> <span class=\"n\">bottom-left</span> <span class=\"p\">{</span>\n    <span class=\"nl\">border-color</span><span class=\"p\">:</span> <span class=\"nb\">transparent</span> <span class=\"nb\">transparent</span> <span class=\"nb\">transparent</span> <span class=\"nv\">$color</span><span class=\"p\">;</span>\n    <span class=\"nl\">border-width</span><span class=\"p\">:</span> <span class=\"nv\">$height</span> <span class=\"m\">0</span> <span class=\"m\">0</span> <span class=\"nv\">$height</span><span class=\"p\">;</span>\n  <span class=\"p\">}</span>\n\n  <span class=\"k\">@if</span> <span class=\"nv\">$direction</span> <span class=\"o\">==</span> <span class=\"n\">top-left</span> <span class=\"p\">{</span>\n    <span class=\"nl\">border-color</span><span class=\"p\">:</span> <span class=\"nv\">$color</span> <span class=\"nb\">transparent</span> <span class=\"nb\">transparent</span> <span class=\"nb\">transparent</span><span class=\"p\">;</span>\n    <span class=\"nl\">border-width</span><span class=\"p\">:</span> <span class=\"nv\">$height</span> <span class=\"nv\">$height</span> <span class=\"m\">0</span> <span class=\"m\">0</span><span class=\"p\">;</span>\n  <span class=\"p\">}</span>\n<span class=\"p\">}</span>\n</code></pre></div></div>\n\n<h3>\n<span id=\"使い方\" class=\"fragment\"></span><a href=\"#%E4%BD%BF%E3%81%84%E6%96%B9\"><i class=\"fa fa-link\"></i></a>使い方</h3>\n\n<p>横幅・高さ・向き（ここでは上向き）・色を指定できます。<br>\n省略すると向きは右向きに、色は<code>currentColor</code>でその要素の<code>color</code>プロパティを継承します。</p>\n\n<div class=\"code-frame\" data-lang=\"scss\"><div class=\"highlight\"><pre><code><span class=\"c1\">// Sassの指定例</span>\n<span class=\"nc\">.triangle</span> <span class=\"p\">{</span>\n  <span class=\"k\">&amp;</span><span class=\"nd\">:before</span> <span class=\"p\">{</span>\n    <span class=\"nl\">content</span><span class=\"p\">:</span> <span class=\"s2\">\"\"</span><span class=\"p\">;</span>\n    <span class=\"nl\">display</span><span class=\"p\">:</span> <span class=\"nb\">block</span><span class=\"p\">;</span>\n    <span class=\"k\">@include</span> <span class=\"nd\">triangle</span><span class=\"p\">(</span><span class=\"m\">10px</span><span class=\"o\">,</span> <span class=\"m\">15px</span><span class=\"o\">,</span> <span class=\"nb\">top</span><span class=\"o\">,</span> <span class=\"mh\">#000</span><span class=\"p\">);</span>\n  <span class=\"p\">}</span>\n<span class=\"p\">}</span>\n</code></pre></div></div>\n\n<div class=\"code-frame\" data-lang=\"css\"><div class=\"highlight\"><pre><code><span class=\"o\">//</span> <span class=\"nt\">CSSの出力例</span>\n<span class=\"nc\">.triangle</span><span class=\"nd\">:before</span> <span class=\"p\">{</span>\n  <span class=\"nl\">content</span><span class=\"p\">:</span> <span class=\"s1\">\"\"</span><span class=\"p\">;</span>\n  <span class=\"nl\">display</span><span class=\"p\">:</span> <span class=\"nb\">block</span><span class=\"p\">;</span>\n  <span class=\"nl\">width</span><span class=\"p\">:</span> <span class=\"m\">0</span><span class=\"p\">;</span>\n  <span class=\"nl\">height</span><span class=\"p\">:</span> <span class=\"m\">0</span><span class=\"p\">;</span>\n  <span class=\"nl\">border-style</span><span class=\"p\">:</span> <span class=\"nb\">solid</span><span class=\"p\">;</span>\n  <span class=\"nl\">border-color</span><span class=\"p\">:</span> <span class=\"nb\">transparent</span> <span class=\"nb\">transparent</span> <span class=\"m\">#000</span> <span class=\"nb\">transparent</span><span class=\"p\">;</span>\n  <span class=\"nl\">border-width</span><span class=\"p\">:</span> <span class=\"m\">0</span> <span class=\"m\">5px</span> <span class=\"m\">15px</span> <span class=\"m\">5px</span><span class=\"p\">;</span>\n<span class=\"p\">}</span>\n</code></pre></div></div>\n",
+    "body": "## 要約\n- コーディングでよく使う三角形をCSSの`border`プロパティで作ります\n- Sassのmixinなので、いろいろなサイトで流用できます\n- 上下左右と右上・右下・左下・左上の8パターンが生成できます\n- 正三角形と二等辺三角形に対応していて、（3つの辺の長さがすべて違う）不等辺三角形は対応していません\n- 三角形のジェネレーターである[CSS三角形作成ツール](http://apps.eky.hk/css-triangle-generator/ja)や[CSS Triangle Generator](https://triangle.designyourcode.io/)と同じようなことができます\n\n## コード\n\n```scss\n// @desc  ボーダーで三角形を作ります。\n// @param {String} $width\n// @param {String} $height\n// @param {String} $direction [right]\n// @param {String} $color [currentColor]\n// @example scss - Usage\n// .triangle {\n//   &:before {\n//     content: \"\";\n//     display: block;\n//     @include triangle(10px, 15px, top);\n//   }\n// }\n// @example css - CSS output\n// .triangle:before {\n//   content: \"\";\n//   display: block;\n//   width: 0;\n//   height: 0;\n//   border-style: solid;\n//   border-color: transparent transparent currentColor transparent;\n//   border-width: 0 5px 15px 5px;\n// }\n@mixin triangle($width, $height, $direction: right, $color: currentColor) {\n  @if not index(top right bottom left top-right bottom-right bottom-left top-left, $direction) {\n    @warn \"$direction must be one of `top`, `right`, `bottom`, `left`, `top-right`, `bottom-right`, `bottom-left`, `top-left`; currently `#{$direction}`.\";\n  }\n\n  width: 0;\n  height: 0;\n  border-style: solid;\n\n  @if $direction == top {\n    border-color: transparent transparent $color transparent;\n    border-width: 0 ($width / 2) $height ($width / 2);\n  }\n\n  @if $direction == right {\n    border-color: transparent transparent transparent $color;\n    border-width: ($height / 2) 0 ($height / 2) $width;\n  }\n\n  @if $direction == bottom {\n    border-color: $color transparent transparent transparent;\n    border-width: $height ($width / 2) 0 ($width / 2);\n  }\n\n  @if $direction == left {\n    border-color: transparent $color transparent transparent;\n    border-width: ($height / 2) $width ($height / 2) 0;\n  }\n\n  @if $direction == top-right {\n    border-color: transparent $color transparent transparent;\n    border-width: 0 $height $height 0;\n  }\n\n  @if $direction == bottom-right {\n    border-color: transparent transparent $color transparent;\n    border-width: 0 0 $height $height;\n  }\n\n  @if $direction == bottom-left {\n    border-color: transparent transparent transparent $color;\n    border-width: $height 0 0 $height;\n  }\n\n  @if $direction == top-left {\n    border-color: $color transparent transparent transparent;\n    border-width: $height $height 0 0;\n  }\n}\n```\n\n### 使い方\n横幅・高さ・向き（ここでは上向き）・色を指定できます。\n省略すると向きは右向きに、色は`currentColor`でその要素の`color`プロパティを継承します。\n\n```scss\n// Sassの指定例\n.triangle {\n  &:before {\n    content: \"\";\n    display: block;\n    @include triangle(10px, 15px, top, #000);\n  }\n}\n```\n\n```css\n// CSSの出力例\n.triangle:before {\n  content: \"\";\n  display: block;\n  width: 0;\n  height: 0;\n  border-style: solid;\n  border-color: transparent transparent #000 transparent;\n  border-width: 0 5px 15px 5px;\n}\n```\n",
+    "coediting": false,
+    "comments_count": 0,
+    "created_at": "2021-08-25T14:56:19+09:00",
+    "group": null,
+    "id": "be17291426890d9fb15b",
+    "likes_count": 0,
+    "private": false,
+    "reactions_count": 0,
+    "tags": [
+      {
+        "name": "CSS",
+        "versions": []
+      },
+      {
+        "name": "Sass",
+        "versions": []
+      }
+    ],
+    "title": "CSSのborderで三角形を作るSassのmixin",
+    "updated_at": "2021-08-25T14:56:19+09:00",
+    "url": "https://qiita.com/manabuyasuda/items/be17291426890d9fb15b",
+    "user": {
+      "description": "マークアップエンジニア。社内チームでエンジニアのリーダーをしています。\r\nCSS設計が得意です。JSはチョットデキる。\r\n@see https://www.tam-tam.co.jp/",
+      "facebook_id": "",
+      "followees_count": 0,
+      "followers_count": 171,
+      "github_login_name": "manabuyasuda",
+      "id": "manabuyasuda",
+      "items_count": 19,
+      "linkedin_id": "",
+      "location": "Kyoto",
+      "name": "安田 学",
+      "organization": "TAM inc.",
+      "permanent_id": 62659,
+      "profile_image_url": "https://qiita-image-store.s3.amazonaws.com/0/62659/profile-images/1543219384",
+      "team_only": false,
+      "twitter_screen_name": null,
+      "website_url": "https://github.com/manabuyasuda"
+    },
+    "page_views_count": null,
+    "team_membership": null
+  },
+  {
+    "rendered_body": "<p>＞Install-Module -Name AzureAD</p>\n",
+    "body": "＞Install-Module -Name AzureAD\n",
+    "coediting": false,
+    "comments_count": 0,
+    "created_at": "2021-08-25T14:55:56+09:00",
+    "group": null,
+    "id": "95659fc37fdc1ee1aa5a",
+    "likes_count": 0,
+    "private": false,
+    "reactions_count": 0,
+    "tags": [
+      {
+        "name": "Azure",
+        "versions": []
+      }
+    ],
+    "title": "Azure AD の PowerShell モジュール",
+    "updated_at": "2021-08-25T14:55:56+09:00",
+    "url": "https://qiita.com/nob_ara/items/95659fc37fdc1ee1aa5a",
+    "user": {
+      "description": "",
+      "facebook_id": "",
+      "followees_count": 0,
+      "followers_count": 0,
+      "github_login_name": null,
+      "id": "nob_ara",
+      "items_count": 10,
+      "linkedin_id": "",
+      "location": "東京",
+      "name": "nob ara",
+      "organization": "株式会社SALTO",
+      "permanent_id": 1113101,
+      "profile_image_url": "https://secure.gravatar.com/avatar/0915e36ebf692a310d32798227485763",
+      "team_only": false,
+      "twitter_screen_name": null,
+      "website_url": ""
+    },
+    "page_views_count": null,
+    "team_membership": null
+  },
+  {
+    "rendered_body": "<p>①Powershellを起動し、Azure ADにログイン</p>\n\n<p>＞Connect-AzureAD</p>\n\n<p>②以下コマンドで対象アカウントのパスワードを無期限化します。</p>\n\n<p>Set-AzureADUser -ObjectId “<a href=\"mailto:hogehoge@hogehoge.onmicrosoft.com\" class=\"autolink\">hogehoge@hogehoge.onmicrosoft.com</a>” -PasswordPolicies DisablePasswordExpiration</p>\n",
+    "body": "①Powershellを起動し、Azure ADにログイン\n\n＞Connect-AzureAD\n\n\n\n②以下コマンドで対象アカウントのパスワードを無期限化します。\n\nSet-AzureADUser -ObjectId “hogehoge@hogehoge.onmicrosoft.com” -PasswordPolicies DisablePasswordExpiration\n",
+    "coediting": false,
+    "comments_count": 0,
+    "created_at": "2021-08-25T14:54:32+09:00",
+    "group": null,
+    "id": "4aa7f128f3e8f17b8eda",
+    "likes_count": 0,
+    "private": false,
+    "reactions_count": 0,
+    "tags": [
+      {
+        "name": "PowerShell",
+        "versions": []
+      }
+    ],
+    "title": "【Azure】ユーザーアカウントのパスワード有効期限を無期限に変更する",
+    "updated_at": "2021-08-25T14:54:32+09:00",
+    "url": "https://qiita.com/nob_ara/items/4aa7f128f3e8f17b8eda",
+    "user": {
+      "description": "",
+      "facebook_id": "",
+      "followees_count": 0,
+      "followers_count": 0,
+      "github_login_name": null,
+      "id": "nob_ara",
+      "items_count": 10,
+      "linkedin_id": "",
+      "location": "東京",
+      "name": "nob ara",
+      "organization": "株式会社SALTO",
+      "permanent_id": 1113101,
+      "profile_image_url": "https://secure.gravatar.com/avatar/0915e36ebf692a310d32798227485763",
+      "team_only": false,
+      "twitter_screen_name": null,
+      "website_url": ""
+    },
+    "page_views_count": null,
+    "team_membership": null
+  }
+]
