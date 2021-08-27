@@ -17,4 +17,4 @@ jobs:
           : # Pull Image
           docker pull "$name_image"
           : # Run container and the test script
-          docker run -v "$(pwd)":"$path_mount" -w "$path_mount" "$name_image" "$path_entrypoint"
+          docker run -u root -v "$(pwd)":"$path_mount" -w "$path_mount" "$name_image" "$path_entrypoint"
