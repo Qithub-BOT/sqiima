@@ -1,3 +1,4 @@
+[![.github/workflows/tests.yml](https://github.com/Qithub-BOT/sqiima/actions/workflows/tests.yml/badge.svg)](https://github.com/Qithub-BOT/sqiima/actions/workflows/tests.yml)
 [![Go Report Card](https://goreportcard.com/badge/github.com/Qithub-BOT/sqiima)](https://goreportcard.com/report/github.com/Qithub-BOT/sqiima)
 [![Go Reference](https://pkg.go.dev/badge/github.com/Qithub-BOT/sqiima.svg)](https://pkg.go.dev/github.com/Qithub-BOT/sqiima)
 
