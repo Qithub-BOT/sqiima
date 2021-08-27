@@ -1,6 +1,8 @@
 [![.github/workflows/tests.yml](https://github.com/Qithub-BOT/sqiima/actions/workflows/tests.yml/badge.svg)](https://github.com/Qithub-BOT/sqiima/actions/workflows/tests.yml)
+[![CodeQL](https://github.com/Qithub-BOT/sqiima/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/Qithub-BOT/sqiima/actions/workflows/codeql-analysis.yml)
 [![Go Report Card](https://goreportcard.com/badge/github.com/Qithub-BOT/sqiima)](https://goreportcard.com/report/github.com/Qithub-BOT/sqiima)
 [![Go Reference](https://pkg.go.dev/badge/github.com/Qithub-BOT/sqiima.svg)](https://pkg.go.dev/github.com/Qithub-BOT/sqiima)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/Qithub-BOT/QiiTrans/blob/main/LICENSE)
 
 # SQiiMA - JSON schema struct of Qiita API v2 for Go
 
